@@ -217,10 +217,7 @@
     "isLikelyStable": true,
     "isTokenized": false,
     "isChunklist": false,
-    "working": true,
-    "webPlayerType": "iframe",
-    "webEmbedUrl": "https://www.youtube.com/embed/live_stream?channel=UC9FQShRxvepLNn6lLfvBhyA&autoplay=1",
-    "webOnlyNote": "Reproductor oficial de YouTube."
+    "working": true
   },
   {
     "name": "GO TV",
