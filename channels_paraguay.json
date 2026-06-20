@@ -217,7 +217,11 @@
     "isLikelyStable": true,
     "isTokenized": false,
     "isChunklist": false,
-    "working": true
+    "working": true,
+    "webPlayerType": "external_options",
+    "webDirectUrl": "https://no.gendigi.net/origin-proxy/playlist.m3u8",
+    "webYoutubeUrl": "https://www.youtube.com/@SomosGEN/live",
+    "webOnlyNote": "En web puede abrirse directo o desde YouTube."
   },
   {
     "name": "GO TV",

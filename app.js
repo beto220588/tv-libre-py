@@ -404,7 +404,8 @@ function renderBadges(item) {
   if (item.isChunklist) badges.push(`<span class="badge warning">Interno</span>`);
   if (item.isUnstable) badges.push(`<span class="badge warning">Inestable</span>`);
   if (item.webPlayerType === "iframe") badges.push(`<span class="badge">Embed Web</span>`);
-  if (item.webWorking === false && item.webPlayerType !== "iframe") {
+  if (item.webPlayerType === "external_options") badges.push(`<span class="badge">Opciones Web</span>`);
+  if (item.webWorking === false && !["iframe", "external_options"].includes(item.webPlayerType)) {
     badges.push(`<span class="badge warning">Solo APK</span>`);
   }
   return badges.join("");
@@ -422,6 +423,11 @@ function playChannel(channel) {
   cleanupPlayback();
   if (channel.webPlayerType === "iframe") {
     playIframeEmbed(channel);
+    return;
+  }
+
+  if (channel.webPlayerType === "external_options") {
+    showExternalOptions(channel);
     return;
   }
 
@@ -479,6 +485,41 @@ function playChannel(channel) {
 
   setStatus("Este navegador no soporta reproducción HLS", true);
   showOverlay("HLS no disponible", "Prueba con un navegador compatible o habilita HLS.js.");
+}
+
+function showExternalOptions(channel) {
+  cleanupPlayback();
+  saveLastItem(channel);
+  renderLastItem();
+  setNowPlaying(channel);
+  setStatus(channel.webOnlyNote || "Elige una opcion para abrir este canal.");
+  elements.video.hidden = true;
+
+  const directUrl = String(channel.webDirectUrl || channel.url || "").trim();
+  const youtubeUrl = String(channel.webYoutubeUrl || "").trim();
+  const buttons = [
+    directUrl
+      ? `<button type="button" class="primary-button" data-open-url="${escapeAttribute(directUrl)}">Abrir directo</button>`
+      : "",
+    youtubeUrl
+      ? `<button type="button" class="primary-button secondary" data-open-url="${escapeAttribute(youtubeUrl)}">Ver en YouTube</button>`
+      : "",
+  ].join("");
+
+  elements.overlay.innerHTML = `
+    <strong>${escapeHtml(channel.name)}</strong>
+    <span>${escapeHtml(channel.webOnlyNote || "Este canal tiene opciones externas para la version web.")}</span>
+    <div class="external-options">
+      ${buttons}
+    </div>
+  `;
+  elements.overlay.classList.remove("is-hidden");
+  elements.overlay.querySelectorAll("[data-open-url]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const url = button.getAttribute("data-open-url");
+      if (url) window.open(url, "_blank", "noopener,noreferrer");
+    });
+  });
 }
 
 async function playRadio(station) {

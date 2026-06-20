@@ -243,8 +243,25 @@ body[data-mode="radio"] .player-overlay.is-hidden {
   background: var(--purple);
 }
 
+.primary-button.secondary {
+  background: var(--panel-strong);
+}
+
 .primary-button.compact {
   min-width: 132px;
+}
+
+.external-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 12px;
+}
+
+.external-options .primary-button {
+  min-width: 190px;
+  min-height: 54px;
 }
 
 .status-message {
