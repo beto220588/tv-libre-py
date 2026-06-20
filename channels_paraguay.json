@@ -218,8 +218,9 @@
     "isTokenized": false,
     "isChunklist": false,
     "working": true,
-    "webWorking": false,
-    "webNote": "Este canal puede funcionar en la APK, pero no está disponible en la versión web por restricciones del servidor."
+    "webPlayerType": "iframe",
+    "webEmbedUrl": "https://www.youtube.com/embed/live_stream?channel=UC9FQShRxvepLNn6lLfvBhyA&autoplay=1",
+    "webOnlyNote": "Reproductor oficial de YouTube."
   },
   {
     "name": "GO TV",
