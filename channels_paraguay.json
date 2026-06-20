@@ -70,7 +70,10 @@
     "note": "Señal inestable. Puede presentar cortes.",
     "userAgent": "Mozilla/5.0",
     "referer": "https://www.c9n.com.py/",
-    "origin": "https://www.c9n.com.py"
+    "origin": "https://www.c9n.com.py",
+    "webPlayerType": "iframe",
+    "webEmbedUrl": "https://www.c9n.com.py/envivo/",
+    "webOnlyNote": "Prueba con reproductor oficial embebido."
   },
   {
     "name": "Canal 8 Vision TV",
@@ -214,7 +217,9 @@
     "isLikelyStable": true,
     "isTokenized": false,
     "isChunklist": false,
-    "working": true
+    "working": true,
+    "webWorking": false,
+    "webNote": "Este canal puede funcionar en la APK, pero no está disponible en la versión web por restricciones del servidor."
   },
   {
     "name": "GO TV",
@@ -514,7 +519,9 @@
     "isLikelyStable": true,
     "isTokenized": false,
     "isChunklist": false,
-    "working": true
+    "working": true,
+    "webWorking": false,
+    "webNote": "Este canal puede funcionar en la APK, pero no está disponible en la versión web por restricciones del servidor."
   },
   {
     "name": "SNT",
@@ -527,7 +534,9 @@
     "isLikelyStable": true,
     "isTokenized": false,
     "isChunklist": false,
-    "working": true
+    "working": true,
+    "webWorking": false,
+    "webNote": "Este canal puede funcionar en la APK, pero no está disponible en la versión web por restricciones del servidor."
   },
   {
     "name": "Suceso TV",

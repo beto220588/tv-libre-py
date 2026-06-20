@@ -54,6 +54,7 @@ const state = {
   radio: createModeState(),
   hls: null,
   youtubeFrame: null,
+  webFrame: null,
 };
 
 const elements = {
@@ -326,6 +327,7 @@ function renderItems() {
           <span>${escapeHtml(getItemMeta(item))}</span>
           <span class="badges">${renderBadges(item)}</span>
           ${item.note ? `<em class="channel-note">${escapeHtml(item.note)}</em>` : ""}
+          ${item.webNote ? `<em class="channel-note">${escapeHtml(item.webNote)}</em>` : ""}
         </span>
       </button>
       <button class="favorite-button" type="button" aria-label="Cambiar favorito de ${escapeAttribute(item.name)}">
@@ -401,6 +403,10 @@ function renderBadges(item) {
   if (item.isTokenized) badges.push(`<span class="badge warning">Temporal</span>`);
   if (item.isChunklist) badges.push(`<span class="badge warning">Interno</span>`);
   if (item.isUnstable) badges.push(`<span class="badge warning">Inestable</span>`);
+  if (item.webPlayerType === "iframe") badges.push(`<span class="badge">Embed Web</span>`);
+  if (item.webWorking === false && item.webPlayerType !== "iframe") {
+    badges.push(`<span class="badge warning">Solo APK</span>`);
+  }
   return badges.join("");
 }
 
@@ -414,6 +420,19 @@ async function playItem(item) {
 
 function playChannel(channel) {
   cleanupPlayback();
+  if (channel.webPlayerType === "iframe") {
+    playIframeEmbed(channel);
+    return;
+  }
+
+  if (channel.webWorking === false) {
+    const message = channel.webNote || "Este canal no está disponible en la versión Web.";
+    setNowPlaying(channel);
+    setStatus(message, true);
+    showOverlay("No disponible en Web", message);
+    return;
+  }
+
   setStatus("Cargando canal...");
   hideOverlay();
   saveLastItem(channel);
@@ -608,6 +627,47 @@ function playYoutubeEmbed(channel) {
   state.youtubeFrame = frame;
 }
 
+function playIframeEmbed(channel) {
+  const embedUrl = String(channel.webEmbedUrl || "").trim();
+  if (!embedUrl) {
+    setNowPlaying(channel);
+    setStatus("Este reproductor oficial no está disponible en la versión web.", true);
+    showOverlay("Reproductor no disponible", "Este reproductor oficial no está disponible en la versión web.");
+    return;
+  }
+
+  setStatus("Cargando reproductor oficial...");
+  hideOverlay();
+  saveLastItem(channel);
+  renderLastItem();
+  setNowPlaying(channel);
+  elements.video.hidden = true;
+
+  const frame = document.createElement("iframe");
+  frame.className = "web-embed-frame";
+  frame.src = embedUrl;
+  frame.title = `Reproductor oficial de ${channel.name}`;
+  frame.allow = "autoplay; fullscreen; picture-in-picture";
+  frame.allowFullscreen = true;
+
+  const loadTimer = window.setTimeout(() => {
+    setStatus("Este reproductor oficial no está disponible en la versión web.", true);
+  }, 12000);
+
+  frame.addEventListener("load", () => {
+    window.clearTimeout(loadTimer);
+    setStatus(channel.webOnlyNote || "");
+  });
+  frame.addEventListener("error", () => {
+    window.clearTimeout(loadTimer);
+    setStatus("Este reproductor oficial no está disponible en la versión web.", true);
+    showOverlay("Reproductor no disponible", "Este reproductor oficial no está disponible en la versión web.");
+  });
+
+  elements.playerCard.appendChild(frame);
+  state.webFrame = frame;
+}
+
 function setNowPlaying(item) {
   elements.nowPlayingName.textContent = item.name;
   elements.nowPlayingMeta.textContent = getItemMeta(item);
@@ -621,6 +681,10 @@ function cleanupPlayback() {
   if (state.youtubeFrame) {
     state.youtubeFrame.remove();
     state.youtubeFrame = null;
+  }
+  if (state.webFrame) {
+    state.webFrame.remove();
+    state.webFrame = null;
   }
   elements.video.pause();
   elements.video.removeAttribute("src");
