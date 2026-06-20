@@ -41,7 +41,8 @@ button {
 button:focus-visible,
 input:focus-visible,
 .channel-play:focus-visible,
-.favorite-button:focus-visible {
+.favorite-button:focus-visible,
+audio:focus-visible {
   outline: 4px solid var(--accent);
   outline-offset: 4px;
   box-shadow: 0 0 0 8px rgba(122, 240, 163, 0.18);
@@ -68,6 +69,29 @@ input:focus-visible,
 .channels-section {
   display: flex;
   flex-direction: column;
+}
+
+.mode-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.mode-tab {
+  min-width: 92px;
+  min-height: 56px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--panel-strong);
+  color: var(--text);
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.mode-tab.is-active {
+  border-color: var(--accent-strong);
+  background: #193824;
 }
 
 .brand-row,
@@ -122,6 +146,37 @@ video {
   display: block;
   width: 100%;
   height: 100%;
+  background: #000;
+}
+
+audio {
+  width: min(720px, calc(100% - 40px));
+  min-height: 58px;
+  accent-color: var(--accent-strong);
+  z-index: 1;
+}
+
+body[data-mode="radio"] .player-card {
+  display: grid;
+  place-items: center;
+  aspect-ratio: auto;
+  min-height: 170px;
+  background: linear-gradient(135deg, #0d1812, #111821);
+}
+
+body[data-mode="radio"] .player-overlay {
+  pointer-events: none;
+}
+
+body[data-mode="radio"] .player-overlay.is-hidden {
+  display: none;
+}
+
+.youtube-frame {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
   background: #000;
 }
 
@@ -397,6 +452,16 @@ video {
   font-weight: 700;
 }
 
+.channel-note {
+  display: block;
+  margin-top: 8px;
+  color: var(--warning);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.3;
+}
+
 .badges {
   display: flex;
   flex-wrap: wrap;
@@ -490,6 +555,10 @@ video {
     flex: 0 0 auto;
     height: clamp(420px, 58vh, 680px);
     max-height: none;
+  }
+
+  body[data-mode="radio"] .player-card {
+    height: 190px;
   }
 
   .now-playing {

@@ -10,19 +10,25 @@
   <body>
     <main class="app-shell">
       <section class="player-section" aria-label="Reproductor">
+        <nav class="mode-tabs" aria-label="Secciones">
+          <button id="tvModeButton" class="mode-tab is-active" type="button">TV</button>
+          <button id="radioModeButton" class="mode-tab" type="button">Radios</button>
+        </nav>
+
         <div class="brand-row">
           <div>
-            <h1>TV Libre Paraguay</h1>
-            <p>Canales en vivo</p>
+            <h1 id="appTitle">TV Libre Paraguay</h1>
+            <p id="appSubtitle">Canales en vivo</p>
           </div>
           <div class="count-box">
-            <strong id="channelCount">0</strong>
-            <span>canales</span>
+            <strong id="itemCount">0</strong>
+            <span id="itemCountLabel">canales</span>
           </div>
         </div>
 
         <div id="playerCard" class="player-card">
           <video id="videoPlayer" controls playsinline></video>
+          <audio id="audioPlayer" controls></audio>
           <div id="playerOverlay" class="player-overlay">
             <strong>Selecciona un canal</strong>
             <span>La reproducción aparecerá aquí.</span>
@@ -31,7 +37,7 @@
 
         <div class="now-playing">
           <div>
-            <span class="eyebrow">Reproduciendo</span>
+            <span id="nowPlayingEyebrow" class="eyebrow">Reproduciendo</span>
             <h2 id="nowPlayingName">Ningún canal seleccionado</h2>
             <p id="nowPlayingMeta">Busca y elige un canal de la lista.</p>
           </div>
@@ -39,10 +45,10 @@
         </div>
 
         <div class="player-controls">
-          <div id="lastChannelSlot"></div>
+          <div id="lastItemSlot"></div>
 
           <div>
-            <span class="filter-label">Categoría</span>
+            <span id="categoryLabel" class="filter-label">Categoría</span>
             <div id="categoryChips" class="category-chips"></div>
           </div>
 
@@ -52,20 +58,20 @@
         <p id="statusMessage" class="status-message" role="status"></p>
       </section>
 
-      <section class="channels-section" aria-label="Lista de canales">
+      <section class="channels-section" aria-label="Lista">
         <div class="filters">
           <label class="search-box">
-            <span>Buscar canal</span>
+            <span id="searchLabel">Buscar canal</span>
             <input id="searchInput" type="search" placeholder="Nombre del canal" autocomplete="off">
           </label>
         </div>
 
         <div class="list-header">
           <strong id="resultsCount">Mostrando 0 canales</strong>
-          <span>Enter/OK reproduce el canal seleccionado</span>
+          <span id="keyboardHint">Enter/OK reproduce el canal seleccionado</span>
         </div>
 
-        <div id="channelGrid" class="channel-grid" aria-live="polite"></div>
+        <div id="itemGrid" class="channel-grid" aria-live="polite"></div>
       </section>
     </main>
 

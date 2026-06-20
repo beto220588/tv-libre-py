@@ -10,11 +10,12 @@
     "isLikelyStable": false,
     "isTokenized": true,
     "isChunklist": false,
-    "working": true
+    "working": false,
+    "note": "Enlace caído. Pendiente de actualización."
   },
   {
     "name": "ABC Paraguay",
-    "url": "https://live2.eu-north-1a.cf.dmcdn.net/sec2(M1ItsFAGGRFsjN2eNkRGTGTcWHXM1ps909y6I7GqMWndWm_6Om9CXiR35V6W8e1e4CF2zsdWDrnrZtHqyw4ntd3Id9OqMqCIzK_RSSltB183qzLfmvyAkAGVUOF16jyz)/cloud/3/x9skr3m/d/live-720.m3u8",
+    "url": "https://live2.eu-north-1a.cf.dmcdn.net/sec2(IU6PKM8TnfS1pQ4H53ygAsOBvuBit8Iyol7VmoexzH9oVbUHI4lo1tvr4aoRw3GxqqxgvKfHbilJEgXXXI1aIhcvEGz2gZdxVamxfAnsUPfooXxrS-ybniXyQ6aNvJwW)/cloud/3/x9skr3m/d/live-720.m3u8",
     "logo": "abc",
     "country": "PY",
     "language": "es",
@@ -23,7 +24,8 @@
     "isLikelyStable": false,
     "isTokenized": true,
     "isChunklist": false,
-    "working": true
+    "working": true,
+    "note": "Este enlace puede expirar o cambiar."
   },
   {
     "name": "Almaya TV",
@@ -40,7 +42,7 @@
   },
   {
     "name": "America Paraguay",
-    "url": "https://live2.eu-north-1a.cf.dmcdn.net/sec2(FYQNGVAlMC3154Bv3c0i7U6bgWXz8A0zxX9Pr3CseNcfE2xKHoCPbc2LNsmupwexknerLAzxAgHlCjlytpb0iU9V-wl-85U2em-OfGsj3ai7cadbG-SMyeTmWgBIZ3t4)/cloud/3/x9lh4mu/d/live-480.m3u8",
+    "url": "https://live2.eu-north-1a.cf.dmcdn.net/sec2(4lVWyvkH0lGxqJCAxH8B0_YHDZMeoUS4Ug5KPEAFR5P28kBQrK9LTjknKT5q2hjYtWBjtotO92RbOqdBnK8gLKXR7G3jkIJlcMGOmI3zqpjvIWYDtX3sT3BnT0rdMNHu)/cloud/3/x9lh4mu/d/live-480.m3u8",
     "logo": "america_paraguay",
     "country": "PY",
     "language": "es",
@@ -49,20 +51,26 @@
     "isLikelyStable": false,
     "isTokenized": true,
     "isChunklist": false,
-    "working": true
+    "working": true,
+    "note": "Este enlace puede expirar o cambiar."
   },
   {
     "name": "C9N",
-    "url": "https://alba-py-c9n-c9n.stream.mediatiquestream.com/index.m3u8",
+    "url": "https://alba-py-c9n-c9n.stream.mediatiquestream.com/360p.m3u8",
     "logo": "c9n",
     "country": "PY",
     "language": "es",
     "category": "Noticias",
     "sourceType": "hls",
-    "isLikelyStable": true,
+    "isLikelyStable": false,
     "isTokenized": false,
     "isChunklist": false,
-    "working": true
+    "working": true,
+    "isUnstable": true,
+    "note": "Señal inestable. Puede presentar cortes.",
+    "userAgent": "Mozilla/5.0",
+    "referer": "https://www.c9n.com.py/",
+    "origin": "https://www.c9n.com.py"
   },
   {
     "name": "Canal 8 Vision TV",
@@ -83,12 +91,13 @@
     "logo": "eventos",
     "country": "PY",
     "language": "es",
-    "category": "General",
+    "category": "Eventos",
     "sourceType": "hls",
     "isLikelyStable": false,
     "isTokenized": false,
     "isChunklist": false,
-    "working": false
+    "working": false,
+    "note": "Canal reservado para futuras transmisiones especiales."
   },
   {
     "name": "Canal Pro",
@@ -313,7 +322,7 @@
   },
   {
     "name": "Nanduti",
-    "url": "https://copacogen.desdeparaguay.net/nandutitv/nandutitv_baja/index.m3u8",
+    "url": "https://nanduti.b-cdn.net/480p.m3u8",
     "logo": "nanduti",
     "country": "PY",
     "language": "es",
@@ -339,14 +348,14 @@
   },
   {
     "name": "NPY",
-    "url": "https://copacotf.desdeparaguay.net/npy/npy_py_baja/playlist.m3u8?k=b73cc5b863089a7fc5b51a9d997f8866e1447ed13ed920ab82dd0bc7926341bc&exp=1781581521",
+    "url": "https://copacotf.desdeparaguay.net/npy/npy_py_alta/playlist.m3u8?admin=tvaccion",
     "logo": "npy",
     "country": "PY",
     "language": "es",
     "category": "Noticias",
     "sourceType": "hls",
-    "isLikelyStable": false,
-    "isTokenized": true,
+    "isLikelyStable": true,
+    "isTokenized": false,
     "isChunklist": false,
     "working": true
   },
@@ -400,18 +409,19 @@
     "isLikelyStable": false,
     "isTokenized": true,
     "isChunklist": false,
-    "working": true
+    "working": true,
+    "note": "Este enlace puede expirar o cambiar."
   },
   {
     "name": "Productiva TV",
-    "url": "https://tigocloudgen.desdeparaguay.net/productivatv/productivatv_baja/playlist.m3u8?k=eac66cfc091f4f3719189e222c5d66659eddee359a5c427bd19ea2667052b2b5&exp=1710564835.",
+    "url": "https://tigocloudgen.desdeparaguay.net/productivatv/productivatv_alta/playlist.m3u8?admin=tvaccion",
     "logo": "",
     "country": "PY",
     "language": "es",
     "category": "General",
     "sourceType": "hls",
-    "isLikelyStable": false,
-    "isTokenized": true,
+    "isLikelyStable": true,
+    "isTokenized": false,
     "isChunklist": false,
     "working": true
   },
@@ -543,7 +553,8 @@
     "isLikelyStable": false,
     "isTokenized": true,
     "isChunklist": false,
-    "working": true
+    "working": true,
+    "note": "Este enlace puede expirar o cambiar."
   },
   {
     "name": "Telequince",
@@ -560,7 +571,7 @@
   },
   {
     "name": "Trece",
-    "url": "https://live2.eu-north-1a.cf.dmcdn.net/sec2(8-dPKsWdj9QH8CXGex_zluR9AgNNfrEMx_IjrjDE2I6-3e9cLUWpEAhyC5vsrTUw5ML-MIHDsBclQ5NtSXLilBXGP1uuNe4GDXxrzbFAgw6hasqqwfrYZcccbDb4Mynx)/cloud/3/x9ksaba/s/live-720.m3u8",
+    "url": "https://live2.eu-north-1a.cf.dmcdn.net/sec2(Vlh1ynjTGiNlRkeAjsAbaqM4f6NYe1pU3k-OejPy1EyHELBOjP3RNwCaimuF2VJqsFwDn0wuwd_--2j1C2vPj4PrEZIBrmQKEyR0uUaTX4lF5V6YFc7jJb8t5XYb2xgI)/cloud/3/x9ksaba/s/live-720.m3u8",
     "logo": "trece",
     "country": "PY",
     "language": "es",
@@ -569,7 +580,8 @@
     "isLikelyStable": false,
     "isTokenized": true,
     "isChunklist": false,
-    "working": true
+    "working": true,
+    "note": "Este enlace puede expirar o cambiar."
   },
   {
     "name": "TV Aire",
@@ -599,7 +611,7 @@
   },
   {
     "name": "Unicanal",
-    "url": "https://live2.eu-north-1b.cf.dmcdn.net/sec2(rFlpv0kbG0n1Ld8kq_nRZ9TXSQhDFPrt_2haTKZ6m2vXlo5oWd2e6fJZVfppQKRnrd91VlUaG0xjGjooQv2Y6PSG_0uUGce5oW-J1EGK7RRZ8QasUVaBoVR_gEg2twR3)/cloud/3/x9ko9z8/s/live-720.m3u8",
+    "url": "https://live2.eu-north-1b.cf.dmcdn.net/sec2(CBm6TCIvdkY3bIqkFbsaqz1ax--E5jaaZOdhYd0-OV8zLUlocq5TvGQX9x9r298t7bF7Dafu7p4KwHuzZsdJihY1FLez_GXpLBYV-nheA2QjcXn-2jqJH7V4U_pqKHhU)/cloud/3/x9ko9z8/s/live-720.m3u8",
     "logo": "unicanal",
     "country": "PY",
     "language": "es",
@@ -608,7 +620,8 @@
     "isLikelyStable": false,
     "isTokenized": true,
     "isChunklist": false,
-    "working": true
+    "working": true,
+    "note": "Este enlace puede expirar o cambiar."
   },
   {
     "name": "Union TV",

@@ -1,0 +1,1298 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width">
+
+<meta http-equiv="cache-control" content="no-cache, must-revalidate, post-check=0, pre-check=0" />
+<meta http-equiv="cache-control" content="max-age=0" />
+<meta http-equiv="expires" content="0" />
+<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+<meta http-equiv="pragma" content="no-cache" />
+<title>Radios de Paraguay</title>
+<meta name="title" content="DesdeParaguay.com | Radios de Paraguay"/>
+<meta name="description" content="Las emisoras m&aacute;s escuchadas de Asunci&oacute;n y del interior."/>
+<meta name="keywords" content="radios de Paraguay, emisoras del Paraguay"/>
+<meta property="og:image" content="https://www.desdeparaguay.com/images/dsdpy-logo.png">
+<link type="image/x-icon" rel="shortcut icon" href="favicon.ico">
+<link type="image/x-icon" rel="icon" href="favicon.ico">
+
+<script data-ad-client="ca-pub-1461325847979593" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JR7M7Z0LWR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JR7M7Z0LWR');
+</script>
+
+</head>
+
+
+<link rel="preload" fetchpriority="high" as="image" href="images_hpy/futbol2.jpg">
+
+<link rel="stylesheet" href="karla.css" blocking=render>
+
+<style>
+
+
+@font-face{
+	font-familiy: "fallback for Karla";
+	src: local("Times New Roman");
+	ascent-override: 105%;
+	descent-override: 35%;
+	line-gap-override: 10%;
+	font-display: swap;
+}
+
+@font-face{
+	font-familiy: "fallback for Lato";
+	src: local("Times New Roman");
+	ascent-override: 105%;
+	descent-override: 35%;
+	line-gap-override: 10%;
+	font-display: swap;
+}
+
+body { font-family: "fallback for Karla";}
+
+.cover{
+	/*background-color: #ccc;  background-image: url('images_hpy/asu201.jpg'); background-position: right top; background-attachment: fixed; background-size: cover;*/
+	/*background-color: #ccc;  background-image: url('images_hpy/lapacho02.jpg'); background-position: left top; background-attachment: fixed; background-size: cover;*/
+	/*background-color: #ccc; background-image: url('images_hpy/f1.jpg'); background-position: top left; background-attachment: fixed; background-size: cover;*/
+	background-color: #ccc;  background-image: url('images_hpy/futbol2.jpg'); background-position: bottom left; background-attachment: fixed; background-size: cover;
+	/*background-color: #ccc;  background-image: url('images_hpy/f2.jpg'); background-position: top left; background-attachment: fixed; background-size: cover;*/
+	/*background-color: #ccc;  background-image: url('images_hpy/octpink2.jpg'); background-position: center center; background-attachment: fixed; background-size: cover;*/
+	/*background-color: #ccc;  background-image: url('images_hpy/cde2.jpg'); background-position: top center; background-attachment: fixed; background-size: cover;*/
+	/*background-color: #ccc;  background-image: url('images_hpy/caacupe2.jpg'); background-position: top center; background-attachment: fixed; background-size: cover;*/
+	/*background-color: #ccc;  background-image: url('images_hpy/navidad4.jpg'); background-position: center center; background-attachment: fixed; background-size: cover;*/
+	/*background-color: #ccc;  background-image: url('images_hpy/sanber2.jpg'); background-position: top right; background-attachment: fixed; background-size: cover;*/
+	/*background-color: #ccc;  background-image: url('images_hpy/enamorados4.jpg'); background-position: top right; background-attachment: fixed; background-size: cover;*/
+	/*background-color: #ccc;  background-image: url('images_hpy/hu3.jpg'); background-position: center bottom; background-attachment: fixed; background-size: cover;*/
+
+
+}
+</style>
+
+<body class="cover">
+
+<script>
+windowscrollToHeight="0";
+soloaudio=eval("true");
+idMedio="amor";
+envivo=eval("true");
+bannerTimeOut=1666;
+titulo="Amor 95.9 FM";
+wtitulo="Amor95.9FM";
+resoluciones=eval("['Default']");
+dsdpyStream0="https://copacoradios.desdeparaguay.net/movamor/movamor.stream/playlist.m3u8?k=9812c7097c73c0c4b303a3269b06cd5459a73954a1b91ea1b7d97f33611eef3e&exp=1781837801";
+dsdpyStream0_med="";
+dsdpyStream0_alta="";
+dsdpyStream1="https://zn1radios.desdeparaguay.net/movamor/movamor.stream/playlist.m3u8?k=9812c7097c73c0c4b303a3269b06cd5459a73954a1b91ea1b7d97f33611eef3e&exp=1781837801";
+dsdpyStream2="";
+//dsdpyStream3="";
+dsdpyStream3="";
+dsdpyStream4="";
+dsdpyStreamPR="";
+dsdpyType0="application/x-mpegurl";
+dsdpyType1="application/x-mpegurl";
+dsdpyType2="application/x-mpegurl";
+dsdpyType3="application/x-mpegurl";
+dsdpyType4="application/x-mpegurl";
+</script>
+
+<script module src="jscss/jquery-1.12.4.min.js"></script>
+<script module src="wnojq-min-1.js"></script>
+<script async src="mensajes.js"></script>
+<script async src="jquery.bxSlider.min.js"></script>
+<script module src="jscss/flowplayer.min.js"></script>
+<script module src="jscss/hls-1-4-13.min.js"></script>
+<script src="jscss/flowplayer.audio.min.js"></script>
+<link rel="stylesheet" href="jscss/flowplayer.audio.css" blocking=render>
+<link rel="stylesheet" href="flowskin.css" blocking=render>
+<link rel="stylesheet" href="w-min.css" blocking=render>
+
+<style>.fp-elapsedX{display:none;}.fp-duration{display:none;}.fp-remaining{visibility:hidden;}.fp-timeline.fp-bar{margin-bottom:-12px;}</style>
+<style>
+.top0{text-decoration:none;font-size:15px;color:#fff}.top0 a{color:#fff}.top0 a:hover{color:#000}.top3{text-decoration:none;font-size:13px;color:#fff}.top3 a{color:#fff}.top3 a:hover{color:#000}
+.logo{top:100px;top:12px;z-index:10}.laciudad{top:203px;top:115px;top:100px}.arriba{min-height:0px}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="marco" style="width:1252px; margin: auto;">
+
+
+<div id="site" style="display:inline;">
+
+
+
+
+
+
+
+
+
+<div style="margin:12px;"></div>
+<div style="width:1252px; /*text-align:center; display: flex; flex-direction:column; justify-content: flex-end;*/ display: flex; gap: 10px;">
+
+	<div style="/*width:250px;*/ /*float: left;*/ text-align: center; width:236px; display: flex; flex-direction: column; justify-content: flex-end;">
+		<a oncontextmenu="return false"; href="https://www.desdeparaguay.com/"><img src="images_hpy/logo-trans2-160.png" fetchpriority="high"  style="margin-left: 18px; margin-bottom:-10px;" width="160"/></a>
+	</div>
+	<div style="float:left; /*background-color:red;*/ /*height:270px;*/  margin-left:14px; width:980px; text-align:center;  display: flex; flex-direction: column; justify-content: flex-end;">
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1461325847979593"
+     crossorigin="anonymous"></script>
+<!-- dpy-970x90-py -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:980px;height:90px"
+     data-ad-client="ca-pub-1461325847979593"
+     data-ad-slot="2600410352"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	</div>
+</div>
+<div style="clear:both;"></div>
+
+
+
+
+
+
+
+
+
+<div class="cover" style="z-index: 3; position:sticky; top: 0px; /*background-color:blue;*/ width:1252px; height:12px; margin: auto; /*margin-top:-100px;*/ /*margin-top:-4px;*/"></div>
+
+
+
+
+
+
+<div style="/*position: absolute; height:80%;*/ display:flex; background-color:#fff; background-image: url('images_hpy/6.png'); background-position: 244px; background-repeat: repeat-y; /*float:left;*/ width:1252px;  /*padding: 10px 1px 10px 1px;*/ /*padding-top: 10px;*/ padding-bottom: 10px; /*padding-right:6px;*/ margin:0px auto /*300px*/ 250px auto; border-radius:10px;">
+
+	<div class="divIZQ" id="logo">
+
+		<div class="cover logo" style="height: /*103*/ 88px;">
+		<div style="background-color:#fff; height:100%; border-radius:10px 0px 0px 0px;">
+<div id="contenedorB">
+
+
+
+
+
+
+			<div class="t">
+				<div id="buscarporciudad">
+					<div id="buscarporciudadMENU" style="display: none; margin-top:-18px; width: 220px; font-family: 'Lato', sans-serif; font-size:18;">
+						<ul>
+							<li><a href='JavaScript:EditarF();'>Personalizar Favoritas</a> //<a href='JavaScript:Buscar();'>Buscar Ciudad</a></li>
+							<li><input aria-label="Buscar" style="font-size: 13px; width:186px; height:26px; margin-top:6px; padding-left: 36px; background-image: url('images_hpy/lupa1.jpg'); background-size: 12%; background-position: 2px 3px; background-repeat: no-repeat;" id="buscador" type="input" value="Buscar Radio" onfocus="LimpiarBUS();" onfocusout="LimpiarBUS();"></li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+		</div>
+		</div>
+
+
+
+
+
+
+
+
+
+		<div class="arriba">
+	<div id="contenedorA">
+
+
+
+
+
+
+
+
+
+
+
+			<div id="bloqueFav" style="display: none;">
+				<div class="laciudad"><a href="JavaScript:Ciudad_Mostrar('#ciudad0');">MIS FAVORITAS</a></div>
+				<div id="favoritosCaja"><ul id="ciudad0" class='lista2'></ul></div>
+			</div>
+	
+
+
+
+			<nav role="navigation">
+			<div id='ListadoDeRadios' margin-top:4px;">
+
+
+
+
+
+
+
+<script>
+listaRadios=new Array();
+</script>
+
+
+
+
+<div class='bloqueCiudad' id='bloqueCiudad1'>
+	<div class='laciudad'><a href='JavaScript:Ciudad_Mostrar("#ciudad1");'>RADIOS DE ASUNCI&Oacute;N (AM)</a></div>
+	<ul id='ciudad1' class='lista2'>
+		<script>listaRadios[0]=new Array(); listaRadios[0][0]="780"; listaRadios[0][1]="1º de Marzo 780 AM";</script>
+		<li class='busR'><div id='FavAdd_0' class='FavAdd'><a href='JavaScript:AgregarF("780");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/780"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/780.png?4" height="28"/>1º de Marzo 780 AM</a></li>
+		<script>listaRadios[1]=new Array(); listaRadios[1][0]="730"; listaRadios[1][1]="ABC Cardinal 730 AM";</script>
+		<li class='busR'><div id='FavAdd_1' class='FavAdd'><a href='JavaScript:AgregarF("730");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/730"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/730.png?4" height="28"/>ABC Cardinal 730 AM</a></li>
+		<script>listaRadios[2]=new Array(); listaRadios[2][0]="1250"; listaRadios[2][1]="Asunción 1250 AM";</script>
+		<li class='busR'><div id='FavAdd_2' class='FavAdd'><a href='JavaScript:AgregarF("1250");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/1250"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/1250.png?4" height="28"/>Asunción 1250 AM</a></li>
+		<script>listaRadios[3]=new Array(); listaRadios[3][0]="680"; listaRadios[3][1]="Cáritas 680 AM";</script>
+		<li class='busR'><div id='FavAdd_3' class='FavAdd'><a href='JavaScript:AgregarF("680");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/680"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/680.png?4" height="28"/>Cáritas 680 AM</a></li>
+		<script>listaRadios[4]=new Array(); listaRadios[4][0]="1140"; listaRadios[4][1]="Central 1140 AM";</script>
+		<li class='busR'><div id='FavAdd_4' class='FavAdd'><a href='JavaScript:AgregarF("1140");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/1140"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/1140.png?4" height="28"/>Central 1140 AM</a></li>
+		<script>listaRadios[5]=new Array(); listaRadios[5][0]="1330"; listaRadios[5][1]="Chaco Boreal 1330 AM";</script>
+		<li class='busR'><div id='FavAdd_5' class='FavAdd'><a href='JavaScript:AgregarF("1330");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/1330"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/1330.png?4" height="28"/>Chaco Boreal 1330 AM</a></li>
+		<script>listaRadios[6]=new Array(); listaRadios[6][0]="1300"; listaRadios[6][1]="Fe y Alegría 1300 AM";</script>
+		<li class='busR'><div id='FavAdd_6' class='FavAdd'><a href='JavaScript:AgregarF("1300");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/1300"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/1300.png?4" height="28"/>Fe y Alegría 1300 AM</a></li>
+		<script>listaRadios[7]=new Array(); listaRadios[7][0]="650"; listaRadios[7][1]="La Tribu 650 AM";</script>
+		<li class='busR'><div id='FavAdd_7' class='FavAdd'><a href='JavaScript:AgregarF("650");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/650"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/650.png?4" height="28"/>La Tribu 650 AM</a></li>
+		<script>listaRadios[8]=new Array(); listaRadios[8][0]="1120"; listaRadios[8][1]="La Tribu Deport 1120 AM";</script>
+		<li class='busR'><div id='FavAdd_8' class='FavAdd'><a href='JavaScript:AgregarF("1120");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/1120"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/1120.png?4" height="28"/>La Tribu Deport 1120 AM</a></li>
+		<script>listaRadios[9]=new Array(); listaRadios[9][0]="800"; listaRadios[9][1]="La Unión 800 AM";</script>
+		<li class='busR'><div id='FavAdd_9' class='FavAdd'><a href='JavaScript:AgregarF("800");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/800"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/800.png?4" height="28"/>La Unión 800 AM</a></li>
+		<script>listaRadios[10]=new Array(); listaRadios[10][0]="1200"; listaRadios[10][1]="Libre 1200 AM";</script>
+		<li class='busR'><div id='FavAdd_10' class='FavAdd'><a href='JavaScript:AgregarF("1200");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/1200"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/1200.png?4" height="28"/>Libre 1200 AM</a></li>
+		<script>listaRadios[11]=new Array(); listaRadios[11][0]="1000"; listaRadios[11][1]="Mil 1000 AM";</script>
+		<li class='busR'><div id='FavAdd_11' class='FavAdd'><a href='JavaScript:AgregarF("1000");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/1000"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/1000.png?4" height="28"/>Mil 1000 AM</a></li>
+		<script>listaRadios[12]=new Array(); listaRadios[12][0]="1080"; listaRadios[12][1]="Monumental 1080 AM";</script>
+		<li class='busR'><div id='FavAdd_12' class='FavAdd'><a href='JavaScript:AgregarF("1080");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/1080"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/1080.png?4" height="28"/>Monumental 1080 AM</a></li>
+		<script>listaRadios[13]=new Array(); listaRadios[13][0]="920"; listaRadios[13][1]="Nacional del Paraguay 920 AM";</script>
+		<li class='busR'><div id='FavAdd_13' class='FavAdd'><a href='JavaScript:AgregarF("920");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/920"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/920.png?4" height="28"/>Nacional del Paraguay 920 AM</a></li>
+		<script>listaRadios[14]=new Array(); listaRadios[14][0]="1020"; listaRadios[14][1]="Ñanduti 1020 AM";</script>
+		<li class='busR'><div id='FavAdd_14' class='FavAdd'><a href='JavaScript:AgregarF("1020");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/1020"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/1020.png?4" height="28"/>Ñanduti 1020 AM</a></li>
+		<script>listaRadios[15]=new Array(); listaRadios[15][0]="970"; listaRadios[15][1]="Universo 970 AM";</script>
+		<li class='busR'><div id='FavAdd_15' class='FavAdd'><a href='JavaScript:AgregarF("970");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/970"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/970.png?4" height="28"/>Universo 970 AM</a></li>
+	</ul>
+</div>
+<div class='bloqueCiudad' id='bloqueCiudad2'>
+	<div class='laciudad'><a href='JavaScript:Ciudad_Mostrar("#ciudad2");'>RADIOS DE ASUNCI&Oacute;N (FM)</a></div>
+	<ul id='ciudad2' class='lista2'>
+		<script>listaRadios[16]=new Array(); listaRadios[16][0]="amor"; listaRadios[16][1]="Amor 95.9 FM";</script>
+		<li class='busR'><div id='FavAdd_16' class='FavAdd'><a href='JavaScript:AgregarF("amor");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/amor"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/amor.png?4" height="28"/>Amor 95.9 FM</a></li>
+		<script>listaRadios[17]=new Array(); listaRadios[17][0]="anr"; listaRadios[17][1]="ANR 89.9 FM";</script>
+		<li class='busR'><div id='FavAdd_17' class='FavAdd'><a href='JavaScript:AgregarF("anr");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/anr"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/anr.png?4" height="28"/>ANR 89.9 FM</a></li>
+		<script>listaRadios[18]=new Array(); listaRadios[18][0]="aranduka"; listaRadios[18][1]="Aranduka 87.9 FM";</script>
+		<li class='busR'><div id='FavAdd_18' class='FavAdd'><a href='JavaScript:AgregarF("aranduka");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/aranduka"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/aranduka.png?4" height="28"/>Aranduka 87.9 FM</a></li>
+		<script>listaRadios[19]=new Array(); listaRadios[19][0]="aspen"; listaRadios[19][1]="Aspen 102.7 FM";</script>
+		<li class='busR'><div id='FavAdd_19' class='FavAdd'><a href='JavaScript:AgregarF("aspen");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/aspen"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/aspen.png?4" height="28"/>Aspen 102.7 FM</a></li>
+		<script>listaRadios[20]=new Array(); listaRadios[20][0]="camara"; listaRadios[20][1]="Cámara 104.1 FM";</script>
+		<li class='busR'><div id='FavAdd_20' class='FavAdd'><a href='JavaScript:AgregarF("camara");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/camara"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/camara.png?4" height="28"/>Cámara 104.1 FM</a></li>
+		<script>listaRadios[21]=new Array(); listaRadios[21][0]="canal100"; listaRadios[21][1]="Canal 100.1 FM";</script>
+		<li class='busR'><div id='FavAdd_21' class='FavAdd'><a href='JavaScript:AgregarF("canal100");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/canal100"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/canal100.png?4" height="28"/>Canal 100.1 FM</a></li>
+		<script>listaRadios[22]=new Array(); listaRadios[22][0]="cardinalromance"; listaRadios[22][1]="Cardinal Romance 98.5 FM";</script>
+		<li class='busR'><div id='FavAdd_22' class='FavAdd'><a href='JavaScript:AgregarF("cardinalromance");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/cardinalromance"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/cardinalromance.png?4" height="28"/>Cardinal Romance 98.5 FM</a></li>
+		<script>listaRadios[23]=new Array(); listaRadios[23][0]="cfa"; listaRadios[23][1]="CFA 99.5 FM";</script>
+		<li class='busR'><div id='FavAdd_23' class='FavAdd'><a href='JavaScript:AgregarF("cfa");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/cfa"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/cfa.png?4" height="28"/>CFA 99.5 FM</a></li>
+		<script>listaRadios[24]=new Array(); listaRadios[24][0]="corazon"; listaRadios[24][1]="Corazón 99.1 FM";</script>
+		<li class='busR'><div id='FavAdd_24' class='FavAdd'><a href='JavaScript:AgregarF("corazon");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/corazon"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/corazon.png?4" height="28"/>Corazón 99.1 FM</a></li>
+		<script>listaRadios[25]=new Array(); listaRadios[25][0]="radiodisney"; listaRadios[25][1]="Disney 96.5 FM";</script>
+		<li class='busR'><div id='FavAdd_25' class='FavAdd'><a href='JavaScript:AgregarF("radiodisney");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/radiodisney"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/radiodisney.png?4" height="28"/>Disney 96.5 FM</a></li>
+		<script>listaRadios[26]=new Array(); listaRadios[26][0]="estacion40"; listaRadios[26][1]="E40 91.1 FM";</script>
+		<li class='busR'><div id='FavAdd_26' class='FavAdd'><a href='JavaScript:AgregarF("estacion40");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/estacion40"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/estacion40.png?4" height="28"/>E40 91.1 FM</a></li>
+		<script>listaRadios[27]=new Array(); listaRadios[27][0]="emisoras"; listaRadios[27][1]="Emisoras Paraguay 106.1 FM";</script>
+		<li class='busR'><div id='FavAdd_27' class='FavAdd'><a href='JavaScript:AgregarF("emisoras");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/emisoras"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/emisoras.png?4" height="28"/>Emisoras Paraguay 106.1 FM</a></li>
+		<script>listaRadios[28]=new Array(); listaRadios[28][0]="exclusiva"; listaRadios[28][1]="Exclusiva 103.7 FM";</script>
+		<li class='busR'><div id='FavAdd_28' class='FavAdd'><a href='JavaScript:AgregarF("exclusiva");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/exclusiva"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/exclusiva.png?4" height="28"/>Exclusiva 103.7 FM</a></li>
+		<script>listaRadios[29]=new Array(); listaRadios[29][0]="farra"; listaRadios[29][1]="Farra 101.3 FM";</script>
+		<li class='busR'><div id='FavAdd_29' class='FavAdd'><a href='JavaScript:AgregarF("farra");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/farra"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/farra.png?4" height="28"/>Farra 101.3 FM</a></li>
+		<script>listaRadios[30]=new Array(); listaRadios[30][0]="fernando"; listaRadios[30][1]="Fernando de la Mora 100.5 FM";</script>
+		<li class='busR'><div id='FavAdd_30' class='FavAdd'><a href='JavaScript:AgregarF("fernando");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/fernando"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/fernando.png?4" height="28"/>Fernando de la Mora 100.5 FM</a></li>
+		<script>listaRadios[31]=new Array(); listaRadios[31][0]="go"; listaRadios[31][1]="Go 92.3 FM";</script>
+		<li class='busR'><div id='FavAdd_31' class='FavAdd'><a href='JavaScript:AgregarF("go");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/go"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/go.png?4" height="28"/>Go 92.3 FM</a></li>
+		<script>listaRadios[32]=new Array(); listaRadios[32][0]="hit"; listaRadios[32][1]="Hit 91.9 FM";</script>
+		<li class='busR'><div id='FavAdd_32' class='FavAdd'><a href='JavaScript:AgregarF("hit");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/hit"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/hit.png?4" height="28"/>Hit 91.9 FM</a></li>
+		<script>listaRadios[33]=new Array(); listaRadios[33][0]="latina"; listaRadios[33][1]="Latina 97.1 FM";</script>
+		<li class='busR'><div id='FavAdd_33' class='FavAdd'><a href='JavaScript:AgregarF("latina");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/latina"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/latina.png?4" height="28"/>Latina 97.1 FM</a></li>
+		<script>listaRadios[34]=new Array(); listaRadios[34][0]="memories"; listaRadios[34][1]="Memories 97.5 FM";</script>
+		<li class='busR'><div id='FavAdd_34' class='FavAdd'><a href='JavaScript:AgregarF("memories");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/memories"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/memories.png?4" height="28"/>Memories 97.5 FM</a></li>
+		<script>listaRadios[35]=new Array(); listaRadios[35][0]="mix"; listaRadios[35][1]="Mix 90.3 FM";</script>
+		<li class='busR'><div id='FavAdd_35' class='FavAdd'><a href='JavaScript:AgregarF("mix");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/mix"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/mix.png?4" height="28"/>Mix 90.3 FM</a></li>
+		<script>listaRadios[36]=new Array(); listaRadios[36][0]="montecarlo"; listaRadios[36][1]="Montecarlo 100.9 FM";</script>
+		<li class='busR'><div id='FavAdd_36' class='FavAdd'><a href='JavaScript:AgregarF("montecarlo");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/montecarlo"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/montecarlo.png?4" height="28"/>Montecarlo 100.9 FM</a></li>
+		<script>listaRadios[37]=new Array(); listaRadios[37][0]="nacional"; listaRadios[37][1]="Nacional del Paraguay 95.1 FM";</script>
+		<li class='busR'><div id='FavAdd_37' class='FavAdd'><a href='JavaScript:AgregarF("nacional");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/nacional"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/nacional.png?4" height="28"/>Nacional del Paraguay 95.1 FM</a></li>
+		<script>listaRadios[38]=new Array(); listaRadios[38][0]="nihongakko"; listaRadios[38][1]="Nihon Gakko 101.7 FM";</script>
+		<li class='busR'><div id='FavAdd_38' class='FavAdd'><a href='JavaScript:AgregarF("nihongakko");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/nihongakko"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/nihongakko.png?4" height="28"/>Nihon Gakko 101.7 FM</a></li>
+		<script>listaRadios[39]=new Array(); listaRadios[39][0]="883"; listaRadios[39][1]="Ñemby 88.3 FM";</script>
+		<li class='busR'><div id='FavAdd_39' class='FavAdd'><a href='JavaScript:AgregarF("883");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/883"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/883.png?4" height="28"/>Ñemby 88.3 FM</a></li>
+		<script>listaRadios[40]=new Array(); listaRadios[40][0]="palma"; listaRadios[40][1]="Palma 106.5 FM";</script>
+		<li class='busR'><div id='FavAdd_40' class='FavAdd'><a href='JavaScript:AgregarF("palma");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/palma"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/palma.png?4" height="28"/>Palma 106.5 FM</a></li>
+		<script>listaRadios[41]=new Array(); listaRadios[41][0]="popular"; listaRadios[41][1]="Popular 103.1 FM";</script>
+		<li class='busR'><div id='FavAdd_41' class='FavAdd'><a href='JavaScript:AgregarF("popular");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/popular"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/popular.png?4" height="28"/>Popular 103.1 FM</a></li>
+		<script>listaRadios[42]=new Array(); listaRadios[42][0]="rockandpop"; listaRadios[42][1]="Rock & Pop 95.5 FM";</script>
+		<li class='busR'><div id='FavAdd_42' class='FavAdd'><a href='JavaScript:AgregarF("rockandpop");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/rockandpop"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/rockandpop.png?4" height="28"/>Rock & Pop 95.5 FM</a></li>
+		<script>listaRadios[43]=new Array(); listaRadios[43][0]="romance"; listaRadios[43][1]="Romance 104.5 FM";</script>
+		<li class='busR'><div id='FavAdd_43' class='FavAdd'><a href='JavaScript:AgregarF("romance");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/romance"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/romance.png?4" height="28"/>Romance 104.5 FM</a></li>
+		<script>listaRadios[44]=new Array(); listaRadios[44][0]="tropicalia"; listaRadios[44][1]="Tropicalia 93.9 FM";</script>
+		<li class='busR'><div id='FavAdd_44' class='FavAdd'><a href='JavaScript:AgregarF("tropicalia");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/tropicalia"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/tropicalia.png?4" height="28"/>Tropicalia 93.9 FM</a></li>
+		<script>listaRadios[45]=new Array(); listaRadios[45][0]="urbana"; listaRadios[45][1]="Urbana 106.9 FM";</script>
+		<li class='busR'><div id='FavAdd_45' class='FavAdd'><a href='JavaScript:AgregarF("urbana");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/urbana"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/urbana.png?4" height="28"/>Urbana 106.9 FM</a></li>
+		<script>listaRadios[46]=new Array(); listaRadios[46][0]="venus"; listaRadios[46][1]="Venus 105.1 FM";</script>
+		<li class='busR'><div id='FavAdd_46' class='FavAdd'><a href='JavaScript:AgregarF("venus");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/venus"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/venus.png?4" height="28"/>Venus 105.1 FM</a></li>
+		<script>listaRadios[47]=new Array(); listaRadios[47][0]="vibras"; listaRadios[47][1]="Vibras 92.7 FM";</script>
+		<li class='busR'><div id='FavAdd_47' class='FavAdd'><a href='JavaScript:AgregarF("vibras");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/vibras"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/vibras.png?4" height="28"/>Vibras 92.7 FM</a></li>
+	</ul>
+</div>
+<div class='bloqueCiudad' id='bloqueCiudad3'>
+	<div class='laciudad'><a href='JavaScript:Ciudad_Mostrar("#ciudad3");'>RADIOS DE ALTO VER&Aacute;</a></div>
+	<ul id='ciudad3' class='lista2'>
+		<script>listaRadios[48]=new Array(); listaRadios[48][0]="sanandres"; listaRadios[48][1]="San Andrés 103.7 FM";</script>
+		<li class='busR'><div id='FavAdd_48' class='FavAdd'><a href='JavaScript:AgregarF("sanandres");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/sanandres"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/sanandres.png?4" height="28"/>San Andrés 103.7 FM</a></li>
+	</ul>
+</div>
+<div class='bloqueCiudad' id='bloqueCiudad4'>
+	<div class='laciudad'><a href='JavaScript:Ciudad_Mostrar("#ciudad4");'>RADIOS DE ARROYOS Y ESTEROS</a></div>
+	<ul id='ciudad4' class='lista2'>
+		<script>listaRadios[49]=new Array(); listaRadios[49][0]="manduvira"; listaRadios[49][1]="Manduvirá 88.9 FM";</script>
+		<li class='busR'><div id='FavAdd_49' class='FavAdd'><a href='JavaScript:AgregarF("manduvira");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/manduvira"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/manduvira.png?4" height="28"/>Manduvirá 88.9 FM</a></li>
+	</ul>
+</div>
+<div class='bloqueCiudad' id='bloqueCiudad5'>
+	<div class='laciudad'><a href='JavaScript:Ciudad_Mostrar("#ciudad5");'>RADIOS DE ATYRA</a></div>
+	<ul id='ciudad5' class='lista2'>
+		<script>listaRadios[50]=new Array(); listaRadios[50][0]="atyra"; listaRadios[50][1]="Atyra 105.7 FM";</script>
+		<li class='busR'><div id='FavAdd_50' class='FavAdd'><a href='JavaScript:AgregarF("atyra");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/atyra"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/atyra.png?4" height="28"/>Atyra 105.7 FM</a></li>
+	</ul>
+</div>
+<div class='bloqueCiudad' id='bloqueCiudad6'>
+	<div class='laciudad'><a href='JavaScript:Ciudad_Mostrar("#ciudad6");'>RADIOS DE CAACUPE</a></div>
+	<ul id='ciudad6' class='lista2'>
+		<script>listaRadios[51]=new Array(); listaRadios[51][0]="serrania"; listaRadios[51][1]="Serranía 99.7 FM";</script>
+		<li class='busR'><div id='FavAdd_51' class='FavAdd'><a href='JavaScript:AgregarF("serrania");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/serrania"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/serrania.png?4" height="28"/>Serranía 99.7 FM</a></li>
+	</ul>
+</div>
+<div class='bloqueCiudad' id='bloqueCiudad7'>
+	<div class='laciudad'><a href='JavaScript:Ciudad_Mostrar("#ciudad7");'>RADIOS DE CAAGUAZU</a></div>
+	<ul id='ciudad7' class='lista2'>
+		<script>listaRadios[52]=new Array(); listaRadios[52][0]="centenario"; listaRadios[52][1]="Centenario 99.5 FM";</script>
+		<li class='busR'><div id='FavAdd_52' class='FavAdd'><a href='JavaScript:AgregarF("centenario");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/centenario"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/centenario.png?4" height="28"/>Centenario 99.5 FM</a></li>
+	</ul>
+</div>
+<div class='bloqueCiudad' id='bloqueCiudad8'>
+	<div class='laciudad'><a href='JavaScript:Ciudad_Mostrar("#ciudad8");'>RADIOS DE CAPIT&Aacute;N MIRANDA</a></div>
+	<ul id='ciudad8' class='lista2'>
+		<script>listaRadios[53]=new Array(); listaRadios[53][0]="elangel"; listaRadios[53][1]="El Angel 94.9 FM";</script>
+		<li class='busR'><div id='FavAdd_53' class='FavAdd'><a href='JavaScript:AgregarF("elangel");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/elangel"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/elangel.png?4" height="28"/>El Angel 94.9 FM</a></li>
+	</ul>
+</div>
+<div class='bloqueCiudad' id='bloqueCiudad9'>
+	<div class='laciudad'><a href='JavaScript:Ciudad_Mostrar("#ciudad9");'>RADIOS DE CARAGUATAY</a></div>
+	<ul id='ciudad9' class='lista2'>
+		<script>listaRadios[54]=new Array(); listaRadios[54][0]="caraguatay"; listaRadios[54][1]="Caraguatay 90.3 FM";</script>
+		<li class='busR'><div id='FavAdd_54' class='FavAdd'><a href='JavaScript:AgregarF("caraguatay");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/caraguatay"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/caraguatay.png?4" height="28"/>Caraguatay 90.3 FM</a></li>
+	</ul>
+</div>
+<div class='bloqueCiudad' id='bloqueCiudad10'>
+	<div class='laciudad'><a href='JavaScript:Ciudad_Mostrar("#ciudad10");'>RADIOS DE CARMELO PERALTA</a></div>
+	<ul id='ciudad10' class='lista2'>
+		<script>listaRadios[55]=new Array(); listaRadios[55][0]="altopy"; listaRadios[55][1]="Alto Paraguay 99.9 FM";</script>
+		<li class='busR'><div id='FavAdd_55' class='FavAdd'><a href='JavaScript:AgregarF("altopy");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/altopy"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/altopy.png?4" height="28"/>Alto Paraguay 99.9 FM</a></li>
+	</ul>
+</div>
+<div class='bloqueCiudad' id='bloqueCiudad11'>
+	<div class='laciudad'><a href='JavaScript:Ciudad_Mostrar("#ciudad11");'>RADIOS DE CIUDAD DEL ESTE</a></div>
+	<ul id='ciudad11' class='lista2'>
+		<script>listaRadios[56]=new Array(); listaRadios[56][0]="radio-cardinal"; listaRadios[56][1]="ABC 107.1 FM";</script>
+		<li class='busR'><div id='FavAdd_56' class='FavAdd'><a href='JavaScript:AgregarF("radio-cardinal");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/radio-cardinal"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/radio-cardinal.png?4" height="28"/>ABC 107.1 FM</a></li>
+		<script>listaRadios[57]=new Array(); listaRadios[57][0]="concierto"; listaRadios[57][1]="Concierto 89.1 FM";</script>
+		<li class='busR'><div id='FavAdd_57' class='FavAdd'><a href='JavaScript:AgregarF("concierto");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/concierto"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/concierto.png?4" height="28"/>Concierto 89.1 FM</a></li>
+		<script>listaRadios[58]=new Array(); listaRadios[58][0]="universocde"; listaRadios[58][1]="Universo 92.5 FM";</script>
+		<li class='busR'><div id='FavAdd_58' class='FavAdd'><a href='JavaScript:AgregarF("universocde");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/universocde"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/universocde.png?4" height="28"/>Universo 92.5 FM</a></li>
+	</ul>
+</div>
+<div class='bloqueCiudad' id='bloqueCiudad12'>
+	<div class='laciudad'><a href='JavaScript:Ciudad_Mostrar("#ciudad12");'>RADIOS DE CONCEPCI&Oacute;N</a></div>
+	<ul id='ciudad12' class='lista2'>
+		<script>listaRadios[59]=new Array(); listaRadios[59][0]="660"; listaRadios[59][1]="Regional 660 AM";</script>
+		<li class='busR'><div id='FavAdd_59' class='FavAdd'><a href='JavaScript:AgregarF("660");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/660"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/660.png?4" height="28"/>Regional 660 AM</a></li>
+		<script>listaRadios[60]=new Array(); listaRadios[60][0]="aquidaban"; listaRadios[60][1]="Aquidabán 100.5 FM";</script>
+		<li class='busR'><div id='FavAdd_60' class='FavAdd'><a href='JavaScript:AgregarF("aquidaban");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/aquidaban"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/aquidaban.png?4" height="28"/>Aquidabán 100.5 FM</a></li>
+		<script>listaRadios[61]=new Array(); listaRadios[61][0]="concepcion"; listaRadios[61][1]="Concepción 103.7 FM";</script>
+		<li class='busR'><div id='FavAdd_61' class='FavAdd'><a href='JavaScript:AgregarF("concepcion");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/concepcion"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/concepcion.png?4" height="28"/>Concepción 103.7 FM</a></li>
+		<script>listaRadios[62]=new Array(); listaRadios[62][0]="lacosta"; listaRadios[62][1]="La Costa 106.1 FM";</script>
+		<li class='busR'><div id='FavAdd_62' class='FavAdd'><a href='JavaScript:AgregarF("lacosta");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/lacosta"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/lacosta.png?4" height="28"/>La Costa 106.1 FM</a></li>
+		<script>listaRadios[63]=new Array(); listaRadios[63][0]="megaestacion95"; listaRadios[63][1]="Megaestación 95.9 FM";</script>
+		<li class='busR'><div id='FavAdd_63' class='FavAdd'><a href='JavaScript:AgregarF("megaestacion95");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/megaestacion95"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/megaestacion95.png?4" height="28"/>Megaestación 95.9 FM</a></li>
+		<script>listaRadios[64]=new Array(); listaRadios[64][0]="lareddelsol"; listaRadios[64][1]="La Red del Sol 89.3 FM";</script>
+		<li class='busR'><div id='FavAdd_64' class='FavAdd'><a href='JavaScript:AgregarF("lareddelsol");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/lareddelsol"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/lareddelsol.png?4" height="28"/>La Red del Sol 89.3 FM</a></li>
+		<script>listaRadios[65]=new Array(); listaRadios[65][0]="ypane"; listaRadios[65][1]="Ypane 104.3 FM";</script>
+		<li class='busR'><div id='FavAdd_65' class='FavAdd'><a href='JavaScript:AgregarF("ypane");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/ypane"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/ypane.png?4" height="28"/>Ypane 104.3 FM</a></li>
+	</ul>
+</div>
+<div class='bloqueCiudad' id='bloqueCiudad13'>
+	<div class='laciudad'><a href='JavaScript:Ciudad_Mostrar("#ciudad13");'>RADIOS DE CORONEL OVIEDO</a></div>
+	<ul id='ciudad13' class='lista2'>
+		<script>listaRadios[66]=new Array(); listaRadios[66][0]="kaaguazu"; listaRadios[66][1]="Kaaguazú 640 AM";</script>
+		<li class='busR'><div id='FavAdd_66' class='FavAdd'><a href='JavaScript:AgregarF("kaaguazu");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/kaaguazu"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/kaaguazu.png?4" height="28"/>Kaaguazú 640 AM</a></li>
+		<script>listaRadios[67]=new Array(); listaRadios[67][0]="capital"; listaRadios[67][1]="Capital 101.7 FM";</script>
+		<li class='busR'><div id='FavAdd_67' class='FavAdd'><a href='JavaScript:AgregarF("capital");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/capital"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/capital.png?4" height="28"/>Capital 101.7 FM</a></li>
+		<script>listaRadios[68]=new Array(); listaRadios[68][0]="fiesta"; listaRadios[68][1]="Fiesta 102.9 FM";</script>
+		<li class='busR'><div id='FavAdd_68' class='FavAdd'><a href='JavaScript:AgregarF("fiesta");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/fiesta"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/fiesta.png?4" height="28"/>Fiesta 102.9 FM</a></li>
+		<script>listaRadios[69]=new Array(); listaRadios[69][0]="radiomas"; listaRadios[69][1]="Más 102.3 FM";</script>
+		<li class='busR'><div id='FavAdd_69' class='FavAdd'><a href='JavaScript:AgregarF("radiomas");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/radiomas"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/radiomas.png?4" height="28"/>Más 102.3 FM</a></li>
+	</ul>
+</div>
+<div class='bloqueCiudad' id='bloqueCiudad14'>
+	<div class='laciudad'><a href='JavaScript:Ciudad_Mostrar("#ciudad14");'>RADIOS DE CURUGUATY</a></div>
+	<ul id='ciudad14' class='lista2'>
+		<script>listaRadios[70]=new Array(); listaRadios[70][0]="agr"; listaRadios[70][1]="AGR 101.3 FM";</script>
+		<li class='busR'><div id='FavAdd_70' class='FavAdd'><a href='JavaScript:AgregarF("agr");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/agr"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/agr.png?4" height="28"/>AGR 101.3 FM</a></li>
+		<script>listaRadios[71]=new Array(); listaRadios[71][0]="curuguaty"; listaRadios[71][1]="Curuguaty 98.7 FM";</script>
+		<li class='busR'><div id='FavAdd_71' class='FavAdd'><a href='JavaScript:AgregarF("curuguaty");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/curuguaty"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/curuguaty.png?4" height="28"/>Curuguaty 98.7 FM</a></li>
+	</ul>
+</div>
+<div class='bloqueCiudad' id='bloqueCiudad15'>
+	<div class='laciudad'><a href='JavaScript:Ciudad_Mostrar("#ciudad15");'>RADIOS DE ENCARNACI&Oacute;N</a></div>
+	<ul id='ciudad15' class='lista2'>
+		<script>listaRadios[72]=new Array(); listaRadios[72][0]="parana"; listaRadios[72][1]="Paraná 89.7 FM";</script>
+		<li class='busR'><div id='FavAdd_72' class='FavAdd'><a href='JavaScript:AgregarF("parana");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/parana"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/parana.png?4" height="28"/>Paraná 89.7 FM</a></li>
+		<script>listaRadios[73]=new Array(); listaRadios[73][0]="santahelena"; listaRadios[73][1]="Santa Helena 103.9 FM";</script>
+		<li class='busR'><div id='FavAdd_73' class='FavAdd'><a href='JavaScript:AgregarF("santahelena");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/santahelena"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/santahelena.png?4" height="28"/>Santa Helena 103.9 FM</a></li>
+	</ul>
+</div>
+<div class='bloqueCiudad' id='bloqueCiudad16'>
+	<div class='laciudad'><a href='JavaScript:Ciudad_Mostrar("#ciudad16");'>RADIOS DE EUSEBIO AYALA</a></div>
+	<ul id='ciudad16' class='lista2'>
+		<script>listaRadios[74]=new Array(); listaRadios[74][0]="evolucion"; listaRadios[74][1]="Evolución 89.3 FM";</script>
+		<li class='busR'><div id='FavAdd_74' class='FavAdd'><a href='JavaScript:AgregarF("evolucion");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/evolucion"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/evolucion.png?4" height="28"/>Evolución 89.3 FM</a></li>
+		<script>listaRadios[75]=new Array(); listaRadios[75][0]="mdq"; listaRadios[75][1]="MDQ 87.9 FM";</script>
+		<li class='busR'><div id='FavAdd_75' class='FavAdd'><a href='JavaScript:AgregarF("mdq");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/mdq"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/mdq.png?4" height="28"/>MDQ 87.9 FM</a></li>
+	</ul>
+</div>
+<div class='bloqueCiudad' id='bloqueCiudad17'>
+	<div class='laciudad'><a href='JavaScript:Ciudad_Mostrar("#ciudad17");'>RADIOS DE FILADELFIA</a></div>
+	<ul id='ciudad17' class='lista2'>
+		<script>listaRadios[76]=new Array(); listaRadios[76][0]="medano"; listaRadios[76][1]="Medano 99.7 FM";</script>
+		<li class='busR'><div id='FavAdd_76' class='FavAdd'><a href='JavaScript:AgregarF("medano");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/medano"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/medano.png?4" height="28"/>Medano 99.7 FM</a></li>
+	</ul>
+</div>
+<div class='bloqueCiudad' id='bloqueCiudad18'>
+	<div class='laciudad'><a href='JavaScript:Ciudad_Mostrar("#ciudad18");'>RADIOS DE HORQUETA</a></div>
+	<ul id='ciudad18' class='lista2'>
+		<script>listaRadios[77]=new Array(); listaRadios[77][0]="1420"; listaRadios[77][1]="Guyrá Campana 1420 AM";</script>
+		<li class='busR'><div id='FavAdd_77' class='FavAdd'><a href='JavaScript:AgregarF("1420");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/1420"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/1420.png?4" height="28"/>Guyrá Campana 1420 AM</a></li>
+		<script>listaRadios[78]=new Array(); listaRadios[78][0]="continental"; listaRadios[78][1]="Continental 95.3 FM";</script>
+		<li class='busR'><div id='FavAdd_78' class='FavAdd'><a href='JavaScript:AgregarF("continental");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/continental"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/continental.png?4" height="28"/>Continental 95.3 FM</a></li>
+		<script>listaRadios[79]=new Array(); listaRadios[79][0]="losangeles"; listaRadios[79][1]="Los Angeles 89.9 FM";</script>
+		<li class='busR'><div id='FavAdd_79' class='FavAdd'><a href='JavaScript:AgregarF("losangeles");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/losangeles"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/losangeles.png?4" height="28"/>Los Angeles 89.9 FM</a></li>
+	</ul>
+</div>
+<div class='bloqueCiudad' id='bloqueCiudad19'>
+	<div class='laciudad'><a href='JavaScript:Ciudad_Mostrar("#ciudad19");'>RADIOS DE PARAGUAR&Iacute;</a></div>
+	<ul id='ciudad19' class='lista2'>
+		<script>listaRadios[80]=new Array(); listaRadios[80][0]="multiradio"; listaRadios[80][1]="Multi 104.1 FM";</script>
+		<li class='busR'><div id='FavAdd_80' class='FavAdd'><a href='JavaScript:AgregarF("multiradio");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/multiradio"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/multiradio.png?4" height="28"/>Multi 104.1 FM</a></li>
+		<script>listaRadios[81]=new Array(); listaRadios[81][0]="mifavorita"; listaRadios[81][1]="Mi Favorita 105.5 FM";</script>
+		<li class='busR'><div id='FavAdd_81' class='FavAdd'><a href='JavaScript:AgregarF("mifavorita");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/mifavorita"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/mifavorita.png?4" height="28"/>Mi Favorita 105.5 FM</a></li>
+		<script>listaRadios[82]=new Array(); listaRadios[82][0]="yacyreta"; listaRadios[82][1]="Yacyreta 98.9 FM";</script>
+		<li class='busR'><div id='FavAdd_82' class='FavAdd'><a href='JavaScript:AgregarF("yacyreta");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/yacyreta"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/yacyreta.png?4" height="28"/>Yacyreta 98.9 FM</a></li>
+	</ul>
+</div>
+<div class='bloqueCiudad' id='bloqueCiudad20'>
+	<div class='laciudad'><a href='JavaScript:Ciudad_Mostrar("#ciudad20");'>RADIOS DE PEDRO JUAN CABALLERO</a></div>
+	<ul id='ciudad20' class='lista2'>
+		<script>listaRadios[83]=new Array(); listaRadios[83][0]="sinfronteras"; listaRadios[83][1]="Sin Fronteras 98.5 FM";</script>
+		<li class='busR'><div id='FavAdd_83' class='FavAdd'><a href='JavaScript:AgregarF("sinfronteras");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/sinfronteras"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/sinfronteras.png?4" height="28"/>Sin Fronteras 98.5 FM</a></li>
+	</ul>
+</div>
+<div class='bloqueCiudad' id='bloqueCiudad21'>
+	<div class='laciudad'><a href='JavaScript:Ciudad_Mostrar("#ciudad21");'>RADIOS DE PILAR</a></div>
+	<ul id='ciudad21' class='lista2'>
+		<script>listaRadios[84]=new Array(); listaRadios[84][0]="700"; listaRadios[84][1]="Carlos A. López 700 AM";</script>
+		<li class='busR'><div id='FavAdd_84' class='FavAdd'><a href='JavaScript:AgregarF("700");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/700"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/700.png?4" height="28"/>Carlos A. López 700 AM</a></li>
+		<script>listaRadios[85]=new Array(); listaRadios[85][0]="arapy"; listaRadios[85][1]="Arapy 98.1 FM";</script>
+		<li class='busR'><div id='FavAdd_85' class='FavAdd'><a href='JavaScript:AgregarF("arapy");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/arapy"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/arapy.png?4" height="28"/>Arapy 98.1 FM</a></li>
+		<script>listaRadios[86]=new Array(); listaRadios[86][0]="1069"; listaRadios[86][1]="Pilar Pilar 106.9 FM";</script>
+		<li class='busR'><div id='FavAdd_86' class='FavAdd'><a href='JavaScript:AgregarF("1069");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/1069"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/1069.png?4" height="28"/>Pilar Pilar 106.9 FM</a></li>
+	</ul>
+</div>
+<div class='bloqueCiudad' id='bloqueCiudad22'>
+	<div class='laciudad'><a href='JavaScript:Ciudad_Mostrar("#ciudad22");'>RADIOS DE PIRIBEBUY</a></div>
+	<ul id='ciudad22' class='lista2'>
+		<script>listaRadios[87]=new Array(); listaRadios[87][0]="piribebuy"; listaRadios[87][1]="Piribebuy 96.7 FM";</script>
+		<li class='busR'><div id='FavAdd_87' class='FavAdd'><a href='JavaScript:AgregarF("piribebuy");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/piribebuy"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/piribebuy.png?4" height="28"/>Piribebuy 96.7 FM</a></li>
+	</ul>
+</div>
+<div class='bloqueCiudad' id='bloqueCiudad23'>
+	<div class='laciudad'><a href='JavaScript:Ciudad_Mostrar("#ciudad23");'>RADIOS DE PUERTO CASADO</a></div>
+	<ul id='ciudad23' class='lista2'>
+		<script>listaRadios[88]=new Array(); listaRadios[88][0]="portaldelchaco"; listaRadios[88][1]="Portal del Chaco 99.7 FM";</script>
+		<li class='busR'><div id='FavAdd_88' class='FavAdd'><a href='JavaScript:AgregarF("portaldelchaco");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/portaldelchaco"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/portaldelchaco.png?4" height="28"/>Portal del Chaco 99.7 FM</a></li>
+	</ul>
+</div>
+<div class='bloqueCiudad' id='bloqueCiudad24'>
+	<div class='laciudad'><a href='JavaScript:Ciudad_Mostrar("#ciudad24");'>RADIOS DE SALTO DEL GUAIR&Aacute;</a></div>
+	<ul id='ciudad24' class='lista2'>
+		<script>listaRadios[89]=new Array(); listaRadios[89][0]="arandu"; listaRadios[89][1]="Arandú 98.3 FM";</script>
+		<li class='busR'><div id='FavAdd_89' class='FavAdd'><a href='JavaScript:AgregarF("arandu");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/arandu"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/arandu.png?4" height="28"/>Arandú 98.3 FM</a></li>
+		<script>listaRadios[90]=new Array(); listaRadios[90][0]="saltosdelguaira"; listaRadios[90][1]="Multi 98.9 FM";</script>
+		<li class='busR'><div id='FavAdd_90' class='FavAdd'><a href='JavaScript:AgregarF("saltosdelguaira");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/saltosdelguaira"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/saltosdelguaira.png?4" height="28"/>Multi 98.9 FM</a></li>
+	</ul>
+</div>
+<div class='bloqueCiudad' id='bloqueCiudad25'>
+	<div class='laciudad'><a href='JavaScript:Ciudad_Mostrar("#ciudad25");'>RADIOS DE SAN ESTANISLAO</a></div>
+	<ul id='ciudad25' class='lista2'>
+		<script>listaRadios[91]=new Array(); listaRadios[91][0]="ciudad"; listaRadios[91][1]="Ciudad 92.9 FM";</script>
+		<li class='busR'><div id='FavAdd_91' class='FavAdd'><a href='JavaScript:AgregarF("ciudad");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/ciudad"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/ciudad.png?4" height="28"/>Ciudad 92.9 FM</a></li>
+		<script>listaRadios[92]=new Array(); listaRadios[92][0]="tapiracuai"; listaRadios[92][1]="Tapiracuai 88.7 FM";</script>
+		<li class='busR'><div id='FavAdd_92' class='FavAdd'><a href='JavaScript:AgregarF("tapiracuai");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/tapiracuai"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/tapiracuai.png?4" height="28"/>Tapiracuai 88.7 FM</a></li>
+	</ul>
+</div>
+<div class='bloqueCiudad' id='bloqueCiudad26'>
+	<div class='laciudad'><a href='JavaScript:Ciudad_Mostrar("#ciudad26");'>RADIOS DE SAN IGNACIO</a></div>
+	<ul id='ciudad26' class='lista2'>
+		<script>listaRadios[93]=new Array(); listaRadios[93][0]="libertadfm"; listaRadios[93][1]="Libertad 96.3 FM";</script>
+		<li class='busR'><div id='FavAdd_93' class='FavAdd'><a href='JavaScript:AgregarF("libertadfm");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/libertadfm"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/libertadfm.png?4" height="28"/>Libertad 96.3 FM</a></li>
+		<script>listaRadios[94]=new Array(); listaRadios[94][0]="unasur"; listaRadios[94][1]="Unasur 93.7 FM";</script>
+		<li class='busR'><div id='FavAdd_94' class='FavAdd'><a href='JavaScript:AgregarF("unasur");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/unasur"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/unasur.png?4" height="28"/>Unasur 93.7 FM</a></li>
+	</ul>
+</div>
+<div class='bloqueCiudad' id='bloqueCiudad27'>
+	<div class='laciudad'><a href='JavaScript:Ciudad_Mostrar("#ciudad27");'>RADIOS DE SAN JOS&Eacute; OBRERO</a></div>
+	<ul id='ciudad27' class='lista2'>
+		<script>listaRadios[95]=new Array(); listaRadios[95][0]="emisorasanjoseobrero"; listaRadios[95][1]="San José Obrero 104.9 FM";</script>
+		<li class='busR'><div id='FavAdd_95' class='FavAdd'><a href='JavaScript:AgregarF("emisorasanjoseobrero");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/emisorasanjoseobrero"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/emisorasanjoseobrero.png?4" height="28"/>San José Obrero 104.9 FM</a></li>
+		<script>listaRadios[96]=new Array(); listaRadios[96][0]="pueblo"; listaRadios[96][1]="Pueblo 87.9 FM";</script>
+		<li class='busR'><div id='FavAdd_96' class='FavAdd'><a href='JavaScript:AgregarF("pueblo");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/pueblo"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/pueblo.png?4" height="28"/>Pueblo 87.9 FM</a></li>
+	</ul>
+</div>
+<div class='bloqueCiudad' id='bloqueCiudad28'>
+	<div class='laciudad'><a href='JavaScript:Ciudad_Mostrar("#ciudad28");'>RADIOS DE SAN PEDRO</a></div>
+	<ul id='ciudad28' class='lista2'>
+		<script>listaRadios[97]=new Array(); listaRadios[97][0]="ycuamandyyu"; listaRadios[97][1]="Ycuamandyyú 590 AM";</script>
+		<li class='busR'><div id='FavAdd_97' class='FavAdd'><a href='JavaScript:AgregarF("ycuamandyyu");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/ycuamandyyu"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/ycuamandyyu.png?4" height="28"/>Ycuamandyyú 590 AM</a></li>
+		<script>listaRadios[98]=new Array(); listaRadios[98][0]="1059"; listaRadios[98][1]="Nacional San Pedro 105.9 FM";</script>
+		<li class='busR'><div id='FavAdd_98' class='FavAdd'><a href='JavaScript:AgregarF("1059");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/1059"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/1059.png?4" height="28"/>Nacional San Pedro 105.9 FM</a></li>
+		<script>listaRadios[99]=new Array(); listaRadios[99][0]="norte"; listaRadios[99][1]="Norte 91.7 FM";</script>
+		<li class='busR'><div id='FavAdd_99' class='FavAdd'><a href='JavaScript:AgregarF("norte");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/norte"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/norte.png?4" height="28"/>Norte 91.7 FM</a></li>
+	</ul>
+</div>
+<div class='bloqueCiudad' id='bloqueCiudad29'>
+	<div class='laciudad'><a href='JavaScript:Ciudad_Mostrar("#ciudad29");'>RADIOS DE SANTA ROSA DEL AGUARAY</a></div>
+	<ul id='ciudad29' class='lista2'>
+		<script>listaRadios[100]=new Array(); listaRadios[100][0]="4dmasnoticias"; listaRadios[100][1]="4Dmás Noticias 104.7 FM";</script>
+		<li class='busR'><div id='FavAdd_100' class='FavAdd'><a href='JavaScript:AgregarF("4dmasnoticias");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/4dmasnoticias"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/4dmasnoticias.png?4" height="28"/>4Dmás Noticias 104.7 FM</a></li>
+	</ul>
+</div>
+<div class='bloqueCiudad' id='bloqueCiudad30'>
+	<div class='laciudad'><a href='JavaScript:Ciudad_Mostrar("#ciudad30");'>RADIOS DE SANTA ROSA DE LIMA</a></div>
+	<ul id='ciudad30' class='lista2'>
+		<script>listaRadios[101]=new Array(); listaRadios[101][0]="metro"; listaRadios[101][1]="Metro 106.1 FM";</script>
+		<li class='busR'><div id='FavAdd_101' class='FavAdd'><a href='JavaScript:AgregarF("metro");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/metro"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/metro.png?4" height="28"/>Metro 106.1 FM</a></li>
+		<script>listaRadios[102]=new Array(); listaRadios[102][0]="sanguri"; listaRadios[102][1]="Sanguri 90.7 FM";</script>
+		<li class='busR'><div id='FavAdd_102' class='FavAdd'><a href='JavaScript:AgregarF("sanguri");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/sanguri"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/sanguri.png?4" height="28"/>Sanguri 90.7 FM</a></li>
+	</ul>
+</div>
+<div class='bloqueCiudad' id='bloqueCiudad31'>
+	<div class='laciudad'><a href='JavaScript:Ciudad_Mostrar("#ciudad31");'>RADIOS DE UNI&Oacute;N</a></div>
+	<ul id='ciudad31' class='lista2'>
+		<script>listaRadios[103]=new Array(); listaRadios[103][0]="centro"; listaRadios[103][1]="Centro 87.9 FM";</script>
+		<li class='busR'><div id='FavAdd_103' class='FavAdd'><a href='JavaScript:AgregarF("centro");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/centro"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/centro.png?4" height="28"/>Centro 87.9 FM</a></li>
+	</ul>
+</div>
+<div class='bloqueCiudad' id='bloqueCiudad32'>
+	<div class='laciudad'><a href='JavaScript:Ciudad_Mostrar("#ciudad32");'>RADIOS DE VALLEMI</a></div>
+	<ul id='ciudad32' class='lista2'>
+		<script>listaRadios[104]=new Array(); listaRadios[104][0]="itapora"; listaRadios[104][1]="Ita Pora 98.9 FM";</script>
+		<li class='busR'><div id='FavAdd_104' class='FavAdd'><a href='JavaScript:AgregarF("itapora");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/itapora"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/itapora.png?4" height="28"/>Ita Pora 98.9 FM</a></li>
+	</ul>
+</div>
+<div class='bloqueCiudad' id='bloqueCiudad33'>
+	<div class='laciudad'><a href='JavaScript:Ciudad_Mostrar("#ciudad33");'>RADIOS DE VILLA OLIVA</a></div>
+	<ul id='ciudad33' class='lista2'>
+		<script>listaRadios[105]=new Array(); listaRadios[105][0]="villaoliva"; listaRadios[105][1]="Villa Oliva 88.7 FM";</script>
+		<li class='busR'><div id='FavAdd_105' class='FavAdd'><a href='JavaScript:AgregarF("villaoliva");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/villaoliva"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/villaoliva.png?4" height="28"/>Villa Oliva 88.7 FM</a></li>
+	</ul>
+</div>
+<div class='bloqueCiudad' id='bloqueCiudad34'>
+	<div class='laciudad'><a href='JavaScript:Ciudad_Mostrar("#ciudad34");'>RADIOS DE VILLARRICA</a></div>
+	<ul id='ciudad34' class='lista2'>
+		<script>listaRadios[106]=new Array(); listaRadios[106][0]="republica"; listaRadios[106][1]="República 101.3 FM";</script>
+		<li class='busR'><div id='FavAdd_106' class='FavAdd'><a href='JavaScript:AgregarF("republica");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/republica"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/republica.png?4" height="28"/>República 101.3 FM</a></li>
+		<script>listaRadios[107]=new Array(); listaRadios[107][0]="tvillarrica"; listaRadios[107][1]="T 94.7 FM";</script>
+		<li class='busR'><div id='FavAdd_107' class='FavAdd'><a href='JavaScript:AgregarF("tvillarrica");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/tvillarrica"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/tvillarrica.png?4" height="28"/>T 94.7 FM</a></li>
+		<script>listaRadios[108]=new Array(); listaRadios[108][0]="visionfm"; listaRadios[108][1]="Visión 97.5 FM";</script>
+		<li class='busR'><div id='FavAdd_108' class='FavAdd'><a href='JavaScript:AgregarF("visionfm");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/visionfm"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/visionfm.png?4" height="28"/>Visión 97.5 FM</a></li>
+	</ul>
+</div>
+<div class='bloqueCiudad' id='bloqueCiudad35'>
+	<div class='laciudad'><a href='JavaScript:Ciudad_Mostrar("#ciudad35");'>RADIOS ONLINE</a></div>
+	<ul id='ciudad35' class='lista2'>
+		<script>listaRadios[109]=new Array(); listaRadios[109][0]="america"; listaRadios[109][1]="América";</script>
+		<li class='busR'><div id='FavAdd_109' class='FavAdd'><a href='JavaScript:AgregarF("america");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/america"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/america.png?4" height="28"/>América</a></li>
+		<script>listaRadios[110]=new Array(); listaRadios[110][0]="asuradio"; listaRadios[110][1]="Asu";</script>
+		<li class='busR'><div id='FavAdd_110' class='FavAdd'><a href='JavaScript:AgregarF("asuradio");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/asuradio"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/asuradio.png?4" height="28"/>Asu</a></li>
+		<script>listaRadios[111]=new Array(); listaRadios[111][0]="caritasfm"; listaRadios[111][1]="Cáritas";</script>
+		<li class='busR'><div id='FavAdd_111' class='FavAdd'><a href='JavaScript:AgregarF("caritasfm");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/caritasfm"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/caritasfm.png?4" height="28"/>Cáritas</a></li>
+		<script>listaRadios[112]=new Array(); listaRadios[112][0]="ccm"; listaRadios[112][1]="CCM";</script>
+		<li class='busR'><div id='FavAdd_112' class='FavAdd'><a href='JavaScript:AgregarF("ccm");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/ccm"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/ccm.png?4" height="28"/>CCM</a></li>
+		<script>listaRadios[113]=new Array(); listaRadios[113][0]="concert"; listaRadios[113][1]="Concert";</script>
+		<li class='busR'><div id='FavAdd_113' class='FavAdd'><a href='JavaScript:AgregarF("concert");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/concert"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/concert.png?4" height="28"/>Concert</a></li>
+		<script>listaRadios[114]=new Array(); listaRadios[114][0]="dismar"; listaRadios[114][1]="Dismar";</script>
+		<li class='busR'><div id='FavAdd_114' class='FavAdd'><a href='JavaScript:AgregarF("dismar");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/dismar"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/dismar.png?4" height="28"/>Dismar</a></li>
+		<script>listaRadios[115]=new Array(); listaRadios[115][0]="jardin"; listaRadios[115][1]="Jardín";</script>
+		<li class='busR'><div id='FavAdd_115' class='FavAdd'><a href='JavaScript:AgregarF("jardin");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/jardin"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/jardin.png?4" height="28"/>Jardín</a></li>
+		<script>listaRadios[116]=new Array(); listaRadios[116][0]="larockola"; listaRadios[116][1]="La Rockola";</script>
+		<li class='busR'><div id='FavAdd_116' class='FavAdd'><a href='JavaScript:AgregarF("larockola");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/larockola"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/larockola.png?4" height="28"/>La Rockola</a></li>
+		<script>listaRadios[117]=new Array(); listaRadios[117][0]="mqv"; listaRadios[117][1]="MQV";</script>
+		<li class='busR'><div id='FavAdd_117' class='FavAdd'><a href='JavaScript:AgregarF("mqv");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/mqv"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/mqv.png?4" height="28"/>MQV</a></li>
+		<script>listaRadios[118]=new Array(); listaRadios[118][0]="musichits"; listaRadios[118][1]="Music Hits";</script>
+		<li class='busR'><div id='FavAdd_118' class='FavAdd'><a href='JavaScript:AgregarF("musichits");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/musichits"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/musichits.png?4" height="28"/>Music Hits</a></li>
+		<script>listaRadios[119]=new Array(); listaRadios[119][0]="netradio"; listaRadios[119][1]="Net Music IA";</script>
+		<li class='busR'><div id='FavAdd_119' class='FavAdd'><a href='JavaScript:AgregarF("netradio");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/netradio"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/netradio.png?4" height="28"/>Net Music IA</a></li>
+		<script>listaRadios[120]=new Array(); listaRadios[120][0]="relaxstation"; listaRadios[120][1]="Relax Station";</script>
+		<li class='busR'><div id='FavAdd_120' class='FavAdd'><a href='JavaScript:AgregarF("relaxstation");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/relaxstation"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/relaxstation.png?4" height="28"/>Relax Station</a></li>
+		<script>listaRadios[121]=new Array(); listaRadios[121][0]="sagrados"; listaRadios[121][1]="Sagrados";</script>
+		<li class='busR'><div id='FavAdd_121' class='FavAdd'><a href='JavaScript:AgregarF("sagrados");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/sagrados"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/sagrados.png?4" height="28"/>Sagrados</a></li>
+		<script>listaRadios[122]=new Array(); listaRadios[122][0]="selecta"; listaRadios[122][1]="Selecta";</script>
+		<li class='busR'><div id='FavAdd_122' class='FavAdd'><a href='JavaScript:AgregarF("selecta");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/selecta"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/selecta.png?4" height="28"/>Selecta</a></li>
+		<script>listaRadios[123]=new Array(); listaRadios[123][0]="transmundial"; listaRadios[123][1]="RTM Paraguay";</script>
+		<li class='busR'><div id='FavAdd_123' class='FavAdd'><a href='JavaScript:AgregarF("transmundial");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/transmundial"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/transmundial.png?4" height="28"/>RTM Paraguay</a></li>
+		<script>listaRadios[124]=new Array(); listaRadios[124][0]="uga"; listaRadios[124][1]="UGA";</script>
+		<li class='busR'><div id='FavAdd_124' class='FavAdd'><a href='JavaScript:AgregarF("uga");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/uga"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/uga.png?4" height="28"/>UGA</a></li>
+		<script>listaRadios[125]=new Array(); listaRadios[125][0]="unisal"; listaRadios[125][1]="UNISAL";</script>
+		<li class='busR'><div id='FavAdd_125' class='FavAdd'><a href='JavaScript:AgregarF("unisal");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/unisal"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/unisal.png?4" height="28"/>UNISAL</a></li>
+		<script>listaRadios[126]=new Array(); listaRadios[126][0]="villaelisaradio"; listaRadios[126][1]="Villa Elisa";</script>
+		<li class='busR'><div id='FavAdd_126' class='FavAdd'><a href='JavaScript:AgregarF("villaelisaradio");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/villaelisaradio"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/villaelisaradio.png?4" height="28"/>Villa Elisa</a></li>
+		<script>listaRadios[127]=new Array(); listaRadios[127][0]="yvaga"; listaRadios[127][1]="Yvaga";</script>
+		<li class='busR'><div id='FavAdd_127' class='FavAdd'><a href='JavaScript:AgregarF("yvaga");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/yvaga"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/yvaga.png?4" height="28"/>Yvaga</a></li>
+		<script>listaRadios[128]=new Array(); listaRadios[128][0]="yvytu"; listaRadios[128][1]="Yvytu";</script>
+		<li class='busR'><div id='FavAdd_128' class='FavAdd'><a href='JavaScript:AgregarF("yvytu");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/yvytu"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/yvytu.png?4" height="28"/>Yvytu</a></li>
+	</ul>
+</div>
+<div class='bloqueCiudad' id='bloqueCiudad36'>
+	<div class='laciudad'><a href='JavaScript:Ciudad_Mostrar("#ciudad36");'>RADIOS ONLINE (ARGENTINA)</a></div>
+	<ul id='ciudad36' class='lista2'>
+		<script>listaRadios[129]=new Array(); listaRadios[129][0]="naranjo"; listaRadios[129][1]="Naranjo";</script>
+		<li class='busR'><div id='FavAdd_129' class='FavAdd'><a href='JavaScript:AgregarF("naranjo");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/naranjo"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/naranjo.png?4" height="28"/>Naranjo</a></li>
+	</ul>
+</div>
+<div class='bloqueCiudad' id='bloqueCiudad37'>
+	<div class='laciudad'><a href='JavaScript:Ciudad_Mostrar("#ciudad37");'>RADIOS ONLINE (USA)</a></div>
+	<ul id='ciudad37' class='lista2'>
+		<script>listaRadios[130]=new Array(); listaRadios[130][0]="elmirador"; listaRadios[130][1]="El Mirador";</script>
+		<li class='busR'><div id='FavAdd_130' class='FavAdd'><a href='JavaScript:AgregarF("elmirador");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/elmirador"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/elmirador.png?4" height="28"/>El Mirador</a></li>
+		<script>listaRadios[131]=new Array(); listaRadios[131][0]="lasupremacia"; listaRadios[131][1]="La Supremacía Internacional";</script>
+		<li class='busR'><div id='FavAdd_131' class='FavAdd'><a href='JavaScript:AgregarF("lasupremacia");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/lasupremacia"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/lasupremacia.png?4" height="28"/>La Supremacía Internacional</a></li>
+	</ul>
+</div>
+<div class='bloqueCiudad' id='bloqueCiudad38'>
+	<div class='laciudad'><a href='JavaScript:Ciudad_Mostrar("#ciudad38");'>TV</a></div>
+	<ul id='ciudad38' class='lista2'>
+		<script>listaRadios[132]=new Array(); listaRadios[132][0]="4dmasnoticiastv"; listaRadios[132][1]="4Dmás Noticias TV";</script>
+		<li class='busR'><div id='FavAdd_132' class='FavAdd'><a href='JavaScript:AgregarF("4dmasnoticiastv");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/4dmasnoticiastv"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/4dmasnoticiastv.png?4" height="28"/>4Dmás Noticias TV</a></li>
+		<script>listaRadios[133]=new Array(); listaRadios[133][0]="aspentv"; listaRadios[133][1]="Aspen TV";</script>
+		<li class='busR'><div id='FavAdd_133' class='FavAdd'><a href='JavaScript:AgregarF("aspentv");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/aspentv"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/aspentv.png?4" height="28"/>Aspen TV</a></li>
+		<script>listaRadios[134]=new Array(); listaRadios[134][0]="brunomasitv"; listaRadios[134][1]="Bruno Masi TV";</script>
+		<li class='busR'><div id='FavAdd_134' class='FavAdd'><a href='JavaScript:AgregarF("brunomasitv");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/brunomasitv"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/brunomasitv.png?4" height="28"/>Bruno Masi TV</a></li>
+		<script>listaRadios[135]=new Array(); listaRadios[135][0]="caritastv"; listaRadios[135][1]="Cáritas TV";</script>
+		<li class='busR'><div id='FavAdd_135' class='FavAdd'><a href='JavaScript:AgregarF("caritastv");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/caritastv"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/caritastv.png?4" height="28"/>Cáritas TV</a></li>
+		<script>listaRadios[136]=new Array(); listaRadios[136][0]="conciertotv"; listaRadios[136][1]="Concierto TV";</script>
+		<li class='busR'><div id='FavAdd_136' class='FavAdd'><a href='JavaScript:AgregarF("conciertotv");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/conciertotv"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/conciertotv.png?4" height="28"/>Concierto TV</a></li>
+		<script>listaRadios[137]=new Array(); listaRadios[137][0]="dismartv"; listaRadios[137][1]="Dismar TV";</script>
+		<li class='busR'><div id='FavAdd_137' class='FavAdd'><a href='JavaScript:AgregarF("dismartv");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/dismartv"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/dismartv.png?4" height="28"/>Dismar TV</a></li>
+		<script>listaRadios[138]=new Array(); listaRadios[138][0]="gen"; listaRadios[138][1]="Gen TV";</script>
+		<li class='busR'><div id='FavAdd_138' class='FavAdd'><a href='JavaScript:AgregarF("gen");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/gen"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/gen.png?4" height="28"/>Gen TV</a></li>
+		<script>listaRadios[139]=new Array(); listaRadios[139][0]="gotv"; listaRadios[139][1]="GO TV";</script>
+		<li class='busR'><div id='FavAdd_139' class='FavAdd'><a href='JavaScript:AgregarF("gotv");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/gotv"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/gotv.png?4" height="28"/>GO TV</a></li>
+		<script>listaRadios[140]=new Array(); listaRadios[140][0]="mitv"; listaRadios[140][1]="Mi TV";</script>
+		<li class='busR'><div id='FavAdd_140' class='FavAdd'><a href='JavaScript:AgregarF("mitv");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/mitv"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/mitv.png?4" height="28"/>Mi TV</a></li>
+		<script>listaRadios[141]=new Array(); listaRadios[141][0]="megatv"; listaRadios[141][1]="Mega TV";</script>
+		<li class='busR'><div id='FavAdd_141' class='FavAdd'><a href='JavaScript:AgregarF("megatv");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/megatv"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/megatv.png?4" height="28"/>Mega TV</a></li>
+		<script>listaRadios[142]=new Array(); listaRadios[142][0]="monumentaltv"; listaRadios[142][1]="Monumental TV";</script>
+		<li class='busR'><div id='FavAdd_142' class='FavAdd'><a href='JavaScript:AgregarF("monumentaltv");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/monumentaltv"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/monumentaltv.png?4" height="28"/>Monumental TV</a></li>
+		<script>listaRadios[143]=new Array(); listaRadios[143][0]="mqvtv"; listaRadios[143][1]="MQV TV";</script>
+		<li class='busR'><div id='FavAdd_143' class='FavAdd'><a href='JavaScript:AgregarF("mqvtv");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/mqvtv"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/mqvtv.png?4" height="28"/>MQV TV</a></li>
+		<script>listaRadios[144]=new Array(); listaRadios[144][0]="lacostatv"; listaRadios[144][1]="La Costa TV";</script>
+		<li class='busR'><div id='FavAdd_144' class='FavAdd'><a href='JavaScript:AgregarF("lacostatv");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/lacostatv"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/lacostatv.png?4" height="28"/>La Costa TV</a></li>
+		<script>listaRadios[145]=new Array(); listaRadios[145][0]="nandejaraneetv"; listaRadios[145][1]="Ñande Jara Ñe'e TV";</script>
+		<li class='busR'><div id='FavAdd_145' class='FavAdd'><a href='JavaScript:AgregarF("nandejaraneetv");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/nandejaraneetv"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/nandejaraneetv.png?4" height="28"/>Ñande Jara Ñe'e TV</a></li>
+		<script>listaRadios[146]=new Array(); listaRadios[146][0]="nandutitv"; listaRadios[146][1]="Ñanduti TV";</script>
+		<li class='busR'><div id='FavAdd_146' class='FavAdd'><a href='JavaScript:AgregarF("nandutitv");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/nandutitv"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/nandutitv.png?4" height="28"/>Ñanduti TV</a></li>
+		<script>listaRadios[147]=new Array(); listaRadios[147][0]="nihongakkotv"; listaRadios[147][1]="Nihon Gakko TV";</script>
+		<li class='busR'><div id='FavAdd_147' class='FavAdd'><a href='JavaScript:AgregarF("nihongakkotv");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/nihongakkotv"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/nihongakkotv.png?4" height="28"/>Nihon Gakko TV</a></li>
+		<script>listaRadios[148]=new Array(); listaRadios[148][0]="poputv"; listaRadios[148][1]="Popu TV";</script>
+		<li class='busR'><div id='FavAdd_148' class='FavAdd'><a href='JavaScript:AgregarF("poputv");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/poputv"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/poputv.png?4" height="28"/>Popu TV</a></li>
+		<script>listaRadios[149]=new Array(); listaRadios[149][0]="pro"; listaRadios[149][1]="Pro TV";</script>
+		<li class='busR'><div id='FavAdd_149' class='FavAdd'><a href='JavaScript:AgregarF("pro");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/pro"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/pro.png?4" height="28"/>Pro TV</a></li>
+		<script>listaRadios[150]=new Array(); listaRadios[150][0]="republicatv"; listaRadios[150][1]="República TV";</script>
+		<li class='busR'><div id='FavAdd_150' class='FavAdd'><a href='JavaScript:AgregarF("republicatv");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/republicatv"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/republicatv.png?4" height="28"/>República TV</a></li>
+		<script>listaRadios[151]=new Array(); listaRadios[151][0]="rockandpoptv"; listaRadios[151][1]="Rock & Pop TV";</script>
+		<li class='busR'><div id='FavAdd_151' class='FavAdd'><a href='JavaScript:AgregarF("rockandpoptv");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/rockandpoptv"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/rockandpoptv.png?4" height="28"/>Rock & Pop TV</a></li>
+		<script>listaRadios[152]=new Array(); listaRadios[152][0]="productivatv"; listaRadios[152][1]="Productiva TV";</script>
+		<li class='busR'><div id='FavAdd_152' class='FavAdd'><a href='JavaScript:AgregarF("productivatv");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/productivatv"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/productivatv.png?4" height="28"/>Productiva TV</a></li>
+		<script>listaRadios[153]=new Array(); listaRadios[153][0]="rcctv"; listaRadios[153][1]="RCC TV";</script>
+		<li class='busR'><div id='FavAdd_153' class='FavAdd'><a href='JavaScript:AgregarF("rcctv");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/rcctv"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/rcctv.png?4" height="28"/>RCC TV</a></li>
+		<script>listaRadios[154]=new Array(); listaRadios[154][0]="tvchaquena"; listaRadios[154][1]="Chaqueña TV";</script>
+		<li class='busR'><div id='FavAdd_154' class='FavAdd'><a href='JavaScript:AgregarF("tvchaquena");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/tvchaquena"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/tvchaquena.png?4" height="28"/>Chaqueña TV</a></li>
+		<script>listaRadios[155]=new Array(); listaRadios[155][0]="ugatv"; listaRadios[155][1]="UGA TV";</script>
+		<li class='busR'><div id='FavAdd_155' class='FavAdd'><a href='JavaScript:AgregarF("ugatv");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/ugatv"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/ugatv.png?4" height="28"/>UGA TV</a></li>
+		<script>listaRadios[156]=new Array(); listaRadios[156][0]="800tv"; listaRadios[156][1]="Unión TV";</script>
+		<li class='busR'><div id='FavAdd_156' class='FavAdd'><a href='JavaScript:AgregarF("800tv");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/800tv"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/800tv.png?4" height="28"/>Unión TV</a></li>
+		<script>listaRadios[157]=new Array(); listaRadios[157][0]="venusmedia"; listaRadios[157][1]="Venusmedia TV";</script>
+		<li class='busR'><div id='FavAdd_157' class='FavAdd'><a href='JavaScript:AgregarF("venusmedia");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/venusmedia"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/venusmedia.png?4" height="28"/>Venusmedia TV</a></li>
+		<script>listaRadios[158]=new Array(); listaRadios[158][0]="villaelisatv"; listaRadios[158][1]="Villa Elisa TV";</script>
+		<li class='busR'><div id='FavAdd_158' class='FavAdd'><a href='JavaScript:AgregarF("villaelisatv");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/villaelisatv"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/villaelisatv.png?4" height="28"/>Villa Elisa TV</a></li>
+		<script>listaRadios[159]=new Array(); listaRadios[159][0]="visiontv"; listaRadios[159][1]="Visión TV";</script>
+		<li class='busR'><div id='FavAdd_159' class='FavAdd'><a href='JavaScript:AgregarF("visiontv");'><img style='width: 18px; height: 18px; margin: -3px 0px 0px 0px; padding: 0px;' src='images_hpy/estrellaON.png'/></a></div><a href="https://www.desdeparaguay.com/visiontv"><img alt="" loading="lazy" style="/*filter: grayscale(100%);*/ border-radius:4px;" src="images_hpy/logos/radios/90x90px2/visiontv.png?4" height="28"/>Visión TV</a></li>
+	</ul>
+</div><div style="margin:18px;"></div>
+<div style="background-color: white; width: 100%; z-index: 1; position:sticky; bottom: 10px; padding-top:12px; ">
+
+
+<div style="clear:both;"></div>
+
+
+
+
+
+	<div style="clear:both;"></div>
+	<div style="margin-top:-10px; margin-bottom:-3px; width:232px; /*background-color:red;*/">
+				<div style="text-align: center; /*background-color:green;*/ width:100%;">
+					<a target="_blank" href="https://www.desdeparaguay.com/?a=audimedia"><img style="margin-top: 6px; /*filter: grayscale(100%);*/" alt="audimedia" src="https://www.desdeparaguay.com/images_hpy/logo-audiomedia-20251107.png" height="40"></a>
+				</div> 
+	</div>
+	<div style="clear:both;"></div>
+
+
+
+
+</div>
+</div>
+			</nav>
+
+	</div>
+
+
+
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+	<div style="float: left; width: 996px;">
+
+
+		<div class="cover" style="position:sticky; top:12px; z-index:1;">
+
+		<div style="background-color:white; /*height:309px;*/ height:296px; border-radius:0px 10px 0px 0px;">
+
+
+
+
+
+
+
+
+
+	<main role="main">
+			<div style="float:left; width: 422px; margin-top:9px; margin-bottom:15px;">
+				<div style="">
+					<div style="float:left;">
+
+	
+	<div style="background-color: #fff; background-size: 422px 237px; margin-right:6px; margin-bottom:0px; margin-top:2px;">
+	<div style="background-color: #fff; min-height:1px;"></div>
+	<div style="background-color:#666; padding-bottom:0px; border-radius: 8px 8px 0px 0px; height:237px;">
+		<img alt="DsdPy" style="opacity: 0.96; border-radius: 8px 8px 0px 0px;" oncontextmenu="return false"; onerror="this.src='images_hpy/watermark/institucional101b.png'"; src="https://www.desdeparaguay.com/images_hpy/watermark/amor.png?6" fetchpriority="high" width="422" height="237"/>
+	</div>
+
+	<div id="mensajeroN" style="display:none; z-index: 4000; position: sticky; text-align:center; margin-top: -237px; height:237px; width:422px; border-radius: 8px 8px 0px 0px;">
+	<div style="height:237px; background-color: #257; border-radius: 8px 8px 0px 0px;">
+		<div style="padding-top:10px; width:322px; margin-left: 50px;">
+			<div style="background-color: #fff; border-radius: 8px 8px 0px 0px; height:223px;">
+						<table style="border-collapse: collapse;" border="0" cellpadding="3" width="100%">
+							<tr>
+								<td class="despliegue">
+								<table align="center" class="texto_mensajero" border="0" cellpadding="0" style="border-collapse: collapse; font-size: 10px;">
+									<form method="post" target="_blank">
+									<input type="hidden" name="mensajero_portada_radio" id="mensajero_portada_radio" value="amor">
+									<tr>
+										<td width="49%">Tu nombre:<br><input class="form_text" type="text" name="mensajero_portada_nombres" id="mensajero_portada_nombres"></td>
+										<td width="2%"><img border="0" src="https://www.desdeparaguay.com/images_hpy/spacer.gif" width="5" height="3"></td>
+										<td width="49%">Tu eMail:<br><input class="form_text" type="text" name="mensajero_portada_mail" id="mensajero_portada_mail"></td>
+									</tr>
+									<tr>
+										<td colspan="3"><img border="0" src="https://www.desdeparaguay.com/images_hpy/spacer.gif" width="5" height="3"></td>
+									</tr>
+									<tr>
+										<td width="49%">Tu ciudad:<br><input class="form_text" type="text" name="mensajero_portada_ciudad" id="mensajero_portada_ciudad"></td>
+										<td width="2%"><img border="0" src="https://www.desdeparaguay.com/images_hpy/spacer.gif" width="5" height="3"></td>
+										<td width="49%">Tu Whatsapp:<br><input class="form_text" type="text" name="mensajero_portada_tel1" id="mensajero_portada_tel1"></td>
+									</tr>									
+									<tr>
+										<td colspan="3"><img border="0" src="https://www.desdeparaguay.com/images_hpy/spacer.gif" width="5" height="3"></td>
+									</tr>
+									<tr>
+										<td colspan="3">Tu mensaje:<br><textarea class="form_text2" name="mensajero_portada_comentarios" id="mensajero_portada_comentarios"></textarea></td>
+									</tr>
+									<tr>
+										<td colspan="3"><img border="0" src="https://www.desdeparaguay.com/images_hpy/spacer.gif" width="5" height="3"></td>
+									</tr>
+									<tr>
+										<td colspan="3"><div id="mensajero"><input class="form_text3" type="button" value="Enviar mensaje a la Radio!" name="mensajero_portada_boton" id="mensajero_portada_boton" onclick="return verifica_mail_mensajero_portada_radios('mensajero_portada_mail');"></div></td>
+									</tr>
+									</form>
+								</table>
+								</td>
+							</tr>
+						</table>
+			</div>
+		</div>
+
+	</div>
+	</div>
+
+	<div id="grabacionesN" style="display: none; z-index: 4000; position: sticky; text-align:center; margin-top: -237px; margin-bottom: 0px; height:237px; width:422px; border-radius: 8px 8px 0px 0px;">
+		<div style="height:227px; background-color: #00abcd; /*background-color: #ec6c4c;*/ padding-top:10px; border-radius: 8px 8px 0px 0px;"></div>
+	</div>
+</div>
+
+<style>
+.menuRadio:hover{
+	color: #000;
+}
+</style>
+
+	<div style="float: left; height:30px; margin-top: 1px; width: 158px; background-color:#666; border-radius: 0px 0px 8px 8px; padding:0px; text-align:center;">
+
+ 
+		<div style="margin-top: 8px; color:#fff;"><a target="_blank" class="menuRadio" href='https://wa.me/595983959959?text=DsdPy%20:%20%20'>WHATSAPP</a></div>
+
+
+	</div>
+
+	<div style="position:stickyX; top:18px; z-index:1; width:262px; margin-left:160px; border-radius: 0px 0px 8px 8px;">
+			<div style="/*background-color:#221B7B;*/ border-radius: 0px 0px 8px 8px; height:30px;">
+				<div style="border-radius: 0px 0px 8px 8px; margin-bottom:-20px;" id="icecast1" class="fp-slim fp-mute"></div>
+				<div style="display:none;"><video id="video_dsdpy" width="0" height="0" preload="auto" loop controls></video></div>
+								<script src="w-audio-type-onerror-onfinish-min-3.js"></script>
+				<script>flowplayer(function(a,b){a.on('error',function(){b.querySelector('.fp-message').innerHTML='Offline!'})})</script>
+							</div>
+	</div>
+
+					</div>
+				</div>
+			</div>
+
+			<div style="float:left; width:560px; margin-left: 6px; padding-bottom:6px;">
+
+			<div style="float: left; margin-top: 6px; background-image: url('images_hpy/fondo1-banner1-3.png'); background-repeat:no-repeat; background-position:left;">
+				<div style="float:left; min-width:336px; min-height:280px; /*background-color:red;*/ display: flex; justify-content: center; align-items: center;">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1461325847979593"
+     crossorigin="anonymous"></script>
+<!-- dsdpy-web-336x280 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-1461325847979593"
+     data-ad-slot="8910891075"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+				</div>
+
+				<div style="float:left; margin:0px; padding: 0px; margin-left:9px; /*background-color:#ADD8e6;*/">
+					<a target="_blank" href="https://www.desdeparaguay.com/?a=unida"><img fetchpriority="high" alt="UNIDA" style="opacity: 0.93; margin: 0px; padding: 0px; display: block; border-radius: 8px;" src="https://www.desdeparaguay.com/images_hpy/banner-unida-20250726.png" width="214" height="280"></a>
+				</div>
+
+			</div>
+			</div>
+	</main>
+
+		</div>
+
+		</div>
+
+
+		<div style="clear:both;"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div style="clear:both;"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width:241px; margin-top: 0px; margin-right:8px;">
+<div style="margin-top: 0px; padding-left: 6px; padding-right: 6px; border-radius: 8px 8px 8px 8px; border: 1px #aaa solid; width:226px; height:180px;">
+	<div style="margin-bottom: 12px; border-bottom: 1px solid #ccc;"><h2 style="padding-left: 6px;">Aliento Diario</h2></div>
+	<div><p style="font-family: 'Lato'; color: #666; font-size:13px; padding: 0px 6px 0px 6px;">La vida es una sucesi&oacute;n de monta&ntilde;as que hemos de escalar.</p></div>
+</div>
+</div>
+
+<div style="float: left; width:241px; margin-top: 0px; margin-right:8px;">
+<div style="margin-top: 0px; padding-left: 6px; padding-right: 6px; border-radius: 8px 8px 8px 8px; border: 1px #aaa solid; width:226px; height:180px;">
+	<div style="margin-bottom: 12px; border-bottom: 1px solid #ccc;"><h2 style="padding-left: 6px;">La Buena Semilla</h2></div>
+	<div><p style="font-family: 'Lato'; color: #666; font-size:13px; padding: 0px 6px 0px 6px;">Pero t&uacute; eres Dios que perdonas, clemente y piadoso, tardo para la ira, y grande en misericordia.</p></div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+<script>
+$(document).ready(function(){var speed=10000;var run=setInterval(rotate,speed);var slides=$('.slide');var container=$('#slides ul');var elm=container.find(':first-child').prop("tagName");var item_width=container.width();var previous='prev';var next='next';slides.width(item_width);container.parent().width(item_width);container.width(slides.length*item_width);container.find(elm+':first').before(container.find(elm+':last'));resetSlides();$('#buttons a').click(function(e){if(container.is(':animated')){return false}if(e.target.id==previous){container.stop().animate({'left':0},1500,function(){container.find(elm+':first').before(container.find(elm+':last'));resetSlides()})}if(e.target.id==next){container.stop().animate({'left':item_width*-2},1500,function(){container.find(elm+':last').after(container.find(elm+':first'));resetSlides()})}return false});container.parent().mouseenter(function(){clearInterval(run)}).mouseleave(function(){run=setInterval(rotate,speed)});function resetSlides(){container.css({'left':-1*item_width})}});function rotate(){$('#next').click()}
+</script>
+
+		<div style="width: 988px; /*background-color: #123;*/">
+
+		
+
+
+
+<style>
+#slides{overflow:hidden;position:relative;width:100%;padding-left:6px}#slides ul{list-style:none;width:100%;margin:0;padding:0;position:relative}#slides li{width:100%;float:left;text-align:left;position:relative;font-family:lato,sans-serif}#buttons{padding:0 0 0px 0;float:right}#buttons a{text-align:left;font-size:30px;float:left;outline:0;color:#ccc;text-decoration:none;padding:6px;width:18px}a#prev:hover,a#next:hover{color:#aaa}.horos{font-style:normal;font-size:13px;font-family: 'Lato'; color: #666;}
+</style>
+
+<div style="float: left; width:241px; margin-top: 0px; margin-right:8px;">
+	<div style="margin-top: 0px; padding-left: 6px; padding-right: 6px; border-radius: 8px 8px 8px 8px; border: 1px #aaa solid; width:226px; height:180px;">
+		<div style="margin-bottom: 12px; border-bottom: 1px solid #ccc;">
+			<div style="float: left;">
+				<h2 style="padding-left: 6px;">
+										Hor&oacute;scopo
+									</h2>
+			</div>
+			<div id="buttons"><a id="prev" href="#"><</a><a id="next" href="#">></a></div>
+			<div style="clear:both;"></div>
+		</div>
+		<div>
+			<div id="slides">
+				<ul>
+
+										
+	       		     <li class="slide">
+					<p class="horos" style="margin: 0px; margin-right: 23px;">Aries: Sepa que no es el momento para desistir de sus prop&oacute;sitos, ya que se sentir&aacute; fortalecido y estimulado para seguir adelante. Pronto lograr&aacute; el &eacute;xito rotundo.</p>
+			            </li>
+					
+	       		     <li class="slide">
+					<p class="horos" style="margin: 0px; margin-right: 23px;">Tauro: En caso que sus proyectos parecen demorarse, hoy ser&aacute; propicio replantearse nuevamente los objetivos y la forma de alcanzarlos. Confi&eacute; en usted mismo.</p>
+			            </li>
+					
+	       		     <li class="slide">
+					<p class="horos" style="margin: 0px; margin-right: 23px;">G&eacute;minis: Prep&aacute;rese, ya que la comunicaci&oacute;n con sus seres queridos se tornar&aacute; muy fluida. Esto le permitir&aacute; conectarse en profundidad con sus sentimientos.</p>
+			            </li>
+					
+	       		     <li class="slide">
+					<p class="horos" style="margin: 0px; margin-right: 23px;">C&aacute;ncer: En este d&iacute;a, trate de cumplir con todos sus compromisos, si es necesario, empiece a delegar las responsabilidades. Se sentir&aacute; mucho m&aacute;s aliviado.</p>
+			            </li>
+					
+	       		     <li class="slide">
+					<p class="horos" style="margin: 0px; margin-right: 23px;">Leo: Entienda que no conseguir&aacute; nada si no lucha por lo que quiere. Intente no agotarse en el intento, ya que los resultados justificar&aacute;n cada uno de los esfuerzos.</p>
+			            </li>
+					
+	       		     <li class="slide">
+					<p class="horos" style="margin: 0px; margin-right: 23px;">Virgo: Procure tratar las cuestiones profesionales con mayor racionalidad. Ser&aacute; preciso ser m&aacute;s sensato que nunca en el an&aacute;lisis de su situaci&oacute;n laboral.</p>
+			            </li>
+					
+	       		     <li class="slide">
+					<p class="horos" style="margin: 0px; margin-right: 23px;">Libra: No desaproveche el d&iacute;a, ya que se sentir&aacute; con mucha energ&iacute;a para iniciar nuevas actividades. Su imaginaci&oacute;n y creatividad lo ayudar&aacute;n a tomar decisiones acertadas.</p>
+			            </li>
+					
+	       		     <li class="slide">
+					<p class="horos" style="margin: 0px; margin-right: 23px;">Escorpio: Sepa que gracias a la fe que tiene en su vida podr&aacute; emprender cualquier camino o proyecto que tanto anhela. An&iacute;mese, ya que pronto alcanzar&aacute; la meta.</p>
+			            </li>
+					
+	       		     <li class="slide">
+					<p class="horos" style="margin: 0px; margin-right: 23px;">Sagitario: Podr&iacute;an aparecer peque&ntilde;as dificultades en la rutina diaria. Preste atenci&oacute;n a ciertas cosas en las que nunca se fija y as&iacute; evitar&aacute; problemas a futuro.</p>
+			            </li>
+					
+	       		     <li class="slide">
+					<p class="horos" style="margin: 0px; margin-right: 23px;">Capricornio: Sepa que despertar&aacute; con mucha energ&iacute;a, aproveche esta sensaci&oacute;n para iniciar cualquier actividad que haya postergado y que estimule su creatividad.</p>
+			            </li>
+					
+	       		     <li class="slide">
+					<p class="horos" style="margin: 0px; margin-right: 23px;">Acuario: Durante este d&iacute;a, oc&uacute;pese de sus asuntos y trate de resolverlos. No se empecine en involucrarse en situaciones complicadas que no le atribuyen personalmente.</p>
+			            </li>
+					
+	       		     <li class="slide">
+					<p class="horos" style="margin: 0px; margin-right: 23px;">Piscis: Arri&eacute;sguese a realizar nuevas tareas, esto le abrir&aacute; la mente hacia caminos que no conoc&iacute;a. Sepa que podr&aacute; obtener como resultado experiencias positivas.</p>
+			            </li>
+														</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+<div style="float: left; width:241px; margin-top: 0px;">
+<div style="margin-top: 0px; padding-left: 6px; padding-right: 6px; border-radius: 8px 8px 8px 8px; border: 1px #aaa solid; width:226px; height:180px;">
+	<div style="margin-bottom: 6px; border-bottom: 1px solid #ccc;"><h2 style="padding-left: 6px;">Cotizaciones</h2></div>
+	<div>
+						<table align="center" border="0" cellpadding="3" style="width:100%; border-collapse: separate; border-spacing: 4px; font-family: 'Lato'; color: #666; font-size:13px;">
+							<tr>
+								<td width="34%"></td>
+								<td width="33%" style="text-align: right; text-decoration:underline ;text-underline-offset: 2px;">Compra</td>
+								<td width="33%" style="text-align: right; text-decoration:underline; text-underline-offset: 2px;">Venta</td>	
+							</tr>
+							<tr>
+								<td width="34%" style="text-align: left; text-decoration:dotted underline; text-underline-offset: 2px;">D&oacute;lar</td>
+								<td width="33%" style="text-align: right;">6060</td>
+								<td width="33%" style="text-align: right;">6160</td>	
+							</tr>
+							<tr>
+								<td width="34%" style="text-align: left; text-decoration:dotted underline; text-underline-offset: 2px;">Euro</td>
+								<td width="33%" style="text-align: right;">7200</td>
+								<td width="33%" style="text-align: right;">7550</td>	
+							</tr>
+							<tr>
+								<td width="34%" style="text-align: left; text-decoration:dotted underline; text-underline-offset: 2px;">Peso</td>
+								<td width="33%" style="text-align: right;">3</td>
+								<td width="33%" style="text-align: right;">5</td>	
+							</tr>
+						</table>
+	</div>
+</div>
+</div>
+
+		</div>
+
+
+
+
+
+
+
+		<div style="clear:both;"></div>
+
+
+
+
+
+
+<div style="clear:both;"></div>
+<div style="position:sticky; top:309px; margin-top:8px; margin-right:9px; /*background-color:gray;*/ text-align:center; /*display:flex; justify-content:center; align-items:center; width:100%;*/">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- dpy-adaptable -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1461325847979593"
+     data-ad-slot="4835122143"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<div style="clear:both;"></div>
+
+<style>
+.footer{
+	text-decoration: none;
+	font-size:14px;
+}
+
+.footer a{
+	color: #666;
+}
+
+.footer a:hover{
+	color: #000;
+}
+
+.footer ul {
+display: inline-block;
+list-style-position: outside;
+
+	margin-right: 60px;
+	list-style: none;
+
+	margin-top:20px;
+
+}
+
+.footer li {
+float:left;
+margin-left: 18px;
+}
+</style>
+
+
+
+
+<div style="/*height:4600px; background-color:#f6f6f6; width:988px;*/"></div>
+
+	</div>
+</div>
+<div style="clear:both;"></div>
+<div>
+</div>
+
+<div style="margin: auto;  margin-top: -268px; width: 1230px; text-align:center;"></div>
+
+<div style="clear:both;"></div>
+
+
+<div class="cover" style="z-index: 10; position:sticky; bottom: 0px; /*background-color:red;*/ width:1252px; /*height:55px;*/ height:18px; /*height:106px;*/ margin: auto; /*margin-top:-100px;*/">
+
+<div style="background-color:#fff; background-image: url('images_hpy/6.png'); background-position: 244px; background-repeat: repeat-y;  border-radius:0px 0px 10px 10px; background-color:white; width:1252px; height:10px; margin: auto; /*margin-top:-100px;*/"></div>
+
+<div style="margin: auto; width: 1230px; text-align:center; /*background-color:red;*/ margin-top: 8px;">
+<span style="margin:0px 4px 0px 4px;"><a aria-label="4dmasnoticiastv" href="https://www.desdeparaguay.com/4dmasnoticiastv"><img alt="4dmasnoticiastv" style="/*filter: grayscale(100%);*/ /*background-color: blue;*/ border-radius:4px;" src="/images_hpy/logos/radios/90x90px2/4dmasnoticiastv.png" height="33" width="33"/></a></span>
+<span style="margin:0px 4px 0px 4px;"><a aria-label="aspentv" href="https://www.desdeparaguay.com/aspentv"><img alt="aspentv" style="/*filter: grayscale(100%);*/ /*background-color: blue;*/ border-radius:4px;" src="/images_hpy/logos/radios/90x90px2/aspentv.png" height="33" width="33"/></a></span>
+<span style="margin:0px 4px 0px 4px;"><a aria-label="brunomasitv" href="https://www.desdeparaguay.com/brunomasitv"><img alt="brunomasitv" style="/*filter: grayscale(100%);*/ /*background-color: blue;*/ border-radius:4px;" src="/images_hpy/logos/radios/90x90px2/brunomasitv.png" height="33" width="33"/></a></span>
+<span style="margin:0px 4px 0px 4px;"><a aria-label="caritastv" href="https://www.desdeparaguay.com/caritastv"><img alt="caritastv" style="/*filter: grayscale(100%);*/ /*background-color: blue;*/ border-radius:4px;" src="/images_hpy/logos/radios/90x90px2/caritastv.png" height="33" width="33"/></a></span>
+<span style="margin:0px 4px 0px 4px;"><a aria-label="conciertotv" href="https://www.desdeparaguay.com/conciertotv"><img alt="conciertotv" style="/*filter: grayscale(100%);*/ /*background-color: blue;*/ border-radius:4px;" src="/images_hpy/logos/radios/90x90px2/conciertotv.png" height="33" width="33"/></a></span>
+<span style="margin:0px 4px 0px 4px;"><a aria-label="dismartv" href="https://www.desdeparaguay.com/dismartv"><img alt="dismartv" style="/*filter: grayscale(100%);*/ /*background-color: blue;*/ border-radius:4px;" src="/images_hpy/logos/radios/90x90px2/dismartv.png" height="33" width="33"/></a></span>
+<span style="margin:0px 4px 0px 4px;"><a aria-label="gen" href="https://www.desdeparaguay.com/gen"><img alt="gen" style="/*filter: grayscale(100%);*/ /*background-color: blue;*/ border-radius:4px;" src="/images_hpy/logos/radios/90x90px2/gen.png" height="33" width="33"/></a></span>
+<span style="margin:0px 4px 0px 4px;"><a aria-label="gotv" href="https://www.desdeparaguay.com/gotv"><img alt="gotv" style="/*filter: grayscale(100%);*/ /*background-color: blue;*/ border-radius:4px;" src="/images_hpy/logos/radios/90x90px2/gotv.png" height="33" width="33"/></a></span>
+<span style="margin:0px 4px 0px 4px;"><a aria-label="mitv" href="https://www.desdeparaguay.com/mitv"><img alt="mitv" style="/*filter: grayscale(100%);*/ /*background-color: blue;*/ border-radius:4px;" src="/images_hpy/logos/radios/90x90px2/mitv.png" height="33" width="33"/></a></span>
+<span style="margin:0px 4px 0px 4px;"><a aria-label="megatv" href="https://www.desdeparaguay.com/megatv"><img alt="megatv" style="/*filter: grayscale(100%);*/ /*background-color: blue;*/ border-radius:4px;" src="/images_hpy/logos/radios/90x90px2/megatv.png" height="33" width="33"/></a></span>
+<span style="margin:0px 4px 0px 4px;"><a aria-label="monumentaltv" href="https://www.desdeparaguay.com/monumentaltv"><img alt="monumentaltv" style="/*filter: grayscale(100%);*/ /*background-color: blue;*/ border-radius:4px;" src="/images_hpy/logos/radios/90x90px2/monumentaltv.png" height="33" width="33"/></a></span>
+<span style="margin:0px 4px 0px 4px;"><a aria-label="mqvtv" href="https://www.desdeparaguay.com/mqvtv"><img alt="mqvtv" style="/*filter: grayscale(100%);*/ /*background-color: blue;*/ border-radius:4px;" src="/images_hpy/logos/radios/90x90px2/mqvtv.png" height="33" width="33"/></a></span>
+<span style="margin:0px 4px 0px 4px;"><a aria-label="lacostatv" href="https://www.desdeparaguay.com/lacostatv"><img alt="lacostatv" style="/*filter: grayscale(100%);*/ /*background-color: blue;*/ border-radius:4px;" src="/images_hpy/logos/radios/90x90px2/lacostatv.png" height="33" width="33"/></a></span>
+<span style="margin:0px 4px 0px 4px;"><a aria-label="nandejaraneetv" href="https://www.desdeparaguay.com/nandejaraneetv"><img alt="nandejaraneetv" style="/*filter: grayscale(100%);*/ /*background-color: blue;*/ border-radius:4px;" src="/images_hpy/logos/radios/90x90px2/nandejaraneetv.png" height="33" width="33"/></a></span>
+<span style="margin:0px 4px 0px 4px;"><a aria-label="nandutitv" href="https://www.desdeparaguay.com/nandutitv"><img alt="nandutitv" style="/*filter: grayscale(100%);*/ /*background-color: blue;*/ border-radius:4px;" src="/images_hpy/logos/radios/90x90px2/nandutitv.png" height="33" width="33"/></a></span>
+<span style="margin:0px 4px 0px 4px;"><a aria-label="nihongakkotv" href="https://www.desdeparaguay.com/nihongakkotv"><img alt="nihongakkotv" style="/*filter: grayscale(100%);*/ /*background-color: blue;*/ border-radius:4px;" src="/images_hpy/logos/radios/90x90px2/nihongakkotv.png" height="33" width="33"/></a></span>
+<span style="margin:0px 4px 0px 4px;"><a aria-label="poputv" href="https://www.desdeparaguay.com/poputv"><img alt="poputv" style="/*filter: grayscale(100%);*/ /*background-color: blue;*/ border-radius:4px;" src="/images_hpy/logos/radios/90x90px2/poputv.png" height="33" width="33"/></a></span>
+<span style="margin:0px 4px 0px 4px;"><a aria-label="pro" href="https://www.desdeparaguay.com/pro"><img alt="pro" style="/*filter: grayscale(100%);*/ /*background-color: blue;*/ border-radius:4px;" src="/images_hpy/logos/radios/90x90px2/pro.png" height="33" width="33"/></a></span>
+<span style="margin:0px 4px 0px 4px;"><a aria-label="republicatv" href="https://www.desdeparaguay.com/republicatv"><img alt="republicatv" style="/*filter: grayscale(100%);*/ /*background-color: blue;*/ border-radius:4px;" src="/images_hpy/logos/radios/90x90px2/republicatv.png" height="33" width="33"/></a></span>
+<span style="margin:0px 4px 0px 4px;"><a aria-label="rockandpoptv" href="https://www.desdeparaguay.com/rockandpoptv"><img alt="rockandpoptv" style="/*filter: grayscale(100%);*/ /*background-color: blue;*/ border-radius:4px;" src="/images_hpy/logos/radios/90x90px2/rockandpoptv.png" height="33" width="33"/></a></span>
+<span style="margin:0px 4px 0px 4px;"><a aria-label="productivatv" href="https://www.desdeparaguay.com/productivatv"><img alt="productivatv" style="/*filter: grayscale(100%);*/ /*background-color: blue;*/ border-radius:4px;" src="/images_hpy/logos/radios/90x90px2/productivatv.png" height="33" width="33"/></a></span>
+<span style="margin:0px 4px 0px 4px;"><a aria-label="rcctv" href="https://www.desdeparaguay.com/rcctv"><img alt="rcctv" style="/*filter: grayscale(100%);*/ /*background-color: blue;*/ border-radius:4px;" src="/images_hpy/logos/radios/90x90px2/rcctv.png" height="33" width="33"/></a></span>
+<span style="margin:0px 4px 0px 4px;"><a aria-label="tvchaquena" href="https://www.desdeparaguay.com/tvchaquena"><img alt="tvchaquena" style="/*filter: grayscale(100%);*/ /*background-color: blue;*/ border-radius:4px;" src="/images_hpy/logos/radios/90x90px2/tvchaquena.png" height="33" width="33"/></a></span>
+<span style="margin:0px 4px 0px 4px;"><a aria-label="ugatv" href="https://www.desdeparaguay.com/ugatv"><img alt="ugatv" style="/*filter: grayscale(100%);*/ /*background-color: blue;*/ border-radius:4px;" src="/images_hpy/logos/radios/90x90px2/ugatv.png" height="33" width="33"/></a></span>
+<span style="margin:0px 4px 0px 4px;"><a aria-label="800tv" href="https://www.desdeparaguay.com/800tv"><img alt="800tv" style="/*filter: grayscale(100%);*/ /*background-color: blue;*/ border-radius:4px;" src="/images_hpy/logos/radios/90x90px2/800tv.png" height="33" width="33"/></a></span>
+<span style="margin:0px 4px 0px 4px;"><a aria-label="venusmedia" href="https://www.desdeparaguay.com/venusmedia"><img alt="venusmedia" style="/*filter: grayscale(100%);*/ /*background-color: blue;*/ border-radius:4px;" src="/images_hpy/logos/radios/90x90px2/venusmedia.png" height="33" width="33"/></a></span>
+<span style="margin:0px 4px 0px 4px;"><a aria-label="villaelisatv" href="https://www.desdeparaguay.com/villaelisatv"><img alt="villaelisatv" style="/*filter: grayscale(100%);*/ /*background-color: blue;*/ border-radius:4px;" src="/images_hpy/logos/radios/90x90px2/villaelisatv.png" height="33" width="33"/></a></span>
+<span style="margin:0px 4px 0px 4px;"><a aria-label="visiontv" href="https://www.desdeparaguay.com/visiontv"><img alt="visiontv" style="/*filter: grayscale(100%);*/ /*background-color: blue;*/ border-radius:4px;" src="/images_hpy/logos/radios/90x90px2/visiontv.png" height="33" width="33"/></a></span>
+</div>
+
+		
+
+<footer role="contentinfo">
+<div style="margin: auto; width: 1230px; padding-bottom:12px; padding-top:12px; text-align: center;" class="top0">
+	<a href="https://www.desdeparaguay.com/?a=contactop" target="_blank">DesdeParaguay.com: Plataforma de Radios con m&aacute;s audiencia del pa&iacute;s</a> // 	<a href="https://www.desdeparaguay.com/?a=politica" target="_blank">T&eacute;rminos de Uso</a> 
+</div>
+</footer>
+
+<div style="clear:both; height:100px;"></div>
+
+
+</div>
+
+</div> </div> 
+<div id="esquina" style="/*border-radius:80px; background-color:white;*/ /*transform:rotate(-45deg);*/         position:fixed; /*top: -10px; left: -10px;*/ top:0px; z-index:5;"></div>
+
+<script>
+if($(window).width()<1536){document.getElementById("esquina").style.display="none"}else{document.getElementById("esquina").style.display="inline"}$(window).resize(function(){if($(window).width()<1600){document.getElementById("esquina").style.display="none"}else{document.getElementById("esquina").style.display="inline"}});
+</script>
+
+<script>
+function DesdeParaguay(){
+	//window.location.replace("/");
+	window.location.href="/";
+	window.location.reload();
+}
+</script>
+
+
+</body>
+</html>

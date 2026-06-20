@@ -1,0 +1,99 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="" tvg-name="ABC Paraguay" tvg-logo="abc" group-title="Noticias",ABC Paraguay
+https://live2.eu-north-1a.cf.dmcdn.net/sec2(IU6PKM8TnfS1pQ4H53ygAsOBvuBit8Iyol7VmoexzH9oVbUHI4lo1tvr4aoRw3GxqqxgvKfHbilJEgXXXI1aIhcvEGz2gZdxVamxfAnsUPfooXxrS-ybniXyQ6aNvJwW)/cloud/3/x9skr3m/d/live-720.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Almaya TV" tvg-logo="almaya_tv" group-title="Regional",Almaya TV
+https://video.hostingcaaguazu.com:19360/almayatv/almayatv.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="America Paraguay" tvg-logo="america_paraguay" group-title="General",America Paraguay
+https://live2.eu-north-1a.cf.dmcdn.net/sec2(4lVWyvkH0lGxqJCAxH8B0_YHDZMeoUS4Ug5KPEAFR5P28kBQrK9LTjknKT5q2hjYtWBjtotO92RbOqdBnK8gLKXR7G3jkIJlcMGOmI3zqpjvIWYDtX3sT3BnT0rdMNHu)/cloud/3/x9lh4mu/d/live-480.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="C9N" tvg-logo="c9n" group-title="Noticias",C9N
+https://alba-py-c9n-c9n.stream.mediatiquestream.com/360p.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Canal 8 Vision TV" tvg-logo="canal_8_vision_tv" group-title="Regional",Canal 8 Vision TV
+https://tigocloudgen.desdeparaguay.net/satelitaltv/satelitaltv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Canal Pro" tvg-logo="canal_pro" group-title="General",Canal Pro
+https://www.desde-paraguay.com/pro.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Caritas TV" tvg-logo="caritas_tv_paraguay" group-title="Religioso",Caritas TV
+https://rds3.desdeparaguay.net/caritastv/caritastv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Cosmos TV" tvg-logo="cosmo_tv" group-title="Regional",Cosmos TV
+https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Del Rey TV" tvg-logo="del_rey_tv" group-title="Regional",Del Rey TV
+https://video.hostingcaaguazu.com:19360/delreytv/delreytv.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Dismar Radio TV" tvg-logo="dismar_radio_tv" group-title="Radio TV",Dismar Radio TV
+https://rds3.desdeparaguay.net/dismartv/dismartv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="E40" tvg-logo="e40" group-title="General",E40
+https://copacotf.desdeparaguay.net/e40tv/e40tv_py_alta/playlist.m3u8?admin=tvaccion
+#EXTINF:-1 tvg-id="" tvg-name="En Lengua de Senas TV" tvg-logo="en_lengua_de_senas_tv" group-title="Educativo",En Lengua de Senas TV
+https://cloudtv.streaming.com.py/lenguasdesenas/lenguasdesenas/chunklist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Farra Play" tvg-logo="farra_play" group-title="Música",Farra Play
+https://stream.farra.com.py/live/farra_low.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Gen" tvg-logo="gen" group-title="Noticias",Gen
+https://no.gendigi.net/origin-proxy/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="GO TV" tvg-logo="go_tv" group-title="General",GO TV
+https://rds3.desdeparaguay.net/gotv/gotv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="HEi" tvg-logo="hei" group-title="General",HEi
+https://copacogen.desdeparaguay.net/heitv/heitv_py_alta/playlist.m3u8?admin=nacion
+#EXTINF:-1 tvg-id="" tvg-name="Latele" tvg-logo="latele" group-title="General",Latele
+https://copacotf.desdeparaguay.net/latele/latele_py_alta/playlist.m3u8?admin=tvaccion
+#EXTINF:-1 tvg-id="" tvg-name="Mega TV" tvg-logo="mega_tv" group-title="General",Mega TV
+https://www.desde-paraguay.com/mega.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="MiTV" tvg-logo="mitv" group-title="Regional",MiTV
+https://rds3.desdeparaguay.net/mitv/mitv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Monumental TV" tvg-logo="monumental_tv" group-title="Radio TV",Monumental TV
+https://copacogen.desdeparaguay.net/monumentaltv/monumentaltv_med/playlist.m3u8?admin=tvaccion
+#EXTINF:-1 tvg-id="" tvg-name="Nande Portetepe TV" tvg-logo="nande_portetepe_tv" group-title="Regional",Nande Portetepe TV
+https://video.hostingcaaguazu.com:19360/nandeportetepe/nandeportetepe.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Nandejara Ne'e TV" tvg-logo="nandejara_nee_tv" group-title="Religioso",Nandejara Ne'e TV
+https://copacogen.desdeparaguay.net/nandejaraneetv/nandejaraneetv/playlist.m3u8?admin=tvaccion
+#EXTINF:-1 tvg-id="" tvg-name="Nanduti" tvg-logo="nanduti" group-title="Radio TV",Nanduti
+https://nanduti.b-cdn.net/480p.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Next HD" tvg-logo="next_hd" group-title="General",Next HD
+https://live.enhdtv.com:19360/nexthd/nexthd.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="NPY" tvg-logo="npy" group-title="Noticias",NPY
+https://copacotf.desdeparaguay.net/npy/npy_py_alta/playlist.m3u8?admin=tvaccion
+#EXTINF:-1 tvg-id="" tvg-name="Oasis TV" tvg-logo="oasis_tv" group-title="Regional",Oasis TV
+https://video.hostingcaaguazu.com:19360/oasistv/oasistv.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Obedira TV" tvg-logo="obedira_tv" group-title="Religioso",Obedira TV
+https://video.hostingcaaguazu.com:19360/obediratv/obediratv.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Paraguay TV" tvg-logo="paraguay_tv" group-title="Público",Paraguay TV
+https://stream.paraguaytv.gov.py/memfs/bbe36fed-9b49-4d1d-adaa-4bd6d1b2e386.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Popu TV" tvg-logo="popu_tv" group-title="Música",Popu TV
+https://rds3gen.desdeparaguay.net/universotv/universotv_py_alta/playlist.m3u8?k=9588d3e1dddf65150a58db2e7aae642c34d461584a797c652884dc45db8d1472&exp=1781657947
+#EXTINF:-1 tvg-id="" tvg-name="Productiva TV" tvg-logo="" group-title="General",Productiva TV
+https://tigocloudgen.desdeparaguay.net/productivatv/productivatv_alta/playlist.m3u8?admin=tvaccion
+#EXTINF:-1 tvg-id="" tvg-name="Radio Nacional del Paraguay" tvg-logo="radio_nacional_del_paraguay" group-title="Público",Radio Nacional del Paraguay
+https://stream.paraguaytv.gov.py/memfs/ea8a90e9-10f7-4b00-8e88-42f4a838d74b.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="RCC TV" tvg-logo="rcc_tv" group-title="Religioso",RCC TV
+https://copacoradios.desdeparaguay.net/rcctv/rcctv/playlist.m3u8?admin=nacion
+#EXTINF:-1 tvg-id="" tvg-name="Red Digital" tvg-logo="red_digital" group-title="Regional",Red Digital
+https://video.hostingcaaguazu.com:19360/reddigitalsanpedro/reddigitalsanpedro.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Red Interior TV" tvg-logo="red_interior_tv" group-title="Regional",Red Interior TV
+https://video.wilohosting.com:19360/redinteriortv/redinteriortv.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Regional TV Yaguaron" tvg-logo="regional_tv_yaguaron" group-title="Regional",Regional TV Yaguaron
+https://video.hostingcaaguazu.com:19360/regionaltv/regionaltv.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Republica TV" tvg-logo="republica_tv" group-title="General",Republica TV
+https://rds3.desdeparaguay.net/republicatv/republicatv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="RQP Paraguay" tvg-logo="rqp_paraguay" group-title="Radio TV",RQP Paraguay
+https://alba-py-rqp-rqp.stream.mediatiquestream.com/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="SNT" tvg-logo="snt" group-title="General",SNT
+https://alba-py-snt-snt.stream.mediatiquestream.com/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Suceso TV" tvg-logo="suceso_tv" group-title="Regional",Suceso TV
+https://live.enhdtv.com:8081/8060/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Telefuturo" tvg-logo="telefuturo" group-title="General",Telefuturo
+https://copacotf.desdeparaguay.net/telefuturo/telefuturo_py_baja/playlist.m3u8?k=4e66fffac748e6f34e142ccc6295eabf144899fd5cda6ae193a2c6a594e3b606&exp=1781583244
+#EXTINF:-1 tvg-id="" tvg-name="Telequince" tvg-logo="telequince" group-title="Regional",Telequince
+https://video.hostingcaaguazu.com:19360/telequince/telequince.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Trece" tvg-logo="trece" group-title="General",Trece
+https://live2.eu-north-1a.cf.dmcdn.net/sec2(Vlh1ynjTGiNlRkeAjsAbaqM4f6NYe1pU3k-OejPy1EyHELBOjP3RNwCaimuF2VJqsFwDn0wuwd_--2j1C2vPj4PrEZIBrmQKEyR0uUaTX4lF5V6YFc7jJb8t5XYb2xgI)/cloud/3/x9ksaba/s/live-720.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TV Aire" tvg-logo="tv_aire" group-title="Regional",TV Aire
+https://video.hostingcaaguazu.com:19360/tvairepy/tvairepy.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TV Canindeyu" tvg-logo="tv_canindeyu" group-title="Regional",TV Canindeyu
+https://video.hostingcaaguazu.com:19360/tvcanindeyu/tvcanindeyu.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Unicanal" tvg-logo="unicanal" group-title="Noticias",Unicanal
+https://live2.eu-north-1b.cf.dmcdn.net/sec2(CBm6TCIvdkY3bIqkFbsaqz1ax--E5jaaZOdhYd0-OV8zLUlocq5TvGQX9x9r298t7bF7Dafu7p4KwHuzZsdJihY1FLez_GXpLBYV-nheA2QjcXn-2jqJH7V4U_pqKHhU)/cloud/3/x9ko9z8/s/live-720.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Union TV" tvg-logo="union_tv" group-title="General",Union TV
+https://tigocloud.desdeparaguay.net/800tv/800tv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="UniRadio TV" tvg-logo="uniradio_tv" group-title="Radio TV",UniRadio TV
+https://video.hostingcaaguazu.com:19360/uniradiotv/uniradiotv.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Venus Media" tvg-logo="venus_media" group-title="Música",Venus Media
+https://tigocloud.desdeparaguay.net/venusmedia/venusmedia/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Villa Elisa Radio TV" tvg-logo="villa_elisa_radio_tv" group-title="Radio TV",Villa Elisa Radio TV
+https://copacogen.desdeparaguay.net/villaelisatv/villaelisatv/playlist.m3u8?admin=nacion
