@@ -2,7 +2,7 @@
   {
     "name": "24/7 Canal de Noticias",
     "url": "https://panel.host-live.com:19360/cn247tv/cn247tv.m3u8",
-    "logo": "",
+    "logo": "latam_ar_24_7_canal_de_noticias",
     "country": "AR",
     "language": "es",
     "category": "Noticias",
@@ -16,7 +16,7 @@
   {
     "name": "AlternaTV",
     "url": "https://tv.alterna.ar/stream/hls/live.m3u8",
-    "logo": "",
+    "logo": "latam_ar_alternatv",
     "country": "AR",
     "language": "es",
     "category": "Música",
@@ -30,7 +30,7 @@
   {
     "name": "Canal 26",
     "url": "https://stream-gtlc.telecentro.net.ar/hls/canal26hls/main.m3u8",
-    "logo": "",
+    "logo": "latam_ar_canal_26",
     "country": "AR",
     "language": "es",
     "category": "Noticias",
@@ -44,7 +44,7 @@
   {
     "name": "Canal Universidad",
     "url": "https://videostream.shockmedia.com.ar/hls/canaluniversidadmdp/canaluniversidadmdp.m3u8",
-    "logo": "",
+    "logo": "latam_ar_canal_universidad",
     "country": "AR",
     "language": "es",
     "category": "Educativo",
@@ -58,7 +58,7 @@
   {
     "name": "Chaco TV",
     "url": "https://wowzasrv.chaco.gov.ar/Streamtv/chacotv/playlist.m3u8",
-    "logo": "",
+    "logo": "latam_ar_chaco_tv",
     "country": "AR",
     "language": "es",
     "category": "General",
@@ -72,7 +72,7 @@
   {
     "name": "24/7 TV",
     "url": "https://master.tucableip.com/eldebertv/index.m3u8",
-    "logo": "",
+    "logo": "latam_bo_24_7_tv",
     "country": "BO",
     "language": "es",
     "category": "Noticias",
@@ -86,7 +86,7 @@
   {
     "name": "ATB La Paz",
     "url": "http://186.121.206.197/live/daniel/index.m3u8",
-    "logo": "",
+    "logo": "latam_bo_atb_la_paz",
     "country": "BO",
     "language": "es",
     "category": "General",
@@ -100,7 +100,7 @@
   {
     "name": "Bolivision",
     "url": "https://alba-bo-bolivision-bolivision.stream.mediatiquestream.com/index.m3u8",
-    "logo": "",
+    "logo": "latam_bo_bolivision",
     "country": "BO",
     "language": "es",
     "category": "General",
@@ -114,7 +114,7 @@
   {
     "name": "CN3 Television",
     "url": "https://edge.enhdtv.com/cn3/index.m3u8",
-    "logo": "",
+    "logo": "latam_bo_cn3_television",
     "country": "BO",
     "language": "es",
     "category": "Noticias",
@@ -128,7 +128,7 @@
   {
     "name": "13 Festival",
     "url": "https://origin.dpsgo.com/ssai/event/Nftd0fM2SXasfDlRphvUsg/master.m3u8",
-    "logo": "",
+    "logo": "latam_cl_13_festival",
     "country": "CL",
     "language": "es",
     "category": "Música",
@@ -142,7 +142,7 @@
   {
     "name": "13 Kids",
     "url": "https://origin.dpsgo.com/ssai/event/LhHrVtyeQkKZ-Ye_xEU75g/master.m3u8",
-    "logo": "",
+    "logo": "latam_cl_13_kids",
     "country": "CL",
     "language": "es",
     "category": "Infantil",
@@ -156,7 +156,7 @@
   {
     "name": "13C",
     "url": "https://origin.dpsgo.com/ssai/event/GI-9cp_bT8KcerLpZwkuhw/master.m3u8",
-    "logo": "",
+    "logo": "latam_cl_13c",
     "country": "CL",
     "language": "es",
     "category": "Educativo",
@@ -170,7 +170,7 @@
   {
     "name": "13E",
     "url": "https://origin.dpsgo.com/ssai/event/BBp0VeP6QtOOlH8nu3bWTg/master.m3u8",
-    "logo": "",
+    "logo": "latam_cl_13e",
     "country": "CL",
     "language": "es",
     "category": "General",
@@ -184,7 +184,7 @@
   {
     "name": "AE Radio TV",
     "url": "https://tls-cl.cdnz.cl/aeradio/live/playlist.m3u8",
-    "logo": "",
+    "logo": "latam_cl_ae_radio_tv",
     "country": "CL",
     "language": "es",
     "category": "Música",
@@ -198,7 +198,7 @@
   {
     "name": "Amaga Television",
     "url": "https://viewhn.com/amagatelevision/sdfUYWKegHKRPpSirG/playlist.m3u8",
-    "logo": "",
+    "logo": "latam_co_amaga_television",
     "country": "CO",
     "language": "es",
     "category": "General",
@@ -212,7 +212,7 @@
   {
     "name": "ANC Television",
     "url": "https://live.amelbatv.co:81/anctvlive/index.m3u8",
-    "logo": "",
+    "logo": "latam_co_anc_television",
     "country": "CO",
     "language": "es",
     "category": "General",
@@ -226,7 +226,7 @@
   {
     "name": "Buenisima Radio TV",
     "url": "https://canal.mediaserver.com.co/live/buenisimatv.m3u8",
-    "logo": "",
+    "logo": "latam_co_buenisima_radio_tv",
     "country": "CO",
     "language": "es",
     "category": "Música",
@@ -240,7 +240,7 @@
   {
     "name": "BUM Television",
     "url": "https://movil.ejeserver.com/live/visiondorada.m3u8",
-    "logo": "",
+    "logo": "latam_co_bum_television",
     "country": "CO",
     "language": "es",
     "category": "General",
@@ -254,7 +254,7 @@
   {
     "name": "360 RFTV",
     "url": "https://acceso.mediosdecostarica.com:3638/live/360rftvcrlive.m3u8",
-    "logo": "",
+    "logo": "latam_cr_360_rftv",
     "country": "CR",
     "language": "es",
     "category": "General",
@@ -268,7 +268,7 @@
   {
     "name": "88 Stereo",
     "url": "http://k3.usastreams.com/CableLatino/88stereo/playlist.m3u8",
-    "logo": "",
+    "logo": "latam_cr_88_stereo",
     "country": "CR",
     "language": "es",
     "category": "Música",
@@ -282,7 +282,7 @@
   {
     "name": "Canal 1",
     "url": "https://vid.canal1cr.com:3424/multi_live/play_720.m3u8",
-    "logo": "",
+    "logo": "latam_cr_canal_1",
     "country": "CR",
     "language": "es",
     "category": "General",
@@ -296,7 +296,7 @@
   {
     "name": "Acento TV",
     "url": "https://acentotv01.streamprolive.com/hls/live.m3u8",
-    "logo": "",
+    "logo": "latam_do_acento_tv",
     "country": "DO",
     "language": "es",
     "category": "Noticias",
@@ -310,7 +310,7 @@
   {
     "name": "Ahora TV",
     "url": "https://stream.haislin.com/ahoratv/index.m3u8",
-    "logo": "",
+    "logo": "latam_do_ahora_tv",
     "country": "DO",
     "language": "es",
     "category": "General",
@@ -324,7 +324,7 @@
   {
     "name": "AION TV",
     "url": "https://edge.essastream.com/aiontelevision/playlist.m3u8",
-    "logo": "",
+    "logo": "latam_do_aion_tv",
     "country": "DO",
     "language": "es",
     "category": "General",
@@ -338,7 +338,7 @@
   {
     "name": "America Estereo Guayaquil",
     "url": "https://video.makrodigital.com/americaestereoguayaquil/americaestereoguayaquil/playlist.m3u8",
-    "logo": "",
+    "logo": "latam_ec_america_estereo_guayaquil",
     "country": "EC",
     "language": "es",
     "category": "General",
@@ -352,7 +352,7 @@
   {
     "name": "America Estereo Quito",
     "url": "https://video.makrodigital.com/americaestereoquito/americaestereoquito/playlist.m3u8",
-    "logo": "",
+    "logo": "latam_ec_america_estereo_quito",
     "country": "EC",
     "language": "es",
     "category": "General",
@@ -366,7 +366,7 @@
   {
     "name": "Antena Uno Radiovideo",
     "url": "https://tvdatta.com:3578/live/antenaunolive.m3u8",
-    "logo": "",
+    "logo": "latam_ec_antena_uno_radiovideo",
     "country": "EC",
     "language": "es",
     "category": "General",
@@ -380,7 +380,7 @@
   {
     "name": "8NTV",
     "url": "https://60417ddeaf0d9.streamlock.net/ntv/videontv/playlist.m3u8",
-    "logo": "",
+    "logo": "latam_mx_8ntv",
     "country": "MX",
     "language": "es",
     "category": "General",
@@ -394,7 +394,7 @@
   {
     "name": "ADN 40",
     "url": "https://mdstrm.com/live-stream-playlist/60b578b060947317de7b57ac.m3u8",
-    "logo": "",
+    "logo": "latam_mx_adn_40",
     "country": "MX",
     "language": "es",
     "category": "Noticias",
@@ -408,7 +408,7 @@
   {
     "name": "AMX Noticias",
     "url": "https://5e50264bd6766.streamlock.net/mexiquense2/videomexiquense2/playlist.m3u8",
-    "logo": "",
+    "logo": "latam_mx_amx_noticias",
     "country": "MX",
     "language": "es",
     "category": "Noticias",
@@ -422,7 +422,7 @@
   {
     "name": "Azteca Internacional",
     "url": "https://azt-mun.otteravision.com/azt/mun/mun.m3u8",
-    "logo": "",
+    "logo": "latam_mx_azteca_internacional",
     "country": "MX",
     "language": "es",
     "category": "General",
@@ -436,7 +436,7 @@
   {
     "name": "Mas23 TV",
     "url": "https://movil.ejeserver.com/live/mas23tv.m3u8",
-    "logo": "",
+    "logo": "latam_pa_mas23_tv",
     "country": "PA",
     "language": "es",
     "category": "Música",
@@ -450,7 +450,7 @@
   {
     "name": "Nex TV Canal 21",
     "url": "https://movil.ejeserver.com/live/nextv.m3u8",
-    "logo": "",
+    "logo": "latam_pa_nex_tv_canal_21",
     "country": "PA",
     "language": "es",
     "category": "General",
@@ -464,7 +464,7 @@
   {
     "name": "Radio Ancon",
     "url": "https://www.streaming507.net:19360/anconvideo/anconvideo.m3u8",
-    "logo": "",
+    "logo": "latam_pa_radio_ancon",
     "country": "PA",
     "language": "es",
     "category": "Noticias",
@@ -478,7 +478,7 @@
   {
     "name": "36 TV Huacho",
     "url": "https://live-evg10.tv360.bitel.com.pe/bitel/36tvSRT/playlist.m3u8",
-    "logo": "",
+    "logo": "latam_pe_36_tv_huacho",
     "country": "PE",
     "language": "es",
     "category": "General",
@@ -492,7 +492,7 @@
   {
     "name": "Albricias TV",
     "url": "https://live-evg10.tv360.bitel.com.pe/bitel/albriciastv/playlist.m3u8",
-    "logo": "",
+    "logo": "latam_pe_albricias_tv",
     "country": "PE",
     "language": "es",
     "category": "General",
@@ -506,7 +506,7 @@
   {
     "name": "America Television",
     "url": "https://live-bd1.tv360.bitel.com.pe/manifest/america/master_clean_source.m3u8",
-    "logo": "",
+    "logo": "latam_pe_america_television",
     "country": "PE",
     "language": "es",
     "category": "General",
@@ -520,7 +520,7 @@
   {
     "name": "ATV Sur",
     "url": "https://alba-pe-atv-atvsur.stream.mediatiquestream.com/index.m3u8",
-    "logo": "",
+    "logo": "latam_pe_atv_sur",
     "country": "PE",
     "language": "es",
     "category": "General",
@@ -534,7 +534,7 @@
   {
     "name": "America TeVe",
     "url": "https://live.gideo.video/americateve2/master.m3u8",
-    "logo": "",
+    "logo": "latam_pr_america_teve",
     "country": "PR",
     "language": "es",
     "category": "General",
@@ -548,7 +548,7 @@
   {
     "name": "Buena TV",
     "url": "https://59825a54e4454.streamlock.net:8443/papo351/papo351/playlist.m3u8",
-    "logo": "",
+    "logo": "latam_pr_buena_tv",
     "country": "PR",
     "language": "es",
     "category": "General",
@@ -562,7 +562,7 @@
   {
     "name": "Radio Isla TV",
     "url": "https://59a564764e2b6.streamlock.net/palestra/palestra/playlist.m3u8",
-    "logo": "",
+    "logo": "latam_pr_radio_isla_tv",
     "country": "PR",
     "language": "es",
     "category": "Noticias",
@@ -576,7 +576,7 @@
   {
     "name": "Aguacate TV",
     "url": "https://streamtv.intervenhosting.net:3040/hybrid/play.m3u8",
-    "logo": "",
+    "logo": "latam_ve_aguacate_tv",
     "country": "VE",
     "language": "es",
     "category": "General",
@@ -590,7 +590,7 @@
   {
     "name": "BTA TV",
     "url": "https://cloud.fastchannel.es/manifiest/hls/prog9/btatv.m3u8",
-    "logo": "",
+    "logo": "latam_ve_bta_tv",
     "country": "VE",
     "language": "es",
     "category": "Música",
@@ -604,7 +604,7 @@
   {
     "name": "Canal I",
     "url": "https://streaming.canal-i.com/canal-i/live/master.m3u8",
-    "logo": "",
+    "logo": "latam_ve_canal_i",
     "country": "VE",
     "language": "es",
     "category": "Noticias",
