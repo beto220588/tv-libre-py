@@ -1,5 +1,6 @@
 const DATA_URLS = {
   tv: "./channels_paraguay.json",
+  latam: "./channels_latam.json",
   radio: "./radios_paraguay.json",
 };
 
@@ -15,6 +16,25 @@ const MODE_COPY = {
     searchLabel: "Buscar canal",
     searchPlaceholder: "Nombre del canal",
     categoryLabel: "Categoría",
+    empty: "No se encontraron canales",
+    noFavorites: "No tienes canales favoritos",
+    loading: "Cargando canales...",
+    loadError: "No se pudo cargar la lista de canales",
+    selectedTitle: "Ningún canal seleccionado",
+    selectedMeta: "Busca y elige un canal de la lista.",
+    overlayTitle: "Selecciona un canal",
+    overlayText: "La reproducción aparecerá aquí.",
+    hint: "Enter/OK reproduce el canal seleccionado",
+    lastLabel: "Último canal",
+    action: "Reproducir",
+  },
+  latam: {
+    title: "TV Latam",
+    subtitle: "Canales por país",
+    itemLabel: "canales",
+    searchLabel: "Buscar canal",
+    searchPlaceholder: "Nombre del canal o país",
+    categoryLabel: "País",
     empty: "No se encontraron canales",
     noFavorites: "No tienes canales favoritos",
     loading: "Cargando canales...",
@@ -51,6 +71,7 @@ const MODE_COPY = {
 const state = {
   mode: "tv",
   tv: createModeState(),
+  latam: createModeState(),
   radio: createModeState(),
   hls: null,
   youtubeFrame: null,
@@ -59,6 +80,7 @@ const state = {
 
 const elements = {
   tvModeButton: document.getElementById("tvModeButton"),
+  latamModeButton: document.getElementById("latamModeButton"),
   radioModeButton: document.getElementById("radioModeButton"),
   title: document.getElementById("appTitle"),
   subtitle: document.getElementById("appSubtitle"),
@@ -99,6 +121,7 @@ function createModeState() {
 async function init() {
   bindEvents();
   loadFavorites("tv");
+  loadFavorites("latam");
   loadFavorites("radio");
   applyMode("tv");
   await loadCurrentMode();
@@ -106,6 +129,7 @@ async function init() {
 
 function bindEvents() {
   elements.tvModeButton.addEventListener("click", () => switchMode("tv"));
+  elements.latamModeButton.addEventListener("click", () => switchMode("latam"));
   elements.radioModeButton.addEventListener("click", () => switchMode("radio"));
 
   elements.searchInput.addEventListener("input", (event) => {
@@ -129,7 +153,7 @@ function bindEvents() {
   elements.video.addEventListener("loadstart", () => setStatus("Cargando canal..."));
   elements.video.addEventListener("playing", () => setStatus(""));
   elements.video.addEventListener("error", () => {
-    if (state.mode === "tv") {
+    if (state.mode !== "radio") {
       setStatus("No se pudo reproducir este canal", true);
       showOverlay("Error de reproducción", "Prueba con otro canal o intenta más tarde.");
     }
@@ -161,8 +185,10 @@ function applyMode(mode) {
   document.body.dataset.mode = mode;
 
   elements.tvModeButton.classList.toggle("is-active", mode === "tv");
+  elements.latamModeButton.classList.toggle("is-active", mode === "latam");
   elements.radioModeButton.classList.toggle("is-active", mode === "radio");
   elements.tvModeButton.setAttribute("aria-pressed", String(mode === "tv"));
+  elements.latamModeButton.setAttribute("aria-pressed", String(mode === "latam"));
   elements.radioModeButton.setAttribute("aria-pressed", String(mode === "radio"));
 
   elements.title.textContent = copy.title;
@@ -175,9 +201,9 @@ function applyMode(mode) {
   elements.keyboardHint.textContent = copy.hint;
   elements.fullscreenButton.hidden = mode === "radio";
 
-  elements.video.hidden = mode !== "tv";
+  elements.video.hidden = mode === "radio";
   elements.audio.hidden = mode !== "radio";
-  elements.nowPlayingEyebrow.textContent = mode === "tv" ? "Reproduciendo" : "Escuchando";
+  elements.nowPlayingEyebrow.textContent = mode === "radio" ? "Escuchando" : "Reproduciendo";
   elements.nowPlayingName.textContent = copy.selectedTitle;
   elements.nowPlayingMeta.textContent = copy.selectedMeta;
   showOverlay(copy.overlayTitle, copy.overlayText);
@@ -249,25 +275,38 @@ function sortItemsForMode(a, b, mode) {
 
 function renderCategories() {
   const modeState = currentState();
-  const hasPending = state.mode === "radio" && modeState.items.some((item) => item.working === false);
-  const categories = [
-    ALL_CATEGORY,
-    ...new Set(modeState.items.map((item) => item.category || "General")),
-    ...(hasPending ? [PENDING_CATEGORY] : []),
-  ].sort((a, b) => {
-    if (a === ALL_CATEGORY) return -1;
-    if (b === ALL_CATEGORY) return 1;
-    if (a === PENDING_CATEGORY) return 1;
-    if (b === PENDING_CATEGORY) return -1;
-    return a.localeCompare(b, "es", { sensitivity: "base" });
-  });
+  let categories;
+
+  if (state.mode === "latam") {
+    categories = [
+      ALL_CATEGORY,
+      ...new Set(modeState.items.map((item) => item.country || "OTRO")),
+    ].sort((a, b) => {
+      if (a === ALL_CATEGORY) return -1;
+      if (b === ALL_CATEGORY) return 1;
+      return a.localeCompare(b, "es", { sensitivity: "base" });
+    });
+  } else {
+    const hasPending = state.mode === "radio" && modeState.items.some((item) => item.working === false);
+    categories = [
+      ALL_CATEGORY,
+      ...new Set(modeState.items.map((item) => item.category || "General")),
+      ...(hasPending ? [PENDING_CATEGORY] : []),
+    ].sort((a, b) => {
+      if (a === ALL_CATEGORY) return -1;
+      if (b === ALL_CATEGORY) return 1;
+      if (a === PENDING_CATEGORY) return 1;
+      if (b === PENDING_CATEGORY) return -1;
+      return a.localeCompare(b, "es", { sensitivity: "base" });
+    });
+  }
 
   elements.categoryChips.innerHTML = "";
   categories.forEach((category) => {
     const button = document.createElement("button");
     button.className = `chip${category === modeState.selectedCategory ? " is-active" : ""}`;
     button.type = "button";
-    button.textContent = category;
+    button.textContent = state.mode === "latam" ? getCountryLabel(category) : category;
     button.addEventListener("click", () => {
       modeState.selectedCategory = category;
       renderCategories();
@@ -290,10 +329,16 @@ function filterAndRender() {
   const query = modeState.searchText.trim().toLowerCase();
 
   modeState.filteredItems = modeState.items.filter((item) => {
-    const location = state.mode === "radio" ? item.city || item.country || "PY" : item.country || "PY";
+    const location =
+      state.mode === "radio"
+        ? item.city || item.country || "PY"
+        : state.mode === "latam"
+          ? `${item.country || "XX"} ${getCountryLabel(item.country || "XX")}`
+          : item.country || "PY";
     const matchesSearch = `${item.name} ${location}`.toLowerCase().includes(query);
     const matchesCategory =
       modeState.selectedCategory === ALL_CATEGORY ||
+      (state.mode === "latam" && (item.country || "OTRO") === modeState.selectedCategory) ||
       (state.mode === "radio" && modeState.selectedCategory === PENDING_CATEGORY && item.working === false) ||
       (item.category || "General") === modeState.selectedCategory;
     const matchesFavorite = !modeState.favoritesOnly || modeState.favorites.has(item.url);
@@ -348,7 +393,34 @@ function getItemMeta(item) {
   if (state.mode === "radio") {
     return `${item.category || "Radio"} | ${item.city || item.country || "PY"}`;
   }
+  if (state.mode === "latam") {
+    return `${item.category || "General"} | ${getCountryLabel(item.country || "XX")}`;
+  }
   return `${item.category || "General"} | ${item.country || "PY"}`;
+}
+
+function getCountryLabel(code) {
+  const labels = {
+    AR: "Argentina",
+    BO: "Bolivia",
+    CL: "Chile",
+    CO: "Colombia",
+    CR: "Costa Rica",
+    CU: "Cuba",
+    DO: "República Dominicana",
+    EC: "Ecuador",
+    GT: "Guatemala",
+    HN: "Honduras",
+    MX: "México",
+    NI: "Nicaragua",
+    PA: "Panamá",
+    PE: "Perú",
+    PR: "Puerto Rico",
+    SV: "El Salvador",
+    UY: "Uruguay",
+    VE: "Venezuela",
+  };
+  return labels[String(code || "").toUpperCase()] || String(code || "OTRO");
 }
 
 function renderLogo(item) {
@@ -733,7 +805,7 @@ function cleanupPlayback() {
   elements.audio.pause();
   elements.audio.removeAttribute("src");
   elements.audio.load();
-  elements.video.hidden = state.mode !== "tv";
+  elements.video.hidden = state.mode === "radio";
   elements.audio.hidden = state.mode !== "radio";
 }
 
@@ -865,11 +937,15 @@ function currentState() {
 }
 
 function favoritesKey(mode) {
-  return mode === "radio" ? "tvLibrePyRadioFavorites" : "tvLibrePyTvFavorites";
+  if (mode === "radio") return "tvLibrePyRadioFavorites";
+  if (mode === "latam") return "tvLibrePyLatamFavorites";
+  return "tvLibrePyTvFavorites";
 }
 
 function lastKey(mode) {
-  return mode === "radio" ? "tvLibrePyLastRadio" : "tvLibrePyLastChannel";
+  if (mode === "radio") return "tvLibrePyLastRadio";
+  if (mode === "latam") return "tvLibrePyLastLatamChannel";
+  return "tvLibrePyLastChannel";
 }
 
 function setStatus(message, isError = false) {

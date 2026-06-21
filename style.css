@@ -76,6 +76,7 @@ audio:focus-visible {
   flex-wrap: wrap;
   gap: 12px;
   margin-bottom: 24px;
+  align-items: center;
 }
 
 .mode-tab {
@@ -87,6 +88,10 @@ audio:focus-visible {
   color: var(--text);
   font-weight: 900;
   font-size: 18px;
+}
+
+.mode-tabs .mode-tab {
+  flex: 0 0 auto;
 }
 
 .mode-tab.is-active {
