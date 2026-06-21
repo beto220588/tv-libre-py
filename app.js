@@ -284,7 +284,7 @@ function renderCategories() {
     ].sort((a, b) => {
       if (a === ALL_CATEGORY) return -1;
       if (b === ALL_CATEGORY) return 1;
-      return a.localeCompare(b, "es", { sensitivity: "base" });
+      return getCountryLabel(a).localeCompare(getCountryLabel(b), "es", { sensitivity: "base" });
     });
   } else {
     const hasPending = state.mode === "radio" && modeState.items.some((item) => item.working === false);
