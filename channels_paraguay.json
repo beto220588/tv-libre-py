@@ -28,6 +28,21 @@
     "note": "Este enlace puede expirar o cambiar."
   },
   {
+    "name": "ABC-TV Paraguay",
+    "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/7.m3u8",
+    "logo": "",
+    "country": "PY",
+    "language": "es",
+    "category": "Noticias",
+    "sourceType": "hls",
+    "isLikelyStable": true,
+    "isTokenized": false,
+    "isChunklist": false,
+    "working": true,
+    "note": "Canal paraguayo listado por iptv-org.",
+    "referer": "https://www.abc.com.py/"
+  },
+  {
     "name": "Almaya TV",
     "url": "https://video.hostingcaaguazu.com:19360/almayatv/almayatv.m3u8",
     "logo": "almaya_tv",
@@ -75,6 +90,34 @@
     "webDirectUrl": "https://alba-py-c9n-c9n.stream.mediatiquestream.com/360p.m3u8",
     "webYoutubeUrl": "https://www.youtube.com/@C9NParaguay/live",
     "webOnlyNote": "En web puede abrirse directo o desde YouTube."
+  },
+  {
+    "name": "Canal 5 TV Max",
+    "url": "https://video.wilohosting.com:19360/tvmax/tvmax.m3u8",
+    "logo": "",
+    "country": "PY",
+    "language": "es",
+    "category": "General",
+    "sourceType": "hls",
+    "isLikelyStable": true,
+    "isTokenized": false,
+    "isChunklist": false,
+    "working": true,
+    "note": "Canal paraguayo listado por iptv-org."
+  },
+  {
+    "name": "Canal 8 C&C Producciones",
+    "url": "https://video.hostingcaaguazu.com:19360/canal8cvs/canal8cvs.m3u8",
+    "logo": "",
+    "country": "PY",
+    "language": "es",
+    "category": "Regional",
+    "sourceType": "hls",
+    "isLikelyStable": true,
+    "isTokenized": false,
+    "isChunklist": false,
+    "working": true,
+    "note": "Canal paraguayo listado por iptv-org."
   },
   {
     "name": "Canal 8 Vision TV",
@@ -394,6 +437,20 @@
     "working": true
   },
   {
+    "name": "Occidental TV",
+    "url": "https://video.wilohosting.com:19360/occidentaltv/occidentaltv.m3u8",
+    "logo": "",
+    "country": "PY",
+    "language": "es",
+    "category": "Regional",
+    "sourceType": "hls",
+    "isLikelyStable": true,
+    "isTokenized": false,
+    "isChunklist": false,
+    "working": true,
+    "note": "Canal paraguayo listado por iptv-org."
+  },
+  {
     "name": "Paraguay TV",
     "url": "https://stream.paraguaytv.gov.py/memfs/bbe36fed-9b49-4d1d-adaa-4bd6d1b2e386.m3u8",
     "logo": "paraguay_tv",
@@ -434,6 +491,20 @@
     "working": true
   },
   {
+    "name": "Radio Ciudad 98.9 FM TV",
+    "url": "https://video.wilohosting.com:19360/radiociudadtv/radiociudadtv.m3u8",
+    "logo": "",
+    "country": "PY",
+    "language": "es",
+    "category": "Radio TV",
+    "sourceType": "hls",
+    "isLikelyStable": true,
+    "isTokenized": false,
+    "isChunklist": false,
+    "working": true,
+    "note": "Canal paraguayo listado por iptv-org."
+  },
+  {
     "name": "Radio Nacional del Paraguay",
     "url": "https://stream.paraguaytv.gov.py/memfs/ea8a90e9-10f7-4b00-8e88-42f4a838d74b.m3u8",
     "logo": "radio_nacional_del_paraguay",
@@ -445,6 +516,34 @@
     "isTokenized": false,
     "isChunklist": false,
     "working": true
+  },
+  {
+    "name": "Radio San Cristobal 88.7 FM",
+    "url": "https://video.wilohosting.com:19360/sancristobalfm/sancristobalfm.m3u8",
+    "logo": "",
+    "country": "PY",
+    "language": "es",
+    "category": "Radio TV",
+    "sourceType": "hls",
+    "isLikelyStable": true,
+    "isTokenized": false,
+    "isChunklist": false,
+    "working": true,
+    "note": "Canal paraguayo listado por iptv-org."
+  },
+  {
+    "name": "Radio TV El Arca del Pacto",
+    "url": "https://video.wilohosting.com:19360/radiotvelarcadelpacto/radiotvelarcadelpacto.m3u8",
+    "logo": "",
+    "country": "PY",
+    "language": "es",
+    "category": "Religioso",
+    "sourceType": "hls",
+    "isLikelyStable": true,
+    "isTokenized": false,
+    "isChunklist": false,
+    "working": true,
+    "note": "Canal paraguayo listado por iptv-org."
   },
   {
     "name": "RCC TV",
@@ -558,6 +657,20 @@
     "working": true
   },
   {
+    "name": "SUR TV Itapua",
+    "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/1596.m3u8",
+    "logo": "",
+    "country": "PY",
+    "language": "es",
+    "category": "Regional",
+    "sourceType": "hls",
+    "isLikelyStable": true,
+    "isTokenized": false,
+    "isChunklist": false,
+    "working": true,
+    "note": "Canal paraguayo listado por iptv-org."
+  },
+  {
     "name": "Telefuturo",
     "url": "https://copacotf.desdeparaguay.net/telefuturo/telefuturo_py_baja/playlist.m3u8?k=4e66fffac748e6f34e142ccc6295eabf144899fd5cda6ae193a2c6a594e3b606&exp=1781583244",
     "logo": "telefuturo",
@@ -610,6 +723,20 @@
     "isTokenized": false,
     "isChunklist": false,
     "working": true
+  },
+  {
+    "name": "TV Camara",
+    "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/119.m3u8",
+    "logo": "",
+    "country": "PY",
+    "language": "es",
+    "category": "Público",
+    "sourceType": "hls",
+    "isLikelyStable": true,
+    "isTokenized": false,
+    "isChunklist": false,
+    "working": true,
+    "note": "Canal paraguayo listado por iptv-org."
   },
   {
     "name": "TV Canindeyu",

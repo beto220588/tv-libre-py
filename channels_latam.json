@@ -196,6 +196,20 @@
     "note": "Canal público de Argentina listado por iptv-org."
   },
   {
+    "name": "Canal 2 de Ushuaia",
+    "url": "https://nd106.republicaservers.com:4433/hls/c6611/index.m3u8",
+    "logo": "",
+    "country": "AR",
+    "language": "es",
+    "category": "General",
+    "sourceType": "hls",
+    "isLikelyStable": true,
+    "isTokenized": false,
+    "isChunklist": false,
+    "working": true,
+    "note": "Canal de Argentina listado por iptv-org."
+  },
+  {
     "name": "Canal 21 TV",
     "url": "https://iptv.ixfo.com.ar:30443/c21tv/hd/c21tv/playlist.m3u8",
     "logo": "https://beto220588.github.io/tv-libre-py/assets/logos/latam_ar_canal_21_tv.png",
@@ -222,6 +236,20 @@
     "isChunklist": false,
     "working": true,
     "note": "Canal público de Argentina listado por iptv-org."
+  },
+  {
+    "name": "Canal 4 Jujuy",
+    "url": "https://5cd577a3dd8ec.streamlock.net/CANAL4/smil:CANAL4.smil/playlist.m3u8",
+    "logo": "",
+    "country": "AR",
+    "language": "es",
+    "category": "Regional",
+    "sourceType": "hls",
+    "isLikelyStable": true,
+    "isTokenized": false,
+    "isChunklist": false,
+    "working": true,
+    "note": "Canal de Argentina listado por iptv-org."
   },
   {
     "name": "Canal 7 TV",
@@ -952,6 +980,20 @@
     "note": "Canal público de Chile listado por iptv-org."
   },
   {
+    "name": "Campus TV",
+    "url": "https://pantera1-100gb-cl-movistar.dps.live/campustv/campustv.smil/playlist.m3u8",
+    "logo": "",
+    "country": "CL",
+    "language": "es",
+    "category": "Educativo",
+    "sourceType": "hls",
+    "isLikelyStable": true,
+    "isTokenized": false,
+    "isChunklist": false,
+    "working": true,
+    "note": "Canal de Chile listado por iptv-org."
+  },
+  {
     "name": "CampusTV",
     "url": "https://pantera1-100gb-cl-movistar.dps.live/campustv/campustv.smil/playlist.m3u8",
     "logo": "https://beto220588.github.io/tv-libre-py/assets/logos/latam_cl_campustv.png",
@@ -992,6 +1034,20 @@
     "isChunklist": false,
     "working": true,
     "note": "Canal público de Chile listado por iptv-org."
+  },
+  {
+    "name": "Canal 74 San Antonio",
+    "url": "https://stmv5.voxtvhd.com.br/canal74hd/canal74hd/playlist.m3u8",
+    "logo": "",
+    "country": "CL",
+    "language": "es",
+    "category": "Regional",
+    "sourceType": "hls",
+    "isLikelyStable": true,
+    "isTokenized": false,
+    "isChunklist": false,
+    "working": true,
+    "note": "Canal de Chile listado por iptv-org."
   },
   {
     "name": "Canal 9 Bio-Bio Television",
@@ -1722,6 +1778,20 @@
     "note": "Canal público de Costa Rica listado por iptv-org."
   },
   {
+    "name": "Canal 3 KMK TV",
+    "url": "https://live20.bozztv.com/giatv/giatv-KMKTV/KMKTV/chunks.m3u8",
+    "logo": "",
+    "country": "CR",
+    "language": "es",
+    "category": "General",
+    "sourceType": "hls",
+    "isLikelyStable": true,
+    "isTokenized": false,
+    "isChunklist": false,
+    "working": true,
+    "note": "Canal de Costa Rica listado por iptv-org."
+  },
+  {
     "name": "Canal 4",
     "url": "https://alba-cr-repretel-c4.stream.mediatiquestream.com/index.m3u8",
     "logo": "https://beto220588.github.io/tv-libre-py/assets/logos/latam_cr_canal_4.png",
@@ -1776,6 +1846,20 @@
     "isChunklist": false,
     "working": true,
     "note": "Canal público de Costa Rica listado por iptv-org."
+  },
+  {
+    "name": "Colosal TV",
+    "url": "http://tv.ticosmedia.com:1935/COLOSAL/COLOSAL/playlist.m3u8",
+    "logo": "",
+    "country": "CR",
+    "language": "es",
+    "category": "General",
+    "sourceType": "hls",
+    "isLikelyStable": true,
+    "isTokenized": false,
+    "isChunklist": false,
+    "working": true,
+    "note": "Canal de Costa Rica listado por iptv-org."
   },
   {
     "name": "Coto Brus TV",
@@ -3262,6 +3346,20 @@
     "note": "Canal público de México listado por iptv-org."
   },
   {
+    "name": "Canal 10 Chiapas",
+    "url": "https://5ca9af4645e15.streamlock.net/chiapas/videochiapas/playlist.m3u8",
+    "logo": "",
+    "country": "MX",
+    "language": "es",
+    "category": "Regional",
+    "sourceType": "hls",
+    "isLikelyStable": true,
+    "isTokenized": false,
+    "isChunklist": false,
+    "working": true,
+    "note": "Canal de México listado por iptv-org."
+  },
+  {
     "name": "Canal 10 Durango",
     "url": "https://5e50264bd6766.streamlock.net/canal10durango/videocanal10durango/playlist.m3u8",
     "logo": "https://beto220588.github.io/tv-libre-py/assets/logos/latam_mx_canal_10_durango.png",
@@ -3274,6 +3372,20 @@
     "isChunklist": false,
     "working": true,
     "note": "Canal público de México listado por iptv-org."
+  },
+  {
+    "name": "Canal 15 ILCE Summa Sabres",
+    "url": "https://live-ilce.ovp-vivaro.digital/ovp-origin-abr/ngrp:6359ef999f3fb_all/playlist.m3u8",
+    "logo": "",
+    "country": "MX",
+    "language": "es",
+    "category": "Educativo",
+    "sourceType": "hls",
+    "isLikelyStable": true,
+    "isTokenized": false,
+    "isChunklist": false,
+    "working": true,
+    "note": "Canal de México listado por iptv-org."
   },
   {
     "name": "Canal 22 Nacional",
@@ -3892,12 +4004,12 @@
     "note": "Canal público de Perú listado por iptv-org."
   },
   {
-    "name": "ATV+",
-    "url": "https://alba-pe-atv-atvmas.stream.mediatiquestream.com/index.m3u8",
-    "logo": "https://beto220588.github.io/tv-libre-py/assets/logos/latam_pe_atv.png",
+    "name": "ATV Sur",
+    "url": "https://alba-pe-atv-atvsur.stream.mediatiquestream.com/index.m3u8",
+    "logo": "https://beto220588.github.io/tv-libre-py/assets/logos/latam_pe_atv_sur.png",
     "country": "PE",
     "language": "es",
-    "category": "Noticias",
+    "category": "General",
     "sourceType": "hls",
     "isLikelyStable": true,
     "isTokenized": false,
@@ -3906,12 +4018,12 @@
     "note": "Canal público de Perú listado por iptv-org."
   },
   {
-    "name": "ATV Sur",
-    "url": "https://alba-pe-atv-atvsur.stream.mediatiquestream.com/index.m3u8",
-    "logo": "https://beto220588.github.io/tv-libre-py/assets/logos/latam_pe_atv_sur.png",
+    "name": "ATV+",
+    "url": "https://alba-pe-atv-atvmas.stream.mediatiquestream.com/index.m3u8",
+    "logo": "https://beto220588.github.io/tv-libre-py/assets/logos/latam_pe_atv.png",
     "country": "PE",
     "language": "es",
-    "category": "General",
+    "category": "Noticias",
     "sourceType": "hls",
     "isLikelyStable": true,
     "isTokenized": false,
@@ -4746,6 +4858,34 @@
     "note": "Canal público de Venezuela listado por iptv-org."
   },
   {
+    "name": "DuacaVision",
+    "url": "https://vs20.live.opencaster.com/duacavision_092f3447/index.m3u8",
+    "logo": "",
+    "country": "VE",
+    "language": "es",
+    "category": "Regional",
+    "sourceType": "hls",
+    "isLikelyStable": true,
+    "isTokenized": false,
+    "isChunklist": false,
+    "working": true,
+    "note": "Canal de Venezuela listado por iptv-org."
+  },
+  {
+    "name": "Fortuna TV",
+    "url": "https://streamtv.intervenhosting.net:3355/live/fortunatvlive.m3u8",
+    "logo": "",
+    "country": "VE",
+    "language": "es",
+    "category": "General",
+    "sourceType": "hls",
+    "isLikelyStable": true,
+    "isTokenized": false,
+    "isChunklist": false,
+    "working": true,
+    "note": "Canal de Venezuela listado por iptv-org."
+  },
+  {
     "name": "Grande TV",
     "url": "https://live20.bozztv.com/akamaissh101/ssh101/grandetv2240/playlist.m3u8",
     "logo": "https://beto220588.github.io/tv-libre-py/assets/logos/latam_ve_grande_tv.png",
@@ -4760,6 +4900,20 @@
     "note": "Canal público de Venezuela listado por iptv-org."
   },
   {
+    "name": "Guaro TV",
+    "url": "https://stream.guarotv.net:3592/hybrid/play.m3u8",
+    "logo": "",
+    "country": "VE",
+    "language": "es",
+    "category": "Regional",
+    "sourceType": "hls",
+    "isLikelyStable": true,
+    "isTokenized": false,
+    "isChunklist": false,
+    "working": true,
+    "note": "Canal de Venezuela listado por iptv-org."
+  },
+  {
     "name": "Isla TV",
     "url": "https://59d39900ebfb8.streamlock.net/islatv/islatv/playlist.m3u8",
     "logo": "https://beto220588.github.io/tv-libre-py/assets/logos/latam_ve_isla_tv.jpg",
@@ -4772,6 +4926,20 @@
     "isChunklist": false,
     "working": true,
     "note": "Canal público de Venezuela listado por iptv-org."
+  },
+  {
+    "name": "Meridiano TV",
+    "url": "https://e1.viginet.vectormax.com:5210/quickstart/114-934-21/index.m3u8",
+    "logo": "",
+    "country": "VE",
+    "language": "es",
+    "category": "Deportes",
+    "sourceType": "hls",
+    "isLikelyStable": true,
+    "isTokenized": false,
+    "isChunklist": false,
+    "working": true,
+    "note": "Canal de Venezuela listado por iptv-org."
   },
   {
     "name": "Onza TV",
