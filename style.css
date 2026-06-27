@@ -656,9 +656,26 @@ body[data-mode="latam"] .badge {
     min-height: 0;
   }
 
+  .player-section {
+    overflow-y: auto;
+    padding-right: 10px;
+    padding-bottom: 28px;
+    scrollbar-color: #4d5d70 transparent;
+    scrollbar-width: thin;
+  }
+
+  .player-section::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  .player-section::-webkit-scrollbar-thumb {
+    border-radius: 999px;
+    background: #4d5d70;
+  }
+
   .player-card {
     flex: 0 0 auto;
-    height: clamp(420px, 58vh, 680px);
+    height: clamp(360px, 50vh, 620px);
     max-height: none;
   }
 
