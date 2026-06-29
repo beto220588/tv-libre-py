@@ -1,0 +1,12 @@
+[
+  {
+    "id": "demo-live",
+    "name": "IPTV Canales Demo",
+    "url": "",
+    "logo": "",
+    "category": "Canales",
+    "sourceType": "hls",
+    "working": false,
+    "note": "Contenido de prueba reservado."
+  }
+]

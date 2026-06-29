@@ -1,0 +1,13 @@
+[
+  {
+    "id": "demo-movie",
+    "title": "Película Demo",
+    "url": "",
+    "poster": "",
+    "category": "Películas",
+    "year": "2026",
+    "sourceType": "vod",
+    "working": false,
+    "note": "Contenido de prueba reservado."
+  }
+]

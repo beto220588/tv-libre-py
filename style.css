@@ -294,6 +294,78 @@ body[data-mode="radio"] .player-overlay.is-hidden {
   margin-top: 8px;
 }
 
+.iptv-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.iptv-series-panel {
+  margin-top: 10px;
+}
+
+.series-detail-card {
+  display: grid;
+  gap: 14px;
+  padding: 14px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--panel);
+}
+
+.series-detail-header {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 12px;
+  align-items: center;
+}
+
+.series-detail-header strong {
+  display: block;
+  font-size: 18px;
+}
+
+.series-detail-header span {
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.series-detail-body {
+  display: grid;
+  gap: 12px;
+}
+
+.season-block {
+  display: grid;
+  gap: 8px;
+}
+
+.season-block > strong {
+  color: var(--accent);
+  font-size: 14px;
+}
+
+.episode-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.episode-chip {
+  min-height: 40px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--panel-strong);
+  color: var(--text);
+  padding: 0 14px;
+  font-weight: 800;
+}
+
+.episode-chip.is-disabled {
+  opacity: 0.55;
+}
+
 body[data-mode="latam"] .player-controls {
   grid-template-columns: 1fr;
   gap: 12px;
@@ -436,6 +508,11 @@ body[data-mode="latam"] .channel-card {
   border-color: var(--accent-strong);
   background: #202b38;
   transform: translateY(-2px);
+}
+
+.channel-card.is-selected {
+  border-color: var(--accent-strong);
+  background: #202b38;
 }
 
 .channel-play {

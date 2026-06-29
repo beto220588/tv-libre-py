@@ -33,6 +33,7 @@ No abras `index.html` con doble clic, porque el navegador puede bloquear `fetch(
 
 - TV usa `<video>` y HLS.js para streams `.m3u8`.
 - Radios usa `<audio controls>`.
+- IPTV agrega secciones de canales, peliculas y series de solo lectura, con carga remota y fallback local.
 - Radios con `sourceType: "audio"` usan URL directa.
 - Radios con `sourceType: "hls_audio"` usan HLS.js si el navegador no soporta HLS nativo.
 - Radios con `sourceType: "pls"` intentan leer la primera linea `File1=http://...`.

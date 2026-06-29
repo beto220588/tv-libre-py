@@ -1,0 +1,22 @@
+[
+  {
+    "id": "demo-series",
+    "title": "Serie Demo",
+    "poster": "",
+    "category": "Series",
+    "seasons": [
+      {
+        "seasonNumber": 1,
+        "episodes": [
+          {
+            "episodeNumber": 1,
+            "title": "Episodio Demo",
+            "url": "",
+            "sourceType": "vod",
+            "working": false
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -4,6 +4,18 @@ const DATA_URLS = {
   radio: "./radios_paraguay.json",
 };
 
+const IPTV_REMOTE_URLS = {
+  live: "https://beto220588.github.io/tv-libre-py/iptv_live.json",
+  movies: "https://beto220588.github.io/tv-libre-py/iptv_movies.json",
+  series: "https://beto220588.github.io/tv-libre-py/iptv_series.json",
+};
+
+const IPTV_LOCAL_URLS = {
+  live: "./iptv_live.json",
+  movies: "./iptv_movies.json",
+  series: "./iptv_series.json",
+};
+
 const DESDEPARAGUAY_MOBILE_LIST_URL = "https://www.desdeparaguay.net/android/movil_list.aspx?v=2";
 const ALL_CATEGORY = "Todos";
 const PENDING_CATEGORY = "Pendientes";
@@ -66,6 +78,25 @@ const MODE_COPY = {
     lastLabel: "Última radio",
     action: "Escuchar",
   },
+  iptv: {
+    title: "IPTV",
+    subtitle: "Contenido remoto de solo lectura",
+    itemLabel: "contenidos",
+    searchLabel: "Buscar IPTV",
+    searchPlaceholder: "Nombre, categoría o título",
+    categoryLabel: "Subcategoría",
+    empty: "No se encontraron contenidos IPTV",
+    noFavorites: "No tienes contenidos favoritos",
+    loading: "Cargando IPTV...",
+    loadError: "No se pudo cargar la lista IPTV",
+    selectedTitle: "Ningún contenido seleccionado",
+    selectedMeta: "Busca y elige un contenido de la lista.",
+    overlayTitle: "Selecciona un contenido",
+    overlayText: "La reproducción aparecerá aquí.",
+    hint: "Enter/OK reproduce el contenido seleccionado",
+    lastLabel: "Último contenido",
+    action: "Reproducir",
+  },
 };
 
 const state = {
@@ -73,6 +104,7 @@ const state = {
   tv: createModeState(),
   latam: createModeState(),
   radio: createModeState(),
+  iptv: createIptvState(),
   hls: null,
   youtubeFrame: null,
   webFrame: null,
@@ -82,6 +114,7 @@ const elements = {
   tvModeButton: document.getElementById("tvModeButton"),
   latamModeButton: document.getElementById("latamModeButton"),
   radioModeButton: document.getElementById("radioModeButton"),
+  iptvModeButton: document.getElementById("iptvModeButton"),
   title: document.getElementById("appTitle"),
   subtitle: document.getElementById("appSubtitle"),
   itemCount: document.getElementById("itemCount"),
@@ -100,6 +133,8 @@ const elements = {
   lastItemSlot: document.getElementById("lastItemSlot"),
   categoryChips: document.getElementById("categoryChips"),
   favoritesFilterButton: document.getElementById("favoritesFilterButton"),
+  iptvTabs: document.getElementById("iptvTabs"),
+  iptvSeriesPanel: document.getElementById("iptvSeriesPanel"),
   itemGrid: document.getElementById("itemGrid"),
   resultsCount: document.getElementById("resultsCount"),
   keyboardHint: document.getElementById("keyboardHint"),
@@ -118,11 +153,35 @@ function createModeState() {
   };
 }
 
+function createIptvState() {
+  return {
+    items: [],
+    filteredItems: [],
+    selectedCategory: ALL_CATEGORY,
+    searchText: "",
+    favoritesOnly: false,
+    favorites: new Set(),
+    loaded: false,
+    liveItems: [],
+    moviesItems: [],
+    seriesItems: [],
+    liveSource: null,
+    moviesSource: null,
+    seriesSource: null,
+    liveErrorMessage: null,
+    moviesErrorMessage: null,
+    seriesErrorMessage: null,
+    selectedTab: "live",
+    selectedSeriesId: "",
+  };
+}
+
 async function init() {
   bindEvents();
   loadFavorites("tv");
   loadFavorites("latam");
   loadFavorites("radio");
+  loadFavorites("iptv");
   applyMode("tv");
   await loadCurrentMode();
 }
@@ -131,6 +190,7 @@ function bindEvents() {
   elements.tvModeButton.addEventListener("click", () => switchMode("tv"));
   elements.latamModeButton.addEventListener("click", () => switchMode("latam"));
   elements.radioModeButton.addEventListener("click", () => switchMode("radio"));
+  elements.iptvModeButton.addEventListener("click", () => switchMode("iptv"));
 
   elements.searchInput.addEventListener("input", (event) => {
     currentState().searchText = event.target.value;
@@ -187,9 +247,11 @@ function applyMode(mode) {
   elements.tvModeButton.classList.toggle("is-active", mode === "tv");
   elements.latamModeButton.classList.toggle("is-active", mode === "latam");
   elements.radioModeButton.classList.toggle("is-active", mode === "radio");
+  elements.iptvModeButton.classList.toggle("is-active", mode === "iptv");
   elements.tvModeButton.setAttribute("aria-pressed", String(mode === "tv"));
   elements.latamModeButton.setAttribute("aria-pressed", String(mode === "latam"));
   elements.radioModeButton.setAttribute("aria-pressed", String(mode === "radio"));
+  elements.iptvModeButton.setAttribute("aria-pressed", String(mode === "iptv"));
 
   elements.title.textContent = copy.title;
   elements.subtitle.textContent = copy.subtitle;
@@ -206,9 +268,13 @@ function applyMode(mode) {
   elements.nowPlayingEyebrow.textContent = mode === "radio" ? "Escuchando" : "Reproduciendo";
   elements.nowPlayingName.textContent = copy.selectedTitle;
   elements.nowPlayingMeta.textContent = copy.selectedMeta;
+  elements.iptvTabs.hidden = mode !== "iptv";
+  elements.iptvSeriesPanel.hidden = mode !== "iptv";
   showOverlay(copy.overlayTitle, copy.overlayText);
   renderLastItem();
   renderFavoriteFilter();
+  renderIptvTabs();
+  renderIptvSeriesPanel();
 }
 
 async function loadCurrentMode() {
@@ -217,12 +283,30 @@ async function loadCurrentMode() {
   const copy = MODE_COPY[mode];
 
   if (modeState.loaded) {
+    if (mode === "iptv") {
+      syncIptvItems();
+    }
     renderAll();
     return;
   }
 
   setStatus(copy.loading);
   elements.itemGrid.innerHTML = `<div class="empty-state">${copy.loading}</div>`;
+
+  if (mode === "iptv") {
+    try {
+      await loadIptvData();
+      modeState.loaded = true;
+      syncIptvItems();
+      setStatus("");
+    } catch (error) {
+      modeState.items = [];
+      modeState.loaded = true;
+      setStatus(copy.loadError, true);
+    }
+    renderAll();
+    return;
+  }
 
   try {
     const response = await fetch(DATA_URLS[mode], { cache: "no-store" });
@@ -248,7 +332,115 @@ function renderAll() {
   renderCategories();
   renderFavoriteFilter();
   renderLastItem();
+  renderIptvTabs();
+  renderIptvSeriesPanel();
   filterAndRender();
+}
+
+async function loadIptvData() {
+  const [liveResult, movieResult, seriesResult] = await Promise.all([
+    loadIptvList("live"),
+    loadIptvList("movies"),
+    loadIptvList("series"),
+  ]);
+
+  state.iptv.liveItems = liveResult.items;
+  state.iptv.moviesItems = movieResult.items;
+  state.iptv.seriesItems = seriesResult.items;
+  state.iptv.liveSource = liveResult.source;
+  state.iptv.moviesSource = movieResult.source;
+  state.iptv.seriesSource = seriesResult.source;
+  state.iptv.liveErrorMessage = liveResult.errorMessage;
+  state.iptv.moviesErrorMessage = movieResult.errorMessage;
+  state.iptv.seriesErrorMessage = seriesResult.errorMessage;
+  syncIptvItems();
+}
+
+async function loadIptvList(kind) {
+  const copy = MODE_COPY.iptv;
+  try {
+    const remoteResponse = await fetch(IPTV_REMOTE_URLS[kind], { cache: "no-store" });
+    if (!remoteResponse.ok) throw new Error(`HTTP ${remoteResponse.status}`);
+    const remoteItems = await remoteResponse.json();
+    return {
+      items: normalizeIptvItems(kind, remoteItems),
+      source: "remote",
+      errorMessage: "",
+    };
+  } catch (remoteError) {
+    try {
+      const localResponse = await fetch(IPTV_LOCAL_URLS[kind], { cache: "no-store" });
+      if (!localResponse.ok) throw new Error(`HTTP ${localResponse.status}`);
+      const localItems = await localResponse.json();
+      return {
+        items: normalizeIptvItems(kind, localItems),
+        source: "local",
+        errorMessage: remoteError?.message || copy.loadError,
+      };
+    } catch (localError) {
+      return {
+        items: [],
+        source: "local",
+        errorMessage: localError?.message || copy.loadError,
+      };
+    }
+  }
+}
+
+function normalizeIptvItems(kind, items) {
+  if (!Array.isArray(items)) return [];
+
+  if (kind === "live") {
+    return items
+      .map((item) => ({
+        ...item,
+        name: String(item?.name || "").trim(),
+        category: String(item?.category || "General").trim() || "General",
+        sourceType: String(item?.sourceType || "hls").trim() || "hls",
+      }))
+      .filter((item) => item.name)
+      .sort((a, b) => a.name.localeCompare(b.name, "es", { sensitivity: "base" }));
+  }
+
+  if (kind === "movies") {
+    return items
+      .map((item) => ({
+        ...item,
+        name: String(item?.name || item?.title || "").trim(),
+        title: String(item?.title || item?.name || "").trim(),
+        category: String(item?.category || "Películas").trim() || "Películas",
+        sourceType: String(item?.sourceType || "vod").trim() || "vod",
+      }))
+      .filter((item) => item.name)
+      .sort((a, b) => a.name.localeCompare(b.name, "es", { sensitivity: "base" }));
+  }
+
+  return items
+    .map((item) => ({
+      ...item,
+      name: String(item?.name || item?.title || "").trim(),
+      title: String(item?.title || item?.name || "").trim(),
+      category: String(item?.category || "Series").trim() || "Series",
+      seasons: Array.isArray(item?.seasons) ? item.seasons : [],
+    }))
+    .filter((item) => item.name)
+    .sort((a, b) => a.name.localeCompare(b.name, "es", { sensitivity: "base" }));
+}
+
+function syncIptvItems() {
+  const modeState = state.iptv;
+  const selectedTab = modeState.selectedTab;
+  const sourceItems =
+    selectedTab === "movies"
+      ? modeState.moviesItems
+      : selectedTab === "series"
+        ? modeState.seriesItems
+        : modeState.liveItems;
+  modeState.items = sourceItems;
+  modeState.selectedCategory = modeState.selectedCategory || ALL_CATEGORY;
+  if (selectedTab === "series" && !modeState.selectedSeriesId) {
+    modeState.selectedSeriesId = modeState.seriesItems[0]?.id || modeState.seriesItems[0]?.name || "";
+  }
 }
 
 function isValidItem(item) {
@@ -329,19 +521,21 @@ function filterAndRender() {
   const query = modeState.searchText.trim().toLowerCase();
 
   modeState.filteredItems = modeState.items.filter((item) => {
+    const displayName = item.name || item.title || "";
     const location =
       state.mode === "radio"
         ? item.city || item.country || "PY"
         : state.mode === "latam"
           ? `${item.country || "XX"} ${getCountryLabel(item.country || "XX")}`
           : item.country || "PY";
-    const matchesSearch = `${item.name} ${location}`.toLowerCase().includes(query);
+    const matchesSearch = `${displayName} ${location} ${item.year || ""}`.toLowerCase().includes(query);
     const matchesCategory =
       modeState.selectedCategory === ALL_CATEGORY ||
       (state.mode === "latam" && (item.country || "OTRO") === modeState.selectedCategory) ||
       (state.mode === "radio" && modeState.selectedCategory === PENDING_CATEGORY && item.working === false) ||
       (item.category || "General") === modeState.selectedCategory;
-    const matchesFavorite = !modeState.favoritesOnly || modeState.favorites.has(item.url);
+    const favoriteKey = item.url || item.name || item.title || "";
+    const matchesFavorite = !modeState.favoritesOnly || modeState.favorites.has(favoriteKey);
     return matchesSearch && matchesCategory && matchesFavorite;
   });
 
@@ -362,8 +556,14 @@ function renderItems() {
   }
 
   modeState.filteredItems.forEach((item, index) => {
+    const isPlayable = state.mode === "iptv"
+      ? (modeState.selectedTab === "series" ? true : item.working !== false && item.url)
+      : true;
     const card = document.createElement("article");
     card.className = "channel-card";
+    if (state.mode === "iptv" && modeState.selectedTab === "series" && modeState.selectedSeriesId === (item.id || item.name)) {
+      card.classList.add("is-selected");
+    }
     card.innerHTML = `
       <button class="channel-play" type="button" data-index="${index}">
         ${renderLogo(item)}
@@ -376,20 +576,37 @@ function renderItems() {
         </span>
       </button>
       <button class="favorite-button" type="button" aria-label="Cambiar favorito de ${escapeAttribute(item.name)}">
-        ${modeState.favorites.has(item.url) ? "★" : "☆"}
+        ${modeState.favorites.has(item.url || item.name) ? "★" : "☆"}
       </button>
     `;
 
     const playButton = card.querySelector(".channel-play");
     const favoriteButton = card.querySelector(".favorite-button");
-    playButton.addEventListener("click", () => playItem(item));
+    playButton.addEventListener("click", () => {
+      if (state.mode === "iptv" && modeState.selectedTab === "series") {
+        selectIptvSeries(item);
+        return;
+      }
+      if (state.mode === "iptv" && !isPlayable) return;
+      playItem(item);
+    });
     playButton.addEventListener("keydown", (event) => handleCardKeydown(event, index));
-    favoriteButton.addEventListener("click", () => toggleFavorite(item.url));
+    favoriteButton.addEventListener("click", () => toggleFavorite(item.url || item.name));
     elements.itemGrid.appendChild(card);
   });
 }
 
 function getItemMeta(item) {
+  if (state.mode === "iptv") {
+    const tab = state.iptv.selectedTab;
+    if (tab === "movies") {
+      return `${item.category || "Películas"} | ${item.year || "VOD"}`;
+    }
+    if (tab === "series") {
+      return `${item.category || "Series"} | ${(item.seasons || []).length} temporada(s)`;
+    }
+    return `${item.category || "Canales"} | IPTV`;
+  }
   if (state.mode === "radio") {
     return `${item.category || "Radio"} | ${item.city || item.country || "PY"}`;
   }
@@ -426,7 +643,7 @@ function getCountryLabel(code) {
 function renderLogo(item) {
   const name = item.name || "";
   const initial = escapeHtml(name.slice(0, 1).toUpperCase());
-  const logo = String(item.logo || "").trim();
+  const logo = String(item.logo || item.poster || "").trim();
 
   if (!logo) return `<span class="logo">${initial}</span>`;
 
@@ -463,6 +680,19 @@ window.handleLogoError = handleLogoError;
 
 function renderBadges(item) {
   const badges = [];
+  if (state.mode === "iptv") {
+    badges.push(`<span class="badge">IPTV</span>`);
+    if (state.iptv.selectedTab === "series") {
+      badges.push(`<span class="badge">Series</span>`);
+    } else if (state.iptv.selectedTab === "movies") {
+      badges.push(`<span class="badge">Película</span>`);
+    } else {
+      badges.push(`<span class="badge">Canal</span>`);
+    }
+    if (item.working === false || !item.url) badges.push(`<span class="badge warning">Pendiente</span>`);
+    return badges.join("");
+  }
+
   if (state.mode === "radio") {
     badges.push(`<span class="badge">Radio</span>`);
     if (item.working === false) badges.push(`<span class="badge warning">Pendiente</span>`);
@@ -530,6 +760,11 @@ function playChannel(channel) {
     return;
   }
 
+  if (shouldPlayDirectVideo(sourceType, channel.url)) {
+    playDirectVideo(channel.url);
+    return;
+  }
+
   if (window.Hls && Hls.isSupported()) {
     elements.video.hidden = false;
     state.hls = new Hls();
@@ -557,6 +792,21 @@ function playChannel(channel) {
 
   setStatus("Este navegador no soporta reproducción HLS", true);
   showOverlay("HLS no disponible", "Prueba con un navegador compatible o habilita HLS.js.");
+}
+
+function shouldPlayDirectVideo(sourceType, url) {
+  const cleanSourceType = String(sourceType || "").toLowerCase();
+  const cleanUrl = String(url || "").toLowerCase();
+  if (cleanSourceType === "vod" || cleanSourceType === "video" || cleanSourceType === "mp4" || cleanSourceType === "movie") {
+    return !cleanUrl.includes(".m3u8");
+  }
+  return /\.(mp4|webm|ogg|mkv)(\?|#|$)/i.test(cleanUrl);
+}
+
+function playDirectVideo(url) {
+  elements.video.hidden = false;
+  elements.video.src = url;
+  elements.video.play().catch(() => setStatus("Presiona reproducir para iniciar el contenido."));
 }
 
 function showExternalOptions(channel) {
@@ -869,6 +1119,114 @@ function renderLastItem() {
   elements.lastItemSlot.appendChild(card);
 }
 
+function renderIptvTabs() {
+  if (!elements.iptvTabs) return;
+  elements.iptvTabs.innerHTML = "";
+  elements.iptvTabs.hidden = state.mode !== "iptv";
+  if (state.mode !== "iptv") return;
+
+  const tabs = [
+    { key: "live", label: "Canales" },
+    { key: "movies", label: "Películas" },
+    { key: "series", label: "Series" },
+  ];
+
+  tabs.forEach((tab) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = `chip${state.iptv.selectedTab === tab.key ? " is-active" : ""}`;
+    button.textContent = tab.label;
+    button.addEventListener("click", () => selectIptvTab(tab.key));
+    elements.iptvTabs.appendChild(button);
+  });
+}
+
+function selectIptvTab(tab) {
+  if (state.iptv.selectedTab === tab) return;
+  state.iptv.selectedTab = tab;
+  state.iptv.searchText = "";
+  state.iptv.selectedCategory = ALL_CATEGORY;
+  if (tab !== "series") {
+    state.iptv.selectedSeriesId = "";
+  }
+  syncIptvItems();
+  renderAll();
+}
+
+function selectIptvSeries(item) {
+  state.iptv.selectedSeriesId = item.id || item.name || "";
+  renderAll();
+}
+
+function renderIptvSeriesPanel() {
+  if (!elements.iptvSeriesPanel) return;
+  elements.iptvSeriesPanel.innerHTML = "";
+  elements.iptvSeriesPanel.hidden = state.mode !== "iptv" || state.iptv.selectedTab !== "series";
+  if (elements.iptvSeriesPanel.hidden) return;
+
+  const series = state.iptv.seriesItems.find((item) => (item.id || item.name) === state.iptv.selectedSeriesId);
+  if (!series) {
+    elements.iptvSeriesPanel.innerHTML = `<div class="empty-state">Selecciona una serie para ver sus episodios</div>`;
+    return;
+  }
+
+  const seasons = Array.isArray(series.seasons) ? series.seasons : [];
+  const episodeButtons = seasons.flatMap((season) =>
+    (season.episodes || []).map((episode) => {
+      const enabled = episode.working !== false && Boolean(episode.url);
+      return `
+        <button type="button" class="episode-chip${enabled ? "" : " is-disabled"}" data-season="${season.seasonNumber}" data-episode="${episode.episodeNumber}" ${enabled ? "" : "disabled"}>
+          ${escapeHtml(episode.title || `Episodio ${episode.episodeNumber}`)}
+        </button>
+      `;
+    })
+  ).join("");
+
+  elements.iptvSeriesPanel.innerHTML = `
+    <div class="series-detail-card">
+      <div class="series-detail-header">
+        ${renderLogo(series)}
+        <div>
+          <strong>${escapeHtml(series.name)}</strong>
+          <span>${escapeHtml(series.category || "Series")}</span>
+        </div>
+      </div>
+      <div class="series-detail-body">
+        ${seasons.length ? seasons.map((season) => `
+          <div class="season-block">
+            <strong>Temporada ${season.seasonNumber}</strong>
+            <div class="episode-row">
+              ${(season.episodes || []).map((episode) => {
+                const enabled = episode.working !== false && Boolean(episode.url);
+                return `<button type="button" class="episode-chip${enabled ? "" : " is-disabled"}" data-season="${season.seasonNumber}" data-episode="${episode.episodeNumber}" ${enabled ? "" : "disabled"}>${escapeHtml(episode.title || `Episodio ${episode.episodeNumber}`)}</button>`;
+              }).join("")}
+            </div>
+          </div>
+        `).join("") : `<div class="empty-state">No hay episodios disponibles</div>`}
+      </div>
+    </div>
+  `;
+
+  elements.iptvSeriesPanel.querySelectorAll("[data-season][data-episode]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const seasonNumber = Number(button.getAttribute("data-season"));
+      const episodeNumber = Number(button.getAttribute("data-episode"));
+      const season = seasons.find((item) => item.seasonNumber === seasonNumber);
+      const episode = season?.episodes?.find((item) => item.episodeNumber === episodeNumber);
+      if (!episode || episode.working === false || !episode.url) return;
+      playItem({
+        name: `${series.name} - ${episode.title || `Episodio ${episode.episodeNumber}`}`,
+        url: episode.url,
+        logo: series.poster || "",
+        category: series.category || "Series",
+        sourceType: episode.sourceType || "vod",
+        working: true,
+        note: "Episodio IPTV",
+      });
+    });
+  });
+}
+
 function handleCardKeydown(event, index) {
   const cards = Array.from(document.querySelectorAll(".channel-play"));
   const columns = getGridColumnCount();
@@ -939,12 +1297,14 @@ function currentState() {
 function favoritesKey(mode) {
   if (mode === "radio") return "tvLibrePyRadioFavorites";
   if (mode === "latam") return "tvLibrePyLatamFavorites";
+  if (mode === "iptv") return "tvLibrePyIptvFavorites";
   return "tvLibrePyTvFavorites";
 }
 
 function lastKey(mode) {
   if (mode === "radio") return "tvLibrePyLastRadio";
   if (mode === "latam") return "tvLibrePyLastLatamChannel";
+  if (mode === "iptv") return "tvLibrePyLastIptv";
   return "tvLibrePyLastChannel";
 }
 
