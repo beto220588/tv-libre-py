@@ -184,7 +184,7 @@ function createIptvState() {
     selectedTab: "live",
     selectedSeriesId: "",
     organization: "category",
-    viewMode: "grid",
+    viewMode: "catalog",
     adultUnlocked: false,
     pendingAdultCategory: "",
     detailItem: null,
@@ -591,8 +591,67 @@ function renderItems() {
     return;
   }
 
+  if (
+    state.mode === "iptv" &&
+    (state.iptv.selectedTab === "movies" || state.iptv.selectedTab === "series") &&
+    state.iptv.organization !== "az"
+  ) {
+    renderIptvSplitBrowser(modeState.filteredItems);
+    return;
+  }
+
   modeState.filteredItems.forEach((item, index) => {
     elements.itemGrid.appendChild(createItemCard(item, index));
+  });
+}
+
+function renderIptvSplitBrowser(items) {
+  const categories = getIptvSplitCategories();
+  const shell = document.createElement("section");
+  shell.className = "iptv-split-browser";
+  shell.innerHTML = `
+    <aside class="iptv-category-rail" aria-label="Géneros IPTV"></aside>
+    <div class="iptv-split-content">
+      <div class="iptv-split-grid"></div>
+    </div>
+  `;
+
+  const rail = shell.querySelector(".iptv-category-rail");
+  categories.forEach((category) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = `rail-button${state.iptv.selectedCategory === category ? " is-active" : ""}`;
+    button.textContent = isAdultCategory(category) && !state.iptv.adultUnlocked ? `${category} (bloqueado)` : category;
+    button.addEventListener("click", () => {
+      if (isAdultCategory(category) && !state.iptv.adultUnlocked) {
+        openParentalDialog(category);
+        return;
+      }
+      state.iptv.selectedCategory = category;
+      renderAll();
+    });
+    rail.appendChild(button);
+  });
+
+  const grid = shell.querySelector(".iptv-split-grid");
+  if (!items.length) {
+    grid.innerHTML = `<div class="empty-state">No se encontraron contenidos IPTV</div>`;
+  } else {
+    items.forEach((item, index) => grid.appendChild(createItemCard(item, index)));
+  }
+  elements.itemGrid.appendChild(shell);
+}
+
+function getIptvSplitCategories() {
+  const modeState = currentState();
+  const categories = [
+    ALL_CATEGORY,
+    ...new Set(modeState.items.map((item) => item.category || (state.iptv.selectedTab === "movies" ? "Películas" : "Series"))),
+  ];
+  return categories.sort((a, b) => {
+    if (a === ALL_CATEGORY) return -1;
+    if (b === ALL_CATEGORY) return 1;
+    return a.localeCompare(b, "es", { sensitivity: "base" });
   });
 }
 
@@ -1345,6 +1404,13 @@ function renderIptvViewModes() {
   container.hidden = state.mode !== "iptv";
   elements.itemGrid.classList.toggle("is-list", state.mode === "iptv" && state.iptv.viewMode === "list");
   elements.itemGrid.classList.toggle("is-catalog", state.mode === "iptv" && state.iptv.viewMode === "catalog");
+  elements.itemGrid.classList.toggle(
+    "is-split",
+    state.mode === "iptv" &&
+      state.iptv.viewMode !== "catalog" &&
+      (state.iptv.selectedTab === "movies" || state.iptv.selectedTab === "series") &&
+      state.iptv.organization !== "az"
+  );
   if (container.hidden) return;
 
   [
@@ -1358,7 +1424,7 @@ function renderIptvViewModes() {
     button.textContent = option.label;
     button.addEventListener("click", () => {
       state.iptv.viewMode = option.key;
-      renderIptvViewModes();
+      renderAll();
     });
     container.appendChild(button);
   });
@@ -1370,6 +1436,7 @@ function selectIptvTab(tab) {
   state.iptv.searchText = "";
   state.iptv.selectedCategory = ALL_CATEGORY;
   state.iptv.organization = "category";
+  state.iptv.viewMode = tab === "live" ? "catalog" : "grid";
   state.iptv.detailItem = null;
   if (tab !== "series") {
     state.iptv.selectedSeriesId = "";
