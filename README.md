@@ -81,3 +81,9 @@ Esta carpeta esta preparada para publicarse con GitHub Pages. Las rutas usadas p
 - `./assets/logos/`
 
 La Web App no incluye backend. Solo necesita internet para cargar los streams, consultar APIs publicas de radios cuando corresponda y cargar HLS.js desde CDN.
+
+## IPTV privado y Web publica
+
+La configuracion privada de IPTV con credenciales localizadas en Android no se publica aqui.
+La Web App solo conserva la parte de lectura publica y de solo lectura que funciona sin exponer usuario, contrasena ni enlaces privados.
+Si una seccion IPTV necesita datos privados, se mantiene exclusivamente en la APK Android y no se sube a GitHub Pages.
