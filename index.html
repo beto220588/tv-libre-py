@@ -58,6 +58,8 @@
         </div>
 
         <div id="iptvTabs" class="iptv-tabs" hidden></div>
+        <div id="iptvOrganization" class="iptv-toolbar" hidden></div>
+        <div id="iptvViewModes" class="iptv-toolbar" hidden></div>
         <div id="iptvSeriesPanel" class="iptv-series-panel" hidden></div>
 
         <p id="statusMessage" class="status-message" role="status"></p>
@@ -79,6 +81,22 @@
         <div id="itemGrid" class="channel-grid" aria-live="polite"></div>
       </section>
     </main>
+
+    <dialog id="parentalDialog" class="parental-dialog">
+      <form id="parentalForm" method="dialog">
+        <h2 id="parentalTitle">Control parental</h2>
+        <p id="parentalHelp">Ingresa el PIN para continuar.</p>
+        <label>
+          PIN
+          <input id="parentalPin" type="password" inputmode="numeric" minlength="4" maxlength="8" autocomplete="off">
+        </label>
+        <p id="parentalError" class="status-message is-error"></p>
+        <div class="dialog-actions">
+          <button id="parentalCancel" class="chip" type="button">Cancelar</button>
+          <button class="primary-button" type="submit">Continuar</button>
+        </div>
+      </form>
+    </dialog>
 
     <script src="./app.js"></script>
   </body>

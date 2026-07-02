@@ -19,6 +19,7 @@ const IPTV_LOCAL_URLS = {
 const DESDEPARAGUAY_MOBILE_LIST_URL = "https://www.desdeparaguay.net/android/movil_list.aspx?v=2";
 const ALL_CATEGORY = "Todos";
 const PENDING_CATEGORY = "Pendientes";
+const PARENTAL_HASH_KEY = "tvLibrePyParentalPinHash";
 const LOGO_EXTENSIONS = ["png", "jpg", "jpeg", "webp", "gif"];
 const MODE_COPY = {
   tv: {
@@ -134,11 +135,20 @@ const elements = {
   categoryChips: document.getElementById("categoryChips"),
   favoritesFilterButton: document.getElementById("favoritesFilterButton"),
   iptvTabs: document.getElementById("iptvTabs"),
+  iptvOrganization: document.getElementById("iptvOrganization"),
+  iptvViewModes: document.getElementById("iptvViewModes"),
   iptvSeriesPanel: document.getElementById("iptvSeriesPanel"),
   itemGrid: document.getElementById("itemGrid"),
   resultsCount: document.getElementById("resultsCount"),
   keyboardHint: document.getElementById("keyboardHint"),
   status: document.getElementById("statusMessage"),
+  parentalDialog: document.getElementById("parentalDialog"),
+  parentalForm: document.getElementById("parentalForm"),
+  parentalTitle: document.getElementById("parentalTitle"),
+  parentalHelp: document.getElementById("parentalHelp"),
+  parentalPin: document.getElementById("parentalPin"),
+  parentalError: document.getElementById("parentalError"),
+  parentalCancel: document.getElementById("parentalCancel"),
 };
 
 function createModeState() {
@@ -173,6 +183,10 @@ function createIptvState() {
     seriesErrorMessage: null,
     selectedTab: "live",
     selectedSeriesId: "",
+    organization: "category",
+    viewMode: "grid",
+    adultUnlocked: false,
+    pendingAdultCategory: "",
   };
 }
 
@@ -208,6 +222,9 @@ function bindEvents() {
     renderFavoriteFilter();
     filterAndRender();
   });
+
+  elements.parentalCancel.addEventListener("click", closeParentalDialog);
+  elements.parentalForm.addEventListener("submit", handleParentalSubmit);
 
   elements.video.addEventListener("waiting", () => setStatus("Cargando canal..."));
   elements.video.addEventListener("loadstart", () => setStatus("Cargando canal..."));
@@ -333,6 +350,8 @@ function renderAll() {
   renderFavoriteFilter();
   renderLastItem();
   renderIptvTabs();
+  renderIptvOrganization();
+  renderIptvViewModes();
   renderIptvSeriesPanel();
   filterAndRender();
 }
@@ -469,10 +488,10 @@ function renderCategories() {
   const modeState = currentState();
   let categories;
 
-  if (state.mode === "latam") {
+  if (state.mode === "latam" || (state.mode === "iptv" && modeState.organization === "country")) {
     categories = [
       ALL_CATEGORY,
-      ...new Set(modeState.items.map((item) => item.country || "OTRO")),
+      ...new Set(modeState.items.map((item) => state.mode === "iptv" ? getIptvCountry(item) : item.country || "OTRO").filter(Boolean)),
     ].sort((a, b) => {
       if (a === ALL_CATEGORY) return -1;
       if (b === ALL_CATEGORY) return 1;
@@ -482,7 +501,7 @@ function renderCategories() {
     const hasPending = state.mode === "radio" && modeState.items.some((item) => item.working === false);
     categories = [
       ALL_CATEGORY,
-      ...new Set(modeState.items.map((item) => item.category || "General")),
+      ...new Set(modeState.organization === "az" ? [] : modeState.items.map((item) => item.category || "General")),
       ...(hasPending ? [PENDING_CATEGORY] : []),
     ].sort((a, b) => {
       if (a === ALL_CATEGORY) return -1;
@@ -498,8 +517,13 @@ function renderCategories() {
     const button = document.createElement("button");
     button.className = `chip${category === modeState.selectedCategory ? " is-active" : ""}`;
     button.type = "button";
-    button.textContent = state.mode === "latam" ? getCountryLabel(category) : category;
+    const countryMode = state.mode === "latam" || (state.mode === "iptv" && modeState.organization === "country");
+    button.textContent = countryMode ? getCountryLabel(category) : isAdultCategory(category) && !state.iptv.adultUnlocked ? `${category} (bloqueado)` : category;
     button.addEventListener("click", () => {
+      if (state.mode === "iptv" && isAdultCategory(category) && !state.iptv.adultUnlocked) {
+        openParentalDialog(category);
+        return;
+      }
       modeState.selectedCategory = category;
       renderCategories();
       filterAndRender();
@@ -532,6 +556,7 @@ function filterAndRender() {
     const matchesCategory =
       modeState.selectedCategory === ALL_CATEGORY ||
       (state.mode === "latam" && (item.country || "OTRO") === modeState.selectedCategory) ||
+      (state.mode === "iptv" && modeState.organization === "country" && getIptvCountry(item) === modeState.selectedCategory) ||
       (state.mode === "radio" && modeState.selectedCategory === PENDING_CATEGORY && item.working === false) ||
       (item.category || "General") === modeState.selectedCategory;
     const favoriteKey = item.url || item.name || item.title || "";
@@ -555,45 +580,93 @@ function renderItems() {
     return;
   }
 
-  modeState.filteredItems.forEach((item, index) => {
-    const isPlayable = state.mode === "iptv"
-      ? (modeState.selectedTab === "series" ? true : item.working !== false && item.url)
-      : true;
-    const card = document.createElement("article");
-    card.className = "channel-card";
-    if (state.mode === "iptv" && modeState.selectedTab === "series" && modeState.selectedSeriesId === (item.id || item.name)) {
-      card.classList.add("is-selected");
-    }
-    card.innerHTML = `
-      <button class="channel-play" type="button" data-index="${index}">
-        ${renderLogo(item)}
-        <span class="channel-info">
-          <strong>${escapeHtml(item.name)}</strong>
-          <span>${escapeHtml(getItemMeta(item))}</span>
-          <span class="badges">${renderBadges(item)}</span>
-          ${item.note ? `<em class="channel-note">${escapeHtml(item.note)}</em>` : ""}
-          ${item.webNote ? `<em class="channel-note">${escapeHtml(item.webNote)}</em>` : ""}
-        </span>
-      </button>
-      <button class="favorite-button" type="button" aria-label="Cambiar favorito de ${escapeAttribute(item.name)}">
-        ${modeState.favorites.has(item.url || item.name) ? "★" : "☆"}
-      </button>
-    `;
+  if (state.mode === "iptv" && state.iptv.viewMode === "catalog") {
+    renderIptvCatalog(modeState.filteredItems);
+    return;
+  }
 
-    const playButton = card.querySelector(".channel-play");
-    const favoriteButton = card.querySelector(".favorite-button");
-    playButton.addEventListener("click", () => {
-      if (state.mode === "iptv" && modeState.selectedTab === "series") {
-        selectIptvSeries(item);
-        return;
-      }
-      if (state.mode === "iptv" && !isPlayable) return;
-      playItem(item);
-    });
-    playButton.addEventListener("keydown", (event) => handleCardKeydown(event, index));
-    favoriteButton.addEventListener("click", () => toggleFavorite(item.url || item.name));
-    elements.itemGrid.appendChild(card);
+  modeState.filteredItems.forEach((item, index) => {
+    elements.itemGrid.appendChild(createItemCard(item, index));
   });
+}
+
+function createItemCard(item, index) {
+  const modeState = currentState();
+  const isPlayable = state.mode === "iptv"
+    ? (modeState.selectedTab === "series" ? true : item.working !== false && item.url)
+    : true;
+  const favoriteKey = item.url || item.id || item.name || item.title || "";
+  const displayName = item.name || item.title || "";
+  const card = document.createElement("article");
+  card.className = "channel-card";
+  if (state.mode === "iptv" && modeState.selectedTab === "series" && modeState.selectedSeriesId === (item.id || item.name)) {
+    card.classList.add("is-selected");
+  }
+  card.innerHTML = `
+    <button class="channel-play" type="button" data-index="${index}">
+      ${renderLogo(item)}
+      <span class="channel-info">
+        <strong>${escapeHtml(displayName)}</strong>
+        <span>${escapeHtml(getItemMeta(item))}</span>
+        <span class="badges">${renderBadges(item)}</span>
+        ${item.note ? `<em class="channel-note">${escapeHtml(item.note)}</em>` : ""}
+        ${item.webNote ? `<em class="channel-note">${escapeHtml(item.webNote)}</em>` : ""}
+      </span>
+    </button>
+    <button class="favorite-button" type="button" aria-label="Cambiar favorito de ${escapeAttribute(displayName)}">
+      ${modeState.favorites.has(favoriteKey) ? "★" : "☆"}
+    </button>
+  `;
+
+  const playButton = card.querySelector(".channel-play");
+  const favoriteButton = card.querySelector(".favorite-button");
+  playButton.addEventListener("click", () => {
+    if (state.mode === "iptv" && modeState.selectedTab === "series") {
+      selectIptvSeries(item);
+      return;
+    }
+    if (state.mode === "iptv" && !isPlayable) return;
+    playItem(item);
+  });
+  playButton.addEventListener("keydown", (event) => handleCardKeydown(event, index));
+  favoriteButton.addEventListener("click", () => toggleFavorite(favoriteKey));
+  return card;
+}
+
+function renderIptvCatalog(items) {
+  const groups = new Map();
+  items.forEach((item, index) => {
+    const fallbackGroup = state.iptv.selectedTab === "movies"
+      ? "Películas"
+      : state.iptv.selectedTab === "series"
+        ? "Series"
+        : "Canales";
+    const group = state.iptv.selectedTab === "live" && state.iptv.organization === "country"
+      ? getCountryLabel(getIptvCountry(item))
+      : item.category || fallbackGroup;
+    if (isAdultCategory(group) && !state.iptv.adultUnlocked) return;
+    if (!groups.has(group)) groups.set(group, []);
+    groups.get(group).push({ item, index });
+  });
+
+  [...groups.entries()]
+    .sort(([a], [b]) => a.localeCompare(b, "es", { sensitivity: "base" }))
+    .forEach(([group, groupItems]) => {
+      const section = document.createElement("section");
+      section.className = "catalog-row";
+      section.innerHTML = `
+        <div class="catalog-row-header">
+          <h2>${escapeHtml(group)}</h2>
+          <span>${groupItems.length}</span>
+        </div>
+        <div class="catalog-strip"></div>
+      `;
+      const strip = section.querySelector(".catalog-strip");
+      groupItems.forEach(({ item, index }) => {
+        strip.appendChild(createItemCard(item, index));
+      });
+      elements.itemGrid.appendChild(section);
+    });
 }
 
 function getItemMeta(item) {
@@ -1141,11 +1214,60 @@ function renderIptvTabs() {
   });
 }
 
+function renderIptvOrganization() {
+  const container = elements.iptvOrganization;
+  container.innerHTML = "";
+  container.hidden = state.mode !== "iptv";
+  if (container.hidden) return;
+
+  const options = state.iptv.selectedTab === "live"
+    ? [{ key: "category", label: "Categorías" }, { key: "country", label: "Países" }, { key: "az", label: "A-Z" }]
+    : [{ key: "category", label: "Géneros" }, { key: "az", label: "A-Z" }];
+  options.forEach((option) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = `chip${state.iptv.organization === option.key ? " is-active" : ""}`;
+    button.textContent = option.label;
+    button.addEventListener("click", () => {
+      state.iptv.organization = option.key;
+      state.iptv.selectedCategory = ALL_CATEGORY;
+      renderAll();
+    });
+    container.appendChild(button);
+  });
+}
+
+function renderIptvViewModes() {
+  const container = elements.iptvViewModes;
+  container.innerHTML = "";
+  container.hidden = state.mode !== "iptv";
+  elements.itemGrid.classList.toggle("is-list", state.mode === "iptv" && state.iptv.viewMode === "list");
+  elements.itemGrid.classList.toggle("is-catalog", state.mode === "iptv" && state.iptv.viewMode === "catalog");
+  if (container.hidden) return;
+
+  [
+    { key: "list", label: "Lista" },
+    { key: "grid", label: "Cuadrícula" },
+    { key: "catalog", label: "Catálogo" },
+  ].forEach((option) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = `chip${state.iptv.viewMode === option.key ? " is-active" : ""}`;
+    button.textContent = option.label;
+    button.addEventListener("click", () => {
+      state.iptv.viewMode = option.key;
+      renderIptvViewModes();
+    });
+    container.appendChild(button);
+  });
+}
+
 function selectIptvTab(tab) {
   if (state.iptv.selectedTab === tab) return;
   state.iptv.selectedTab = tab;
   state.iptv.searchText = "";
   state.iptv.selectedCategory = ALL_CATEGORY;
+  state.iptv.organization = "category";
   if (tab !== "series") {
     state.iptv.selectedSeriesId = "";
   }
@@ -1333,6 +1455,69 @@ function escapeHtml(value) {
 
 function escapeAttribute(value) {
   return escapeHtml(value).replaceAll("`", "&#096;");
+}
+
+function getIptvCountry(item) {
+  if (item.country) return item.country;
+  const value = `${item.category || ""} ${item.name || ""}`.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+  const countries = [
+    "Argentina", "Bolivia", "Brasil", "Chile", "Colombia", "Costa Rica", "Ecuador",
+    "El Salvador", "España", "Estados Unidos", "Guatemala", "Honduras", "México",
+    "Nicaragua", "Panamá", "Paraguay", "Perú", "Puerto Rico", "República Dominicana",
+    "Uruguay", "Venezuela",
+  ];
+  return countries.find((country) => {
+    const normalized = country.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+    return value.includes(normalized);
+  }) || "Otros";
+}
+
+function isAdultCategory(category) {
+  return String(category || "").toLowerCase().includes("xxx");
+}
+
+function openParentalDialog(category) {
+  state.iptv.pendingAdultCategory = category;
+  const creatingPin = !localStorage.getItem(PARENTAL_HASH_KEY);
+  elements.parentalTitle.textContent = creatingPin ? "Crear PIN parental" : "Control parental";
+  elements.parentalHelp.textContent = creatingPin
+    ? "Crea un PIN de 4 a 8 números para proteger esta categoría."
+    : "Ingresa el PIN parental para continuar.";
+  elements.parentalPin.value = "";
+  elements.parentalError.textContent = "";
+  elements.parentalDialog.showModal();
+  elements.parentalPin.focus();
+}
+
+function closeParentalDialog() {
+  state.iptv.pendingAdultCategory = "";
+  elements.parentalDialog.close();
+}
+
+async function handleParentalSubmit(event) {
+  event.preventDefault();
+  const pin = elements.parentalPin.value.trim();
+  if (!/^\d{4,8}$/.test(pin)) {
+    elements.parentalError.textContent = "Usa entre 4 y 8 números.";
+    return;
+  }
+  const pinHash = await hashParentalPin(pin);
+  const savedHash = localStorage.getItem(PARENTAL_HASH_KEY);
+  if (savedHash && savedHash !== pinHash) {
+    elements.parentalError.textContent = "PIN incorrecto.";
+    return;
+  }
+  if (!savedHash) localStorage.setItem(PARENTAL_HASH_KEY, pinHash);
+  state.iptv.adultUnlocked = true;
+  state.iptv.selectedCategory = state.iptv.pendingAdultCategory || ALL_CATEGORY;
+  closeParentalDialog();
+  renderAll();
+}
+
+async function hashParentalPin(pin) {
+  const bytes = new TextEncoder().encode(pin);
+  const digest = await crypto.subtle.digest("SHA-256", bytes);
+  return Array.from(new Uint8Array(digest), (byte) => byte.toString(16).padStart(2, "0")).join("");
 }
 
 init();

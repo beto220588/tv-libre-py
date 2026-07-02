@@ -301,6 +301,13 @@ body[data-mode="radio"] .player-overlay.is-hidden {
   margin-top: 8px;
 }
 
+.iptv-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
 .iptv-series-panel {
   margin-top: 10px;
 }
@@ -480,6 +487,121 @@ body[data-mode="latam"] .player-controls .category-chips .chip {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 16px;
+}
+
+.channel-grid.is-list {
+  grid-template-columns: 1fr;
+}
+
+.channel-grid.is-catalog {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 18px;
+}
+
+.channel-grid.is-list .channel-card {
+  min-height: 112px;
+}
+
+.channel-grid.is-list .channel-play {
+  grid-template-columns: 78px minmax(0, 1fr);
+  min-height: 110px;
+}
+
+.channel-grid.is-list .logo {
+  width: 72px;
+  height: 72px;
+}
+
+.catalog-row {
+  min-width: 0;
+}
+
+.catalog-row-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.catalog-row-header h2 {
+  margin: 0;
+  color: var(--text);
+  font-size: 20px;
+}
+
+.catalog-row-header span {
+  color: var(--muted);
+  font-weight: 800;
+}
+
+.catalog-strip {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  padding: 2px 2px 12px;
+  scroll-snap-type: x proximity;
+}
+
+.catalog-strip .channel-card {
+  flex: 0 0 280px;
+  scroll-snap-align: start;
+}
+
+.catalog-strip .channel-play {
+  min-height: 150px;
+}
+
+.catalog-strip .channel-info strong {
+  font-size: 20px;
+}
+
+.parental-dialog {
+  width: min(430px, calc(100vw - 32px));
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0;
+  background: var(--panel);
+  color: var(--text);
+}
+
+.parental-dialog::backdrop {
+  background: rgb(0 0 0 / 78%);
+}
+
+.parental-dialog form {
+  display: grid;
+  gap: 14px;
+  padding: 22px;
+}
+
+.parental-dialog h2,
+.parental-dialog p {
+  margin: 0;
+}
+
+.parental-dialog label {
+  display: grid;
+  gap: 8px;
+  font-weight: 800;
+}
+
+.parental-dialog input {
+  min-height: 52px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0 14px;
+  background: var(--panel-strong);
+  color: var(--text);
+  font-size: 20px;
+}
+
+.dialog-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
 }
 
 body[data-mode="latam"] .channel-grid {
