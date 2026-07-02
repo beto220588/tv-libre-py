@@ -558,6 +558,95 @@ body[data-mode="latam"] .player-controls .category-chips .chip {
   font-size: 20px;
 }
 
+.iptv-detail {
+  display: grid;
+  grid-column: 1 / -1;
+  gap: 24px;
+}
+
+.iptv-detail-hero {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 260px;
+  gap: 28px;
+  align-items: start;
+  min-height: 360px;
+  padding: 28px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: linear-gradient(110deg, #080b0f 0%, #101722 55%, #050607 100%);
+}
+
+.iptv-detail-copy {
+  display: grid;
+  gap: 14px;
+}
+
+.iptv-detail-copy h2 {
+  margin: 0;
+  color: var(--text);
+  font-size: clamp(34px, 4vw, 58px);
+  line-height: 1.02;
+}
+
+.iptv-detail-copy p {
+  max-width: 980px;
+  margin: 0;
+  color: var(--text);
+  font-size: 18px;
+  line-height: 1.45;
+}
+
+.iptv-detail-copy .detail-meta {
+  color: var(--muted);
+  font-weight: 800;
+}
+
+.detail-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.iptv-detail-poster {
+  display: grid;
+  justify-items: center;
+}
+
+.iptv-detail-poster .logo {
+  width: 240px;
+  height: 320px;
+  border-radius: 8px;
+}
+
+.season-block-web {
+  display: grid;
+  gap: 12px;
+}
+
+.season-block-web h3 {
+  margin: 0;
+  color: var(--accent);
+  font-size: 24px;
+}
+
+.episode-row-web {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.episode-row-web .episode-chip {
+  min-height: 48px;
+  max-width: min(780px, 100%);
+  padding: 0 18px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 .parental-dialog {
   width: min(430px, calc(100vw - 32px));
   border: 1px solid var(--border);
@@ -920,6 +1009,19 @@ body[data-mode="latam"] .badge {
     padding: 4px 10px 22px 4px;
     scrollbar-color: #4d5d70 transparent;
     scrollbar-width: thin;
+  }
+
+  .iptv-detail-hero {
+    grid-template-columns: 1fr;
+  }
+
+  .iptv-detail-poster {
+    justify-items: start;
+  }
+
+  .iptv-detail-poster .logo {
+    width: 160px;
+    height: 220px;
   }
 
   .channel-grid::-webkit-scrollbar {

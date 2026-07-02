@@ -187,6 +187,7 @@ function createIptvState() {
     viewMode: "grid",
     adultUnlocked: false,
     pendingAdultCategory: "",
+    detailItem: null,
   };
 }
 
@@ -573,6 +574,11 @@ function renderItems() {
   const copy = MODE_COPY[state.mode];
   elements.itemGrid.innerHTML = "";
 
+  if (state.mode === "iptv" && state.iptv.detailItem) {
+    renderIptvDetail();
+    return;
+  }
+
   if (modeState.filteredItems.length === 0) {
     const message =
       modeState.favoritesOnly && modeState.favorites.size === 0 ? copy.noFavorites : copy.empty;
@@ -621,8 +627,8 @@ function createItemCard(item, index) {
   const playButton = card.querySelector(".channel-play");
   const favoriteButton = card.querySelector(".favorite-button");
   playButton.addEventListener("click", () => {
-    if (state.mode === "iptv" && modeState.selectedTab === "series") {
-      selectIptvSeries(item);
+    if (state.mode === "iptv" && (modeState.selectedTab === "series" || modeState.selectedTab === "movies")) {
+      openIptvDetail(item);
       return;
     }
     if (state.mode === "iptv" && !isPlayable) return;
@@ -667,6 +673,102 @@ function renderIptvCatalog(items) {
       });
       elements.itemGrid.appendChild(section);
     });
+}
+
+function openIptvDetail(item) {
+  state.iptv.detailItem = item;
+  if (state.iptv.selectedTab === "series") {
+    state.iptv.selectedSeriesId = item.id || item.name || "";
+  }
+  renderAll();
+  elements.itemGrid.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+function closeIptvDetail() {
+  state.iptv.detailItem = null;
+  renderAll();
+}
+
+function renderIptvDetail() {
+  const item = state.iptv.detailItem;
+  if (!item) return;
+  const isSeries = state.iptv.selectedTab === "series";
+  const title = item.name || item.title || "Contenido IPTV";
+  const poster = item.poster || item.logo || "";
+  const category = item.category || (isSeries ? "Series" : "Películas");
+  const meta = [
+    item.year || "",
+    item.duration || "",
+    category,
+    item.rating ? `★ ${item.rating}` : "",
+  ].filter(Boolean).join(" · ");
+  const description = item.description || item.plot || item.note || "Sinopsis no disponible para este contenido.";
+  const related = state.iptv.filteredItems
+    .filter((candidate) => (candidate.id || candidate.url || candidate.name) !== (item.id || item.url || item.name))
+    .slice(0, 18);
+
+  elements.itemGrid.innerHTML = `
+    <section class="iptv-detail">
+      <div class="iptv-detail-hero">
+        <button type="button" class="chip" data-detail-back>← Volver</button>
+        <div class="iptv-detail-copy">
+          <h2>${escapeHtml(title)}</h2>
+          <p class="detail-meta">${escapeHtml(meta)}</p>
+          <p>${escapeHtml(description)}</p>
+          <div class="detail-actions">
+            ${!isSeries && item.url ? `<button type="button" class="primary-button" data-detail-play>Reproducir</button>` : ""}
+            <button type="button" class="chip" disabled>♡ Favorito</button>
+          </div>
+        </div>
+        <div class="iptv-detail-poster">${renderLogo({ name: title, logo: poster, poster })}</div>
+      </div>
+      ${isSeries ? renderSeriesEpisodes(item) : ""}
+      <div class="catalog-row">
+        <div class="catalog-row-header"><h2>Títulos relacionados</h2><span>${related.length}</span></div>
+        <div class="catalog-strip" data-related-strip></div>
+      </div>
+    </section>
+  `;
+
+  elements.itemGrid.querySelector("[data-detail-back]")?.addEventListener("click", closeIptvDetail);
+  elements.itemGrid.querySelector("[data-detail-play]")?.addEventListener("click", () => playItem(item));
+  const strip = elements.itemGrid.querySelector("[data-related-strip]");
+  related.forEach((candidate, index) => strip?.appendChild(createItemCard(candidate, index)));
+  elements.itemGrid.querySelectorAll("[data-season][data-episode]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const seasonNumber = Number(button.getAttribute("data-season"));
+      const episodeNumber = Number(button.getAttribute("data-episode"));
+      const season = (item.seasons || []).find((seasonItem) => seasonItem.seasonNumber === seasonNumber);
+      const episode = season?.episodes?.find((episodeItem) => episodeItem.episodeNumber === episodeNumber);
+      if (!episode || episode.working === false || !episode.url) return;
+      playItem({
+        name: `${title} - ${episode.title || `Episodio ${episode.episodeNumber}`}`,
+        url: episode.url,
+        logo: poster,
+        category,
+        country: "IPTV",
+        sourceType: episode.sourceType || "vod",
+        working: true,
+      });
+    });
+  });
+}
+
+function renderSeriesEpisodes(series) {
+  const seasons = Array.isArray(series.seasons) ? series.seasons : [];
+  if (!seasons.length) return `<div class="empty-state">No hay episodios disponibles</div>`;
+  return seasons.map((season) => `
+    <section class="season-block-web">
+      <h3>Temporada ${escapeHtml(String(season.seasonNumber || 1))}</h3>
+      <div class="episode-row-web">
+        ${(season.episodes || []).map((episode) => `
+          <button type="button" class="episode-chip" data-season="${escapeAttribute(String(season.seasonNumber || 1))}" data-episode="${escapeAttribute(String(episode.episodeNumber || 0))}" ${episode.working === false || !episode.url ? "disabled" : ""}>
+            ${escapeHtml(`S${String(season.seasonNumber || 1).padStart(2, "0")}E${String(episode.episodeNumber || 0).padStart(2, "0")} - ${episode.title || "Episodio"}`)}
+          </button>
+        `).join("")}
+      </div>
+    </section>
+  `).join("");
 }
 
 function getItemMeta(item) {
@@ -1268,6 +1370,7 @@ function selectIptvTab(tab) {
   state.iptv.searchText = "";
   state.iptv.selectedCategory = ALL_CATEGORY;
   state.iptv.organization = "category";
+  state.iptv.detailItem = null;
   if (tab !== "series") {
     state.iptv.selectedSeriesId = "";
   }
