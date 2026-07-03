@@ -71,6 +71,24 @@ audio:focus-visible {
   flex-direction: column;
 }
 
+body[data-mode="iptv"] .app-shell {
+  display: block;
+}
+
+body[data-mode="iptv"] .player-section,
+body[data-mode="iptv"] .channels-section {
+  height: auto;
+}
+
+body[data-mode="iptv"] .player-section {
+  overflow: visible;
+  padding-right: 0;
+}
+
+body[data-mode="iptv"] .channels-section {
+  margin-top: 16px;
+}
+
 .mode-tabs {
   display: flex;
   flex-wrap: wrap;
@@ -508,7 +526,7 @@ body[data-mode="latam"] .player-controls .category-chips .chip {
   grid-template-columns: minmax(240px, 330px) minmax(0, 1fr);
   gap: 16px;
   min-height: 0;
-  height: 100%;
+  height: auto;
 }
 
 .iptv-category-rail {
@@ -516,8 +534,8 @@ body[data-mode="latam"] .player-controls .category-chips .chip {
   align-content: start;
   gap: 8px;
   min-height: 0;
-  max-height: 100%;
-  overflow-y: auto;
+  max-height: none;
+  overflow: visible;
   padding-right: 4px;
 }
 
@@ -546,8 +564,8 @@ body[data-mode="latam"] .player-controls .category-chips .chip {
 .iptv-split-content {
   min-width: 0;
   min-height: 0;
-  max-height: 100%;
-  overflow-y: auto;
+  max-height: none;
+  overflow: visible;
   padding-right: 4px;
 }
 
@@ -1081,6 +1099,27 @@ body[data-mode="latam"] .badge {
     padding: 4px 10px 22px 4px;
     scrollbar-color: #4d5d70 transparent;
     scrollbar-width: thin;
+  }
+
+  body[data-mode="iptv"] {
+    height: auto;
+    overflow: auto;
+  }
+
+  body[data-mode="iptv"] .app-shell {
+    height: auto;
+    min-height: 100vh;
+  }
+
+  body[data-mode="iptv"] .player-section,
+  body[data-mode="iptv"] .channels-section {
+    height: auto;
+    min-height: 0;
+  }
+
+  body[data-mode="iptv"] .channel-grid {
+    overflow: visible;
+    padding-right: 4px;
   }
 
   .iptv-detail-hero {
